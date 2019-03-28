@@ -1,0 +1,223 @@
+\documentclass[10pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes.misc}
+\usepackage[margin=0cm]{geometry}
+\pagestyle{empty}
+\tikzstyle{every node}=[cross out, draw, red]
+
+\begin{document}
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}[x=0.5cm, y=-0.5cm, ultra thick, blue]
+% Walls
+    \draw (0,0) -- (4,0);
+    \draw (2,1) -- (5,1);
+    \draw (0,2) -- (2,2);
+    \draw (3,2) -- (4,2);
+    \draw (2,3) -- (5,3);
+    \draw (3,4) -- (5,4);
+    \draw (2,5) -- (3,5);
+    \draw (4,5) -- (5,5);
+    \draw (1,6) -- (4,6);
+    \draw (0,7) -- (2,7);
+    \draw (3,7) -- (5,7);
+    \draw (3,8) -- (5,8);
+    \draw (0,9) -- (1,9);
+    \draw (3,9) -- (4,9);
+    \draw (2,10) -- (4,10);
+    \draw (0,11) -- (1,11);
+    \draw (3,12) -- (5,12);
+    \draw (1,13) -- (4,13);
+    \draw (0,14) -- (5,14);
+    \draw (1,15) -- (3,15);
+    \draw (0,16) -- (2,16);
+    \draw (4,16) -- (5,16);
+    \draw (2,17) -- (3,17);
+    \draw (4,17) -- (5,17);
+    \draw (2,18) -- (3,18);
+    \draw (4,18) -- (5,18);
+    \draw (0,19) -- (4,19);
+    \draw (0,20) -- (4,20);
+    \draw (0,21) -- (1,21);
+    \draw (2,21) -- (3,21);
+    \draw (2,22) -- (5,22);
+    \draw (0,23) -- (1,23);
+    \draw (2,23) -- (3,23);
+    \draw (4,23) -- (5,23);
+    \draw (0,24) -- (1,24);
+    \draw (1,25) -- (3,25);
+    \draw (4,25) -- (5,25);
+    \draw (2,26) -- (5,26);
+    \draw (0,27) -- (3,27);
+    \draw (4,27) -- (5,27);
+    \draw (0,28) -- (1,28);
+    \draw (3,28) -- (5,28);
+    \draw (0,29) -- (2,29);
+    \draw (3,29) -- (4,29);
+    \draw (4,30) -- (5,30);
+    \draw (3,31) -- (4,31);
+    \draw (0,32) -- (1,32);
+    \draw (3,32) -- (4,32);
+    \draw (1,33) -- (2,33);
+    \draw (4,33) -- (5,33);
+    \draw (0,34) -- (2,34);
+    \draw (4,34) -- (5,34);
+    \draw (0,35) -- (1,35);
+    \draw (2,35) -- (3,35);
+    \draw (0,36) -- (2,36);
+    \draw (3,36) -- (4,36);
+    \draw (0,0) -- (0,1);
+    \draw (0,2) -- (0,3);
+    \draw (0,5) -- (0,10);
+    \draw (0,11) -- (0,12);
+    \draw (0,13) -- (0,14);
+    \draw (0,18) -- (0,19);
+    \draw (0,21) -- (0,24);
+    \draw (0,27) -- (0,30);
+    \draw (0,33) -- (0,36);
+    \draw (1,5) -- (1,7);
+    \draw (1,8) -- (1,9);
+    \draw (1,14) -- (1,16);
+    \draw (1,18) -- (1,20);
+    \draw (1,21) -- (1,24);
+    \draw (1,29) -- (1,30);
+    \draw (1,31) -- (1,32);
+    \draw (1,34) -- (1,36);
+    \draw (2,1) -- (2,2);
+    \draw (2,3) -- (2,4);
+    \draw (2,8) -- (2,9);
+    \draw (2,12) -- (2,13);
+    \draw (2,14) -- (2,18);
+    \draw (2,19) -- (2,20);
+    \draw (2,21) -- (2,23);
+    \draw (2,25) -- (2,26);
+    \draw (2,27) -- (2,29);
+    \draw (2,30) -- (2,34);
+    \draw (3,0) -- (3,3);
+    \draw (3,4) -- (3,6);
+    \draw (3,9) -- (3,11);
+    \draw (3,13) -- (3,14);
+    \draw (3,20) -- (3,21);
+    \draw (3,24) -- (3,28);
+    \draw (3,29) -- (3,30);
+    \draw (3,32) -- (3,34);
+    \draw (3,35) -- (3,36);
+    \draw (4,3) -- (4,4);
+    \draw (4,6) -- (4,7);
+    \draw (4,9) -- (4,10);
+    \draw (4,11) -- (4,12);
+    \draw (4,13) -- (4,14);
+    \draw (4,16) -- (4,17);
+    \draw (4,19) -- (4,20);
+    \draw (4,21) -- (4,22);
+    \draw (4,23) -- (4,24);
+    \draw (4,25) -- (4,27);
+    \draw (4,28) -- (4,29);
+    \draw (4,30) -- (4,31);
+    \draw (4,32) -- (4,33);
+    \draw (4,34) -- (4,36);
+    \draw (5,0) -- (5,1);
+    \draw (5,4) -- (5,5);
+    \draw (5,7) -- (5,8);
+    \draw (5,10) -- (5,11);
+    \draw (5,16) -- (5,19);
+    \draw (5,20) -- (5,21);
+    \draw (5,25) -- (5,26);
+    \draw (5,27) -- (5,28);
+    \draw (5,30) -- (5,31);
+    \draw (5,32) -- (5,33);
+% Pillars
+    \fill[green] (1,1) circle(0.2);
+    \fill[green] (5,2) circle(0.2);
+    \fill[green] (1,3) circle(0.2);
+    \fill[green] (0,4) circle(0.2);
+    \fill[green] (1,4) circle(0.2);
+    \fill[green] (5,6) circle(0.2);
+    \fill[green] (5,9) circle(0.2);
+    \fill[green] (1,10) circle(0.2);
+    \fill[green] (2,11) circle(0.2);
+    \fill[green] (1,12) circle(0.2);
+    \fill[green] (5,13) circle(0.2);
+    \fill[green] (0,15) circle(0.2);
+    \fill[green] (4,15) circle(0.2);
+    \fill[green] (5,15) circle(0.2);
+    \fill[green] (3,16) circle(0.2);
+    \fill[green] (0,17) circle(0.2);
+    \fill[green] (1,17) circle(0.2);
+    \fill[green] (2,24) circle(0.2);
+    \fill[green] (5,24) circle(0.2);
+    \fill[green] (0,25) circle(0.2);
+    \fill[green] (0,26) circle(0.2);
+    \fill[green] (1,26) circle(0.2);
+    \fill[green] (5,29) circle(0.2);
+    \fill[green] (0,31) circle(0.2);
+    \fill[green] (5,35) circle(0.2);
+    \fill[green] (5,36) circle(0.2);
+% Inner points in accessible cul-de-sacs
+    \node at (2.5,0.5) {};
+    \node at (3.5,0.5) {};
+    \node at (4.5,0.5) {};
+    \node at (2.5,1.5) {};
+    \node at (3.5,1.5) {};
+    \node at (2.5,2.5) {};
+    \node at (3.5,2.5) {};
+    \node at (2.5,3.5) {};
+    \node at (3.5,3.5) {};
+    \node at (4.5,3.5) {};
+    \node at (2.5,4.5) {};
+    \node at (3.5,4.5) {};
+    \node at (4.5,4.5) {};
+    \node at (0.5,5.5) {};
+    \node at (1.5,5.5) {};
+    \node at (2.5,5.5) {};
+    \node at (3.5,5.5) {};
+    \node at (0.5,6.5) {};
+    \node at (1.5,6.5) {};
+    \node at (2.5,6.5) {};
+    \node at (3.5,6.5) {};
+    \node at (0.5,7.5) {};
+    \node at (3.5,7.5) {};
+    \node at (4.5,7.5) {};
+    \node at (0.5,8.5) {};
+    \node at (0.5,13.5) {};
+    \node at (1.5,13.5) {};
+    \node at (2.5,13.5) {};
+    \node at (2.5,14.5) {};
+    \node at (2.5,17.5) {};
+    \node at (4.5,17.5) {};
+    \node at (0.5,18.5) {};
+    \node at (0.5,19.5) {};
+    \node at (2.5,20.5) {};
+    \node at (3.5,20.5) {};
+    \node at (2.5,21.5) {};
+    \node at (3.5,21.5) {};
+    \node at (2.5,22.5) {};
+    \node at (3.5,25.5) {};
+    \node at (2.5,26.5) {};
+    \node at (4.5,26.5) {};
+    \node at (2.5,27.5) {};
+    \node at (2.5,28.5) {};
+    \node at (3.5,28.5) {};
+    \node at (0.5,29.5) {};
+    \node at (4.5,30.5) {};
+    \node at (3.5,32.5) {};
+    \node at (4.5,32.5) {};
+    \node at (0.5,33.5) {};
+    \node at (1.5,33.5) {};
+    \node at (3.5,35.5) {};
+% Entry-exit paths without intersections
+    \draw[dashed, yellow] (4.5,1.5) -- (5.5,1.5);
+    \draw[dashed, yellow] (4.5,2.5) -- (5.5,2.5);
+    \draw[dashed, yellow] (4.5,5.5) -- (5.5,5.5);
+    \draw[dashed, yellow] (4.5,6.5) -- (5.5,6.5);
+    \draw[dashed, yellow] (-0.5,14.5) -- (0.5,14.5);
+    \draw[dashed, yellow] (-0.5,15.5) -- (0.5,15.5);
+    \draw[dashed, yellow] (0.5,14.5) -- (0.5,15.5);
+    \draw[dashed, yellow] (4.5,1.5) -- (4.5,2.5);
+    \draw[dashed, yellow] (4.5,5.5) -- (4.5,6.5);
+\end{tikzpicture}
+\end{center}
+\vspace*{\fill}
+
+\end{document}

@@ -1,0 +1,267 @@
+TEST 1 BEGIN
+$ echo 123 | python3 quiz_1.py
+Enter an integer: 123
+
+x is: 4519867238
+L is: [11701997, 54659064, 35776247, 14455280, 5120898, 50885206, 71967819, 75473140, 44586820, 45741163]
+
+The sum of all digits in x is equal to 53.
+
+There are 5, 0 and 5 elements in L with a first digit that is
+  greater than the last digit, equal to the last digit,
+  and smaller than the last digit, respectively.
+
+The number of members of L with 4 distinct digits is 1.
+The number of members of L with 5 distinct digits is 3.
+The number of members of L with 6 distinct digits is 6.
+
+The minimal gap (in absolute value) between first and last digits
+  of a member of L is 1.
+The maximal gap (in absolute value) between first and last digits
+  of a member of L is 7.
+
+The number of pairs (f, l) such that f and l are the first and last digits
+of members of L is maximal for (f, l) one of [(1, 0), (1, 7), (3, 7), (4, 0), (4, 3), (5, 4), (5, 6), (5, 8), (7, 0), (7, 9)].
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 234 | python3 quiz_1.py
+Enter an integer: 234
+
+x is: 5763215455
+L is: [7727178, 77907532, 55198342, 67847939, 95202005, 64492248, 30763226, 35054697, 46532211, 48284059]
+
+The sum of all digits in x is equal to 43.
+
+There are 4, 0 and 6 elements in L with a first digit that is
+  greater than the last digit, equal to the last digit,
+  and smaller than the last digit, respectively.
+
+The number of members of L with 4 distinct digits is 2.
+The number of members of L with 5 distinct digits is 2.
+The number of members of L with 6 distinct digits is 4.
+The number of members of L with 7 distinct digits is 2.
+
+The minimal gap (in absolute value) between first and last digits
+  of a member of L is 1.
+The maximal gap (in absolute value) between first and last digits
+  of a member of L is 5.
+
+The number of pairs (f, l) such that f and l are the first and last digits
+of members of L is maximal for (f, l) one of [(3, 6), (3, 7), (4, 1), (4, 9), (5, 2), (6, 8), (6, 9), (7, 2), (7, 8), (9, 5)].
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 345 | python3 quiz_1.py
+Enter an integer: 345
+
+x is: 7604923450
+L is: [774917, 22090152, 55037567, 13665950, 25305263, 49358492, 92686619, 87143925, 20069287, 37762388]
+
+The sum of all digits in x is equal to 40.
+
+There are 3, 3 and 4 elements in L with a first digit that is
+  greater than the last digit, equal to the last digit,
+  and smaller than the last digit, respectively.
+
+The number of members of L with 4 distinct digits is 1.
+The number of members of L with 5 distinct digits is 5.
+The number of members of L with 6 distinct digits is 3.
+The number of members of L with 8 distinct digits is 1.
+
+The minimal gap (in absolute value) between first and last digits
+  of a member of L is 0.
+The maximal gap (in absolute value) between first and last digits
+  of a member of L is 5.
+
+The number of pairs (f, l) such that f and l are the first and last digits
+of members of L is maximal for (f, l) one of [(1, 0), (2, 2), (2, 3), (2, 7), (3, 8), (4, 2), (5, 7), (7, 7), (8, 5), (9, 9)].
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 456 | python3 quiz_1.py
+Enter an integer: 456
+
+x is: 7508472716
+L is: [62572541, 58412806, 52426677, 86993183, 5414767, 82866702, 98098072, 70024839, 16353262, 43815231]
+
+The sum of all digits in x is equal to 47.
+
+There are 5, 0 and 5 elements in L with a first digit that is
+  greater than the last digit, equal to the last digit,
+  and smaller than the last digit, respectively.
+
+The number of members of L with 5 distinct digits is 6.
+The number of members of L with 6 distinct digits is 2.
+The number of members of L with 7 distinct digits is 2.
+
+The minimal gap (in absolute value) between first and last digits
+  of a member of L is 1.
+The maximal gap (in absolute value) between first and last digits
+  of a member of L is 7.
+
+The number of pairs (f, l) such that f and l are the first and last digits
+of members of L is maximal for (f, l) one of [(5, 7)].
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 574 | python3 quiz_1.py
+Enter an integer: 574
+
+x is: 9926592326
+L is: [73621887, 13610204, 41443778, 31127990, 57473762, 66720977, 50720394, 94326488, 56084144, 5098187]
+
+The sum of all digits in x is equal to 53.
+
+There are 5, 1 and 4 elements in L with a first digit that is
+  greater than the last digit, equal to the last digit,
+  and smaller than the last digit, respectively.
+
+The number of members of L with 5 distinct digits is 2.
+The number of members of L with 6 distinct digits is 7.
+The number of members of L with 7 distinct digits is 1.
+
+The minimal gap (in absolute value) between first and last digits
+  of a member of L is 0.
+The maximal gap (in absolute value) between first and last digits
+  of a member of L is 4.
+
+The number of pairs (f, l) such that f and l are the first and last digits
+of members of L is maximal for (f, l) one of [(5, 4)].
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 678 | python3 quiz_1.py
+Enter an integer: 678
+
+x is: 1370044420
+L is: [44076799, 783667, 22051954, 63706605, 95393311, 99075992, 5557406, 96874133, 97026993, 1239130]
+
+The sum of all digits in x is equal to 25.
+
+There are 6, 1 and 3 elements in L with a first digit that is
+  greater than the last digit, equal to the last digit,
+  and smaller than the last digit, respectively.
+
+The number of members of L with 4 distinct digits is 2.
+The number of members of L with 5 distinct digits is 5.
+The number of members of L with 6 distinct digits is 2.
+The number of members of L with 7 distinct digits is 1.
+
+The minimal gap (in absolute value) between first and last digits
+  of a member of L is 0.
+The maximal gap (in absolute value) between first and last digits
+  of a member of L is 8.
+
+The number of pairs (f, l) such that f and l are the first and last digits
+of members of L is maximal for (f, l) one of [(9, 3)].
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 904 | python3 quiz_1.py
+Enter an integer: 904
+
+x is: 9808438324
+L is: [53256054, 80940184, 92425462, 97071910, 7307606, 54821544, 65698667, 68494242, 5602159, 66048312]
+
+The sum of all digits in x is equal to 49.
+
+There are 8, 0 and 2 elements in L with a first digit that is
+  greater than the last digit, equal to the last digit,
+  and smaller than the last digit, respectively.
+
+The number of members of L with 4 distinct digits is 2.
+The number of members of L with 5 distinct digits is 5.
+The number of members of L with 6 distinct digits is 2.
+The number of members of L with 7 distinct digits is 1.
+
+The minimal gap (in absolute value) between first and last digits
+  of a member of L is 1.
+The maximal gap (in absolute value) between first and last digits
+  of a member of L is 9.
+
+The number of pairs (f, l) such that f and l are the first and last digits
+of members of L is maximal for (f, l) one of [(5, 4), (6, 2)].
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 1005 | python3 quiz_1.py
+Enter an integer: 1005
+
+x is: 8169813779
+L is: [72136283, 55103487, 76927822, 85594046, 40323416, 47975666, 73767743, 88815892, 24007915, 65536802]
+
+The sum of all digits in x is equal to 59.
+
+There are 6, 0 and 4 elements in L with a first digit that is
+  greater than the last digit, equal to the last digit,
+  and smaller than the last digit, respectively.
+
+The number of members of L with 4 distinct digits is 1.
+The number of members of L with 5 distinct digits is 3.
+The number of members of L with 6 distinct digits is 4.
+The number of members of L with 7 distinct digits is 2.
+
+The minimal gap (in absolute value) between first and last digits
+  of a member of L is 2.
+The maximal gap (in absolute value) between first and last digits
+  of a member of L is 6.
+
+The number of pairs (f, l) such that f and l are the first and last digits
+of members of L is maximal for (f, l) one of [(4, 6), (7, 3)].
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 2029 | python3 quiz_1.py
+Enter an integer: 2029
+
+x is: 7387738340
+L is: [64940092, 23675532, 99891797, 23102642, 93333907, 54865956, 69828175, 71174962, 18391774, 38675487]
+
+The sum of all digits in x is equal to 50.
+
+There are 5, 2 and 3 elements in L with a first digit that is
+  greater than the last digit, equal to the last digit,
+  and smaller than the last digit, respectively.
+
+The number of members of L with 4 distinct digits is 2.
+The number of members of L with 5 distinct digits is 3.
+The number of members of L with 6 distinct digits is 4.
+The number of members of L with 7 distinct digits is 1.
+
+The minimal gap (in absolute value) between first and last digits
+  of a member of L is 0.
+The maximal gap (in absolute value) between first and last digits
+  of a member of L is 5.
+
+The number of pairs (f, l) such that f and l are the first and last digits
+of members of L is maximal for (f, l) one of [(2, 2), (9, 7)].
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 3279 | python3 quiz_1.py
+Enter an integer: 3279
+
+x is: 8886315474
+L is: [55411516, 77118531, 54233585, 14993133, 5338583, 54150346, 40428143, 75813615, 71111903, 50770603]
+
+The sum of all digits in x is equal to 54.
+
+There are 6, 1 and 3 elements in L with a first digit that is
+  greater than the last digit, equal to the last digit,
+  and smaller than the last digit, respectively.
+
+The number of members of L with 3 distinct digits is 1.
+The number of members of L with 4 distinct digits is 2.
+The number of members of L with 5 distinct digits is 4.
+The number of members of L with 6 distinct digits is 3.
+
+The minimal gap (in absolute value) between first and last digits
+  of a member of L is 0.
+The maximal gap (in absolute value) between first and last digits
+  of a member of L is 6.
+
+The number of pairs (f, l) such that f and l are the first and last digits
+of members of L is maximal for (f, l) one of [(5, 3), (5, 6)].
+TEST 10 END
+

@@ -1,0 +1,6 @@
+TEST 1 BEGIN
+$ python3 multiplication.py
+411 * 13 = 5343, all columns adding up to 10.
+425 * 23 = 9775, all columns adding up to 18.
+TEST 1 END
+

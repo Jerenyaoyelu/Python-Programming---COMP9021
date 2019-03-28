@@ -1,0 +1,24 @@
+TEST 1 BEGIN
+$ echo 100 | python3 perfect.py
+Input an integer: 100
+6 is a perfect number.
+28 is a perfect number.
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 1000 | python3 perfect.py
+Input an integer: 1000
+6 is a perfect number.
+28 is a perfect number.
+496 is a perfect number.
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 10000 | python3 perfect.py
+Input an integer: 10000
+6 is a perfect number.
+28 is a perfect number.
+496 is a perfect number.
+8128 is a perfect number.
+TEST 3 END
+

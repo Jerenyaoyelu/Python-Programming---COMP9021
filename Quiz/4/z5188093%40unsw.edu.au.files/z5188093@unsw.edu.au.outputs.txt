@@ -1,0 +1,450 @@
+TEST 1 BEGIN
+$ echo 78 2 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 78 2
+Here is the grid that has been generated:
+     0 0 1 1 1 0 0 1 0 1
+     1 0 0 0 1 1 1 1 0 0
+     1 1 0 0 0 0 0 1 1 0
+     1 0 1 0 0 0 1 1 0 1
+     0 1 1 0 0 0 1 1 1 0
+     0 0 1 0 0 0 0 1 1 0
+     0 1 0 1 1 1 1 0 0 0
+     0 1 1 0 1 0 0 0 0 1
+     1 0 0 1 1 0 0 1 0 0
+     0 1 0 1 0 1 1 0 1 0
+
+The largest block construction has 8 blocks.
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 79 2 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 79 2
+Here is the grid that has been generated:
+     0 1 1 0 0 0 1 0 0 1
+     0 0 0 1 1 0 1 1 1 0
+     1 0 1 1 0 1 1 0 0 1
+     0 0 0 0 1 1 1 0 1 1
+     1 0 0 0 1 0 0 1 0 1
+     1 0 0 0 1 0 1 0 0 0
+     0 1 1 1 0 0 1 0 0 0
+     1 0 0 1 0 1 0 0 1 0
+     0 0 1 1 1 1 0 0 1 1
+     0 0 0 0 1 1 0 0 0 1
+
+The largest block construction has 7 blocks.
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 80 2 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 80 2
+Here is the grid that has been generated:
+     1 1 1 1 1 1 1 0 1 0
+     0 1 0 0 0 0 1 0 0 0
+     1 1 0 0 1 1 0 1 0 0
+     0 0 1 1 1 0 1 1 0 0
+     1 1 0 1 0 1 1 1 1 0
+     0 1 0 0 0 0 0 0 1 1
+     1 0 0 1 1 0 1 1 0 0
+     0 1 1 0 0 0 0 1 1 1
+     1 1 0 0 1 1 1 0 0 1
+     1 1 1 0 0 0 1 0 1 1
+
+The largest block construction has 7 blocks.
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 81 2 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 81 2
+Here is the grid that has been generated:
+     1 1 1 1 0 0 0 1 0 1
+     1 1 0 1 0 0 0 1 0 1
+     0 1 0 1 0 1 0 1 1 1
+     1 1 1 0 0 0 1 1 1 0
+     0 1 0 0 0 0 0 1 1 0
+     0 1 0 0 0 1 1 0 0 1
+     0 0 1 1 1 1 0 1 0 1
+     0 0 0 1 0 1 1 0 1 1
+     1 0 1 1 1 1 0 0 0 0
+     0 0 1 0 1 0 0 1 0 0
+
+The largest block construction has 9 blocks.
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 82 3 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 82 3
+Here is the grid that has been generated:
+     0 1 1 1 0 0 1 1 0 0
+     1 1 1 0 0 1 1 0 0 1
+     0 1 1 1 1 0 1 0 0 0
+     1 1 1 0 1 1 1 1 1 1
+     1 1 1 1 1 1 0 1 1 0
+     1 0 1 0 0 0 1 0 1 0
+     1 1 1 0 1 1 1 1 0 1
+     1 1 0 1 1 0 1 1 1 0
+     0 1 1 1 1 1 1 0 1 0
+     1 1 1 1 1 1 1 0 1 1
+
+The largest block construction has 21 blocks.
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 83 3 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 83 3
+Here is the grid that has been generated:
+     1 1 0 0 1 0 0 1 0 0
+     0 1 0 0 1 0 1 1 1 0
+     1 1 1 0 1 0 0 0 0 1
+     1 1 1 1 0 1 1 1 1 1
+     1 1 0 0 1 1 1 1 1 0
+     1 0 0 1 1 0 1 1 1 0
+     1 0 1 1 1 1 0 0 1 1
+     0 1 0 0 0 1 1 1 1 0
+     0 1 1 1 1 1 1 1 1 0
+     1 1 1 1 0 1 1 1 1 1
+
+The largest block construction has 18 blocks.
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 84 3 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 84 3
+Here is the grid that has been generated:
+     1 1 0 1 0 1 1 1 0 1
+     1 1 1 1 1 0 1 1 1 1
+     1 1 1 1 1 0 0 1 1 0
+     1 0 0 0 1 1 1 1 1 0
+     0 0 0 1 0 1 1 0 1 0
+     1 0 1 0 1 1 0 0 1 1
+     1 0 1 1 1 1 0 1 1 1
+     0 0 1 0 1 1 1 1 0 1
+     1 0 1 1 1 0 0 0 1 0
+     1 1 0 1 0 1 1 1 1 1
+
+The largest block construction has 13 blocks.
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 85 3 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 85 3
+Here is the grid that has been generated:
+     0 1 1 0 1 0 0 1 1 1
+     0 1 1 1 1 0 1 1 1 1
+     1 1 1 0 0 1 1 0 1 1
+     1 1 1 1 1 0 1 0 0 1
+     1 0 1 0 0 1 1 0 1 1
+     1 0 0 1 1 1 0 0 1 0
+     1 0 0 1 1 1 0 0 0 1
+     1 1 0 1 0 1 1 0 0 0
+     1 1 1 0 0 1 0 1 1 1
+     1 0 0 0 0 1 1 1 1 0
+
+The largest block construction has 12 blocks.
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 86 4 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 86 4
+Here is the grid that has been generated:
+     0 1 0 0 1 1 0 0 1 1
+     0 1 1 1 0 1 1 1 0 1
+     1 0 1 1 1 1 1 1 1 1
+     1 1 0 1 1 1 1 1 1 1
+     1 1 1 1 1 1 0 0 0 1
+     0 1 1 1 0 0 0 1 1 1
+     1 0 1 1 1 1 1 1 1 1
+     1 0 1 0 1 1 0 1 1 1
+     1 1 1 1 1 1 1 1 0 0
+     1 1 0 1 0 1 0 1 1 1
+
+The largest block construction has 23 blocks.
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 87 4 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 87 4
+Here is the grid that has been generated:
+     1 1 0 1 1 1 0 1 0 1
+     1 0 1 0 1 1 1 0 1 0
+     1 1 1 1 1 1 1 1 1 1
+     0 1 0 1 1 0 1 1 0 0
+     0 0 1 1 1 1 1 0 1 1
+     1 1 1 1 1 1 1 1 1 1
+     0 0 1 1 1 1 1 1 1 1
+     1 1 1 0 1 1 1 0 0 1
+     0 0 1 1 1 1 1 1 0 1
+     1 1 0 1 1 1 1 1 1 1
+
+The largest block construction has 36 blocks.
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 88 4 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 88 4
+Here is the grid that has been generated:
+     1 1 1 1 0 0 1 1 1 1
+     0 1 1 1 1 1 1 1 1 1
+     0 1 1 0 1 1 1 1 1 1
+     0 1 1 0 1 1 1 1 0 1
+     1 1 0 1 1 1 1 0 1 0
+     0 1 1 1 1 1 1 0 1 1
+     1 1 1 1 1 1 1 1 1 0
+     1 1 1 1 1 0 0 1 1 1
+     1 0 0 1 1 0 1 1 1 0
+     1 1 1 1 0 1 1 1 1 0
+
+The largest block construction has 36 blocks.
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 89 4 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 89 4
+Here is the grid that has been generated:
+     0 1 1 1 0 1 1 1 1 1
+     1 0 1 1 0 1 1 1 0 1
+     0 0 1 1 0 1 1 1 1 0
+     0 1 1 0 1 1 0 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 1 1 1 0 1 1 1
+     1 1 0 1 1 1 1 0 1 1
+     1 1 0 0 1 1 1 1 1 0
+     1 0 1 0 0 1 0 0 1 1
+     1 0 1 1 1 1 1 0 0 0
+
+The largest block construction has 27 blocks.
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 90 5 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 90 5
+Here is the grid that has been generated:
+     1 0 1 1 1 1 1 1 1 1
+     1 1 1 1 0 1 1 0 1 1
+     1 0 1 1 1 1 0 0 0 0
+     1 1 1 0 0 1 0 0 0 0
+     1 1 0 1 1 1 0 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 0 1 1 1 1 1 1
+     1 1 1 1 0 1 1 1 1 0
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 1 0 1 0 1 1 1
+
+The largest block construction has 46 blocks.
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 91 5 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 91 5
+Here is the grid that has been generated:
+     0 1 1 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 0 0
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 0 1 0
+     1 1 1 1 1 0 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 0 1 1 1 1 1 1
+     1 1 1 1 1 0 1 0 0 1
+     1 1 0 1 1 0 1 1 1 1
+     1 0 1 1 1 1 1 1 1 1
+
+The largest block construction has 44 blocks.
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 92 5 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 92 5
+Here is the grid that has been generated:
+     1 1 1 1 1 1 1 0 1 1
+     1 1 0 1 1 0 0 0 1 1
+     1 1 1 1 1 1 1 0 1 1
+     0 1 1 1 0 1 1 1 1 1
+     1 1 1 1 1 0 1 1 1 1
+     0 1 1 0 1 1 1 1 1 1
+     1 0 0 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 0 0 0
+     1 1 1 1 1 0 0 1 1 1
+     1 0 0 1 0 1 1 1 1 1
+
+The largest block construction has 29 blocks.
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo 93 5 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 93 5
+Here is the grid that has been generated:
+     1 1 1 0 0 1 1 1 1 0
+     1 1 0 1 1 0 1 1 1 0
+     0 1 1 1 1 1 1 1 1 1
+     1 1 0 0 0 1 1 0 0 0
+     1 0 1 1 1 1 1 1 1 1
+     0 1 1 1 1 1 1 0 1 1
+     1 0 1 0 1 1 0 1 1 0
+     0 1 1 0 0 1 1 1 1 1
+     1 1 1 1 0 1 0 1 0 1
+     1 1 0 1 1 1 1 1 1 1
+
+The largest block construction has 20 blocks.
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo 94 6 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 94 6
+Here is the grid that has been generated:
+     1 1 0 1 1 1 0 1 1 1
+     1 1 1 1 1 0 1 0 1 1
+     1 1 1 1 1 1 0 1 1 1
+     1 1 1 0 1 1 1 1 1 0
+     1 1 1 1 0 1 0 1 1 1
+     0 1 1 1 1 1 0 1 1 1
+     1 1 1 1 0 1 1 1 1 1
+     0 1 1 1 1 1 1 1 0 1
+     1 1 1 1 1 1 1 0 1 1
+     1 1 1 1 1 1 1 1 1 1
+
+The largest block construction has 51 blocks.
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo 95 6 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 95 6
+Here is the grid that has been generated:
+     1 1 1 1 1 1 0 1 0 1
+     0 1 1 1 0 1 1 1 1 1
+     1 1 0 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 1 0 1 0 1 1 1 1 1
+     0 0 1 1 1 1 1 1 1 1
+     1 1 1 1 0 1 0 1 0 0
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     0 1 1 1 1 1 1 1 1 1
+
+The largest block construction has 51 blocks.
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo 96 6 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 96 6
+Here is the grid that has been generated:
+     1 1 1 1 1 0 1 0 1 0
+     1 1 1 1 0 1 1 1 1 1
+     1 0 1 1 1 1 1 1 1 1
+     1 1 1 1 0 1 0 0 1 1
+     1 1 0 1 1 1 0 1 1 1
+     1 1 1 1 1 1 1 1 0 1
+     1 1 1 1 1 1 1 0 1 1
+     1 1 1 1 1 1 0 1 1 1
+     1 1 1 1 1 0 1 1 1 0
+     0 1 1 1 0 1 1 1 0 1
+
+The largest block construction has 35 blocks.
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo 97 6 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 97 6
+Here is the grid that has been generated:
+     1 1 1 0 1 0 1 0 0 1
+     1 1 0 0 1 1 1 1 0 1
+     1 1 1 1 1 1 1 1 0 1
+     1 1 1 0 1 1 0 0 1 1
+     1 1 0 1 0 1 0 1 1 0
+     1 1 1 1 1 0 1 1 1 0
+     1 1 0 1 1 0 1 1 1 1
+     0 1 1 0 1 1 1 1 0 0
+     1 1 0 0 1 1 1 1 1 1
+     1 1 1 1 1 1 1 0 1 1
+
+The largest block construction has 27 blocks.
+TEST 20 END
+
+TEST 21 BEGIN
+$ echo 98 7 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 98 7
+Here is the grid that has been generated:
+     1 1 1 0 1 1 0 1 1 1
+     1 1 1 0 1 1 1 1 0 1
+     1 1 1 1 0 1 1 1 0 1
+     1 1 1 1 0 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 1 0 1 1 1 1 1 1 1
+     1 1 1 1 1 1 0 1 1 0
+     1 1 1 1 1 1 1 1 1 0
+     1 0 1 1 1 1 1 1 1 1
+
+The largest block construction has 57 blocks.
+TEST 21 END
+
+TEST 22 BEGIN
+$ echo 99 7 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 99 7
+Here is the grid that has been generated:
+     1 1 1 1 1 1 1 1 1 0
+     1 1 1 1 1 1 1 0 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 0 1 1 1 1 0 1 1 1
+     0 1 1 0 1 1 1 1 0 1
+     1 1 1 1 0 1 1 1 1 1
+     1 1 1 1 1 1 1 1 0 0
+     0 1 1 1 1 1 0 1 1 0
+     1 1 1 0 1 1 1 1 1 1
+
+The largest block construction has 37 blocks.
+TEST 22 END
+
+TEST 23 BEGIN
+$ echo 100 7 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 100 7
+Here is the grid that has been generated:
+     1 1 1 1 1 1 1 1 1 1
+     1 1 0 1 0 0 1 1 1 0
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 0
+     1 0 1 1 1 1 1 1 1 1
+     1 1 0 1 1 1 1 1 1 1
+     1 1 1 0 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 1 0 1 0 1 1 1
+
+The largest block construction has 60 blocks.
+TEST 23 END
+
+TEST 24 BEGIN
+$ echo 101 7 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 101 7
+Here is the grid that has been generated:
+     1 1 1 1 1 1 0 1 1 1
+     1 1 1 1 1 1 1 1 1 0
+     1 1 1 0 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 0 1
+     1 1 1 0 1 1 1 1 1 1
+     1 1 1 1 1 1 1 0 1 1
+     1 1 0 1 1 1 1 0 1 1
+     0 1 1 1 0 1 1 1 1 0
+     1 1 1 0 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+
+The largest block construction has 48 blocks.
+TEST 24 END
+
+TEST 25 BEGIN
+$ echo 102 8 | python3 quiz_4.py
+Enter two integers, the second one being strictly positive: 102 8
+Here is the grid that has been generated:
+     1 1 1 1 1 1 1 0 1 1
+     1 1 1 1 0 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 0 1 1 1 1 1 1 1 1
+     1 1 1 1 1 1 1 1 1 1
+     1 1 1 0 1 1 1 1 1 1
+     1 1 0 1 1 1 1 1 1 1
+     1 1 1 1 0 1 1 1 1 1
+
+The largest block construction has 61 blocks.
+TEST 25 END
+

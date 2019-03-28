@@ -1,0 +1,57 @@
+\documentclass[10pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes.misc}
+\usepackage[margin=0cm]{geometry}
+\pagestyle{empty}
+\tikzstyle{every node}=[cross out, draw, red]
+
+\begin{document}
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}[x=0.5cm, y=-0.5cm, ultra thick, blue]
+% Walls
+    \draw (1,0) -- (2,0);
+    \draw (6,0) -- (9,0);
+    \draw (11,0) -- (13,0);
+    \draw (14,0) -- (15,0);
+    \draw (16,0) -- (19,0);
+    \draw (7,1) -- (8,1);
+    \draw (11,1) -- (14,1);
+    \draw (15,1) -- (16,1);
+    \draw (17,1) -- (18,1);
+    \draw (1,0) -- (1,1);
+    \draw (3,0) -- (3,1);
+    \draw (5,0) -- (5,1);
+    \draw (6,0) -- (6,1);
+    \draw (7,0) -- (7,1);
+    \draw (8,0) -- (8,1);
+    \draw (9,0) -- (9,1);
+    \draw (13,0) -- (13,1);
+    \draw (17,0) -- (17,1);
+% Pillars
+    \fill[green] (0,0) circle(0.2);
+    \fill[green] (4,0) circle(0.2);
+    \fill[green] (10,0) circle(0.2);
+    \fill[green] (20,0) circle(0.2);
+    \fill[green] (21,0) circle(0.2);
+    \fill[green] (0,1) circle(0.2);
+    \fill[green] (2,1) circle(0.2);
+    \fill[green] (4,1) circle(0.2);
+    \fill[green] (10,1) circle(0.2);
+    \fill[green] (19,1) circle(0.2);
+    \fill[green] (20,1) circle(0.2);
+    \fill[green] (21,1) circle(0.2);
+% Inner points in accessible cul-de-sacs
+    \node at (6.5,0.5) {};
+    \node at (8.5,0.5) {};
+    \node at (11.5,0.5) {};
+    \node at (12.5,0.5) {};
+    \node at (17.5,0.5) {};
+% Entry-exit paths without intersections
+    \draw[dashed, yellow] (5.5,-0.5) -- (5.5,1.5);
+\end{tikzpicture}
+\end{center}
+\vspace*{\fill}
+
+\end{document}

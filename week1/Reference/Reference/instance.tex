@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}[align=center]
+\node[draw, circle] (I) at (0, 6) {I};
+\node[draw, circle] (I1) at (3, 6) {I1};
+\node[draw, circle] (I2) at (6, 6) {I2};
+\node[draw] (C) at (0, 4) {C};
+\node[draw] (C1) at (3, 4) {C1};
+\node[draw] (C2) at (6, 4) {C2};
+\node[draw, very thick] (M1) at (3, 2) {M1};
+\node[draw, very thick] (M2) at (6, 2) {M2};
+\node[draw, very thick] (type) at (-2, 0) {type} edge [dashed, in=160, out=200, loop] ();
+\node[draw] (object) at (9, 0) {object} edge [in=20, out=-20, loop] ();
+\draw[->, shorten >=3pt, dashed] (I) -- (C); 
+\draw[->, shorten >=3pt, dashed] (I1) -- (C1); 
+\draw[->, shorten >=3pt, dashed] (I2) -- (C2); 
+\draw[->, shorten >=3pt, dashed] (C1) -- (M1); 
+\draw[->, shorten >=3pt, dashed] (C2) -- (M2); 
+\draw[->, shorten >=3pt, dashed] (C) .. controls (-1, 4) and (-3, 1) .. (type); 
+\draw[->, shorten >=3pt, dashed] (M1) .. controls (0, 2) and (-2, 2) .. (type); 
+\draw[->, shorten >=3pt] (M1) .. controls (0, 2.3) and (-2.3, 3) .. (type); 
+\draw[->, shorten >=3pt, dashed] (M2) .. controls (6, 1) and (-2, 2) .. (type); 
+\draw[->, shorten >=3pt, dashed] (object) .. controls (9, -1) and (-2, -1) .. (type); 
+\draw[->, shorten >=3pt] (type) .. controls (-2, 1) and (9, 1) .. (object); 
+\draw[->, shorten >=3pt] (M2) -- (M1); 
+\draw[->, shorten >=3pt] (C) .. controls (2, 10) and (11, 10) .. (object); 
+\draw[->, shorten >=3pt] (C1) .. controls (4, 8) and (10, 8) .. (object); 
+\draw[->, shorten >=3pt] (C2) .. controls (7, 6) and (9, 6) .. (object); 
+
+%\node[draw, dashed] (O) at (4, 6) {object};
+%\node[draw] (C31) at (0, 4) {C31\\x1 x21 x31};
+%\node[draw] (C32) at (4, 4) {C32\\x1 x21 x31 x22 x23 x32};
+%\node[draw] (C21) at (0, 2) {C21\\x1 x21};
+%\node[draw] (C22) at (4, 2) {C22\\x1 x21 x31 x22};
+%\node[draw] (C23) at (8, 2) {C23\\x1 x21 x31 x22 x23};
+%\node[draw] (C1) at (4, 0) {C1\\x1};
+%\draw[dashed] (O) -- (C31);
+%\draw[dashed] (O) -- (C32);
+%\draw (C31) -- (C21) -- (C1); 
+%\draw (C32) -- (C22) -- (C1); 
+%\draw (C32) -- (C23) -- (C1); 
+
+\end{tikzpicture}
+\end{document}  

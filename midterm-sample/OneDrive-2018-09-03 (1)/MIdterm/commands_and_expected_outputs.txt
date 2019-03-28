@@ -1,0 +1,1244 @@
+TEST 1 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(23, 1, 30))"
+Here is L: [29]
+The decomposition of L into increasing sublists is: [[29]]
+None
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(24, 2, 30))"
+Here is L: [22, 12]
+The decomposition of L into increasing sublists is: [[22], [12]]
+None
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(25, 3, 30))"
+Here is L: [12, 24, 29]
+The decomposition of L into increasing sublists is: [[12, 24, 29]]
+None
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(26, 4, 30))"
+Here is L: [23, 29, 6, 21]
+The decomposition of L into increasing sublists is: [[23, 29], [6, 21]]
+None
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(27, 5, 30))"
+Here is L: [20, 15, 22, 8, 30]
+The decomposition of L into increasing sublists is: [[20], [15, 22], [8, 30]]
+None
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(28, 7, 60))"
+Here is L: [7, 47, 8, 34, 38, 45, 11]
+The decomposition of L into increasing sublists is: [[7, 47], [8, 34, 38, 45], [11]]
+None
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(29, 8, 60))"
+Here is L: [35, 4, 22, 38, 54, 38, 18, 5]
+The decomposition of L into increasing sublists is: [[35], [4, 22, 38, 54], [38], [18], [5]]
+None
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(30, 9, 60))"
+Here is L: [34, 51, 18, 39, 1, 39, 41, 52, 13]
+The decomposition of L into increasing sublists is: [[34, 51], [18, 39], [1, 39, 41, 52], [13]]
+None
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(31, 14, 60))"
+Here is L: [0, 30, 7, 48, 25, 9, 43, 2, 8, 60, 7, 34, 14, 45]
+The decomposition of L into increasing sublists is: [[0, 30], [7, 48], [25], [9, 43], [2, 8, 60], [7, 34], [14, 45]]
+None
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(32, 19, 60))"
+Here is L: [4, 59, 13, 9, 19, 44, 57, 15, 31, 1, 46, 2, 6, 20, 32, 21, 53, 3, 33]
+The decomposition of L into increasing sublists is: [[4, 59], [13], [9, 19, 44, 57], [15, 31], [1, 46], [2, 6, 20, 32], [21, 53], [3, 33]]
+None
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(33, 25, 60))"
+Here is L: [36, 10, 40, 14, 52, 53, 17, 30, 41, 56, 57, 34, 58, 33, 11, 41, 57, 39, 60, 32, 20, 43, 33, 30, 28]
+The decomposition of L into increasing sublists is: [[36], [10, 40], [14, 52, 53], [17, 30, 41, 56, 57], [34, 58], [33], [11, 41, 57], [39, 60], [32], [20, 43], [33], [30], [28]]
+None
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(34, 30, 100))"
+Here is L: [67, 45, 74, 3, 29, 3, 49, 46, 8, 54, 39, 43, 12, 74, 65, 19, 12, 35, 44, 78, 0, 99, 19, 96, 67, 11, 7, 47, 32, 94]
+The decomposition of L into increasing sublists is: [[67], [45, 74], [3, 29], [3, 49], [46], [8, 54], [39, 43], [12, 74], [65], [19], [12, 35, 44, 78], [0, 99], [19, 96], [67], [11], [7, 47], [32, 94]]
+None
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(35, 41, 100))"
+Here is L: [70, 42, 96, 16, 95, 43, 19, 36, 55, 32, 72, 7, 95, 67, 96, 35, 83, 46, 91, 74, 96, 12, 46, 1, 65, 1, 12, 92, 63, 47, 93, 3, 43, 86, 63, 6, 2, 30, 41, 10, 20]
+The decomposition of L into increasing sublists is: [[70], [42, 96], [16, 95], [43], [19, 36, 55], [32, 72], [7, 95], [67, 96], [35, 83], [46, 91], [74, 96], [12, 46], [1, 65], [1, 12, 92], [63], [47, 93], [3, 43, 86], [63], [6], [2, 30, 41], [10, 20]]
+None
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(36, 56, 100))"
+Here is L: [42, 7, 2, 36, 10, 0, 64, 80, 22, 31, 34, 93, 83, 55, 46, 71, 34, 69, 9, 73, 52, 62, 49, 44, 96, 50, 31, 50, 21, 15, 65, 63, 89, 97, 26, 67, 37, 23, 62, 90, 75, 41, 91, 70, 21, 0, 76, 49, 63, 17, 96, 27, 53, 47, 26, 63]
+The decomposition of L into increasing sublists is: [[42], [7], [2, 36], [10], [0, 64, 80], [22, 31, 34, 93], [83], [55], [46, 71], [34, 69], [9, 73], [52, 62], [49], [44, 96], [50], [31, 50], [21], [15, 65], [63, 89, 97], [26, 67], [37], [23, 62, 90], [75], [41, 91], [70], [21], [0, 76], [49, 63], [17, 96], [27, 53], [47], [26, 63]]
+None
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(37, 81, 100))"
+Here is L: [87, 77, 11, 79, 85, 95, 81, 65, 4, 80, 47, 56, 67, 13, 87, 58, 76, 36, 48, 94, 54, 56, 18, 6, 11, 52, 9, 69, 36, 46, 82, 90, 55, 75, 72, 46, 81, 90, 73, 4, 67, 79, 27, 64, 53, 8, 1, 0, 83, 65, 46, 8, 90, 74, 28, 3, 41, 45, 67, 20, 2, 93, 1, 27, 94, 92, 39, 89, 29, 65, 83, 38, 79, 5, 36, 34, 91, 26, 61, 18, 27]
+The decomposition of L into increasing sublists is: [[87], [77], [11, 79, 85, 95], [81], [65], [4, 80], [47, 56, 67], [13, 87], [58, 76], [36, 48, 94], [54, 56], [18], [6, 11, 52], [9, 69], [36, 46, 82, 90], [55, 75], [72], [46, 81, 90], [73], [4, 67, 79], [27, 64], [53], [8], [1], [0, 83], [65], [46], [8, 90], [74], [28], [3, 41, 45, 67], [20], [2, 93], [1, 27, 94], [92], [39, 89], [29, 65, 83], [38, 79], [5, 36], [34, 91], [26, 61], [18, 27]]
+None
+TEST 15 END
+
+TEST 16 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(23, 2, 6))"
+Here is L: [994685, 10]
+List members of length 2 with no successive occurrences of the same digit:
+    10
+None
+TEST 16 END
+
+TEST 17 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(24, 3, 5))"
+Here is L: [50182, 2991, 2]
+List members of length 1 with no successive occurrences of the same digit:
+    2
+List members of length 5 with no successive occurrences of the same digit:
+    50182
+None
+TEST 17 END
+
+TEST 18 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(25, 4, 4))"
+Here is L: [786, 0, 81, 43]
+List members of length 1 with no successive occurrences of the same digit:
+    0
+List members of length 2 with no successive occurrences of the same digit:
+    81 43
+List members of length 3 with no successive occurrences of the same digit:
+    786
+None
+TEST 18 END
+
+TEST 19 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(26, 5, 5))"
+Here is L: [26575, 26890, 615, 929, 7]
+List members of length 1 with no successive occurrences of the same digit:
+    7
+List members of length 3 with no successive occurrences of the same digit:
+    615 929
+List members of length 5 with no successive occurrences of the same digit:
+    26575 26890
+None
+TEST 19 END
+
+TEST 20 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(26, 6, 3))"
+Here is L: [3, 615, 0, 42, 6, 6]
+List members of length 1 with no successive occurrences of the same digit:
+    3 0 6 6
+List members of length 2 with no successive occurrences of the same digit:
+    42
+List members of length 3 with no successive occurrences of the same digit:
+    615
+None
+TEST 20 END
+
+TEST 21 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(27, 7, 6))"
+Here is L: [62899, 36335, 25, 0, 69, 32, 51]
+List members of length 1 with no successive occurrences of the same digit:
+    0
+List members of length 2 with no successive occurrences of the same digit:
+    25 69 32 51
+None
+TEST 21 END
+
+TEST 22 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(28, 8, 4))"
+Here is L: [0, 9785, 3, 7, 215, 2, 166, 9]
+List members of length 1 with no successive occurrences of the same digit:
+    0 3 7 2 9
+List members of length 3 with no successive occurrences of the same digit:
+    215
+List members of length 4 with no successive occurrences of the same digit:
+    9785
+None
+TEST 22 END
+
+TEST 23 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(29, 9, 7))"
+Here is L: [5, 1421, 51500, 19558, 0, 3771645, 11209, 5524719, 876693]
+List members of length 1 with no successive occurrences of the same digit:
+    5 0
+List members of length 4 with no successive occurrences of the same digit:
+    1421
+None
+TEST 23 END
+
+TEST 24 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(30, 10, 6))"
+Here is L: [4738, 492, 3440, 6, 385, 17572, 0, 0, 0, 9]
+List members of length 1 with no successive occurrences of the same digit:
+    6 0 0 0 9
+List members of length 3 with no successive occurrences of the same digit:
+    492 385
+List members of length 4 with no successive occurrences of the same digit:
+    4738
+List members of length 5 with no successive occurrences of the same digit:
+    17572
+None
+TEST 24 END
+
+TEST 25 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(31, 11, 5))"
+Here is L: [0, 0, 0, 1, 3797, 99299, 2, 4340, 7945, 3, 7335]
+List members of length 1 with no successive occurrences of the same digit:
+    0 0 0 1 2 3
+List members of length 4 with no successive occurrences of the same digit:
+    3797 4340 7945
+None
+TEST 25 END
+
+TEST 26 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(32, 11, 9))"
+Here is L: [3, 38, 508, 0, 5, 44337631, 0, 78802, 0, 1263101, 3405188]
+List members of length 1 with no successive occurrences of the same digit:
+    3 0 5 0 0
+List members of length 2 with no successive occurrences of the same digit:
+    38
+List members of length 3 with no successive occurrences of the same digit:
+    508
+List members of length 7 with no successive occurrences of the same digit:
+    1263101
+None
+TEST 26 END
+
+TEST 27 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(33, 12, 5))"
+Here is L: [2740, 30568, 61, 69818, 3055, 80886, 5259, 69240, 455, 86, 9276, 52]
+List members of length 2 with no successive occurrences of the same digit:
+    61 86 52
+List members of length 4 with no successive occurrences of the same digit:
+    2740 5259 9276
+List members of length 5 with no successive occurrences of the same digit:
+    30568 69818 69240
+None
+TEST 27 END
+
+TEST 28 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(34, 15, 7))"
+Here is L: [76775, 0, 0, 8463, 321056, 12390, 12, 5686, 0, 0, 33451, 0, 75, 4783, 329097]
+List members of length 1 with no successive occurrences of the same digit:
+    0 0 0 0 0
+List members of length 2 with no successive occurrences of the same digit:
+    12 75
+List members of length 4 with no successive occurrences of the same digit:
+    8463 5686 4783
+List members of length 5 with no successive occurrences of the same digit:
+    12390
+List members of length 6 with no successive occurrences of the same digit:
+    321056 329097
+None
+TEST 28 END
+
+TEST 29 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(35, 20, 6))"
+Here is L: [5494, 138124, 44625, 161531, 55, 72, 0, 48053, 752190, 1584, 1, 184, 0, 93, 0, 65034, 0, 5, 0, 21]
+List members of length 1 with no successive occurrences of the same digit:
+    0 1 0 0 0 5 0
+List members of length 2 with no successive occurrences of the same digit:
+    72 93 21
+List members of length 3 with no successive occurrences of the same digit:
+    184
+List members of length 4 with no successive occurrences of the same digit:
+    5494 1584
+List members of length 5 with no successive occurrences of the same digit:
+    48053 65034
+List members of length 6 with no successive occurrences of the same digit:
+    138124 161531 752190
+None
+TEST 29 END
+
+TEST 30 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(36, 30, 8))"
+Here is L: [7650, 0, 0, 84153046, 31, 7084, 73411, 8892, 9, 867530, 6542421, 99131, 932460, 401, 15, 66758255, 536, 3022, 9953872, 93490, 22614859, 0, 2325668, 427, 27284, 4298105, 0, 62054190, 39723375, 1417957]
+List members of length 1 with no successive occurrences of the same digit:
+    0 0 9 0 0
+List members of length 2 with no successive occurrences of the same digit:
+    31 15
+List members of length 3 with no successive occurrences of the same digit:
+    401 536 427
+List members of length 4 with no successive occurrences of the same digit:
+    7650 7084
+List members of length 5 with no successive occurrences of the same digit:
+    93490 27284
+List members of length 6 with no successive occurrences of the same digit:
+    867530 932460
+List members of length 7 with no successive occurrences of the same digit:
+    6542421 4298105 1417957
+List members of length 8 with no successive occurrences of the same digit:
+    84153046 62054190
+None
+TEST 30 END
+
+TEST 31 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(1))"
+1 factorial is 1
+It has 1 digit, the trailing 0's excepted
+None
+TEST 31 END
+
+TEST 32 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(8))"
+8 factorial is 40320
+It has 4 digits, the trailing 0's excepted
+None
+TEST 32 END
+
+TEST 33 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(12))"
+12 factorial is 479001600
+It has 7 digits, the trailing 0's excepted
+None
+TEST 33 END
+
+TEST 34 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(15))"
+15 factorial is 1307674368000
+It has 10 digits, the trailing 0's excepted
+None
+TEST 34 END
+
+TEST 35 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(18))"
+18 factorial is 6402373705728000
+It has 13 digits, the trailing 0's excepted
+None
+TEST 35 END
+
+TEST 36 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(22))"
+22 factorial is 1124000727777607680000
+It has 18 digits, the trailing 0's excepted
+None
+TEST 36 END
+
+TEST 37 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(25))"
+25 factorial is 15511210043330985984000000
+It has 20 digits, the trailing 0's excepted
+None
+TEST 37 END
+
+TEST 38 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(28))"
+28 factorial is 304888344611713860501504000000
+It has 24 digits, the trailing 0's excepted
+None
+TEST 38 END
+
+TEST 39 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(32))"
+32 factorial is 263130836933693530167218012160000000
+It has 29 digits, the trailing 0's excepted
+None
+TEST 39 END
+
+TEST 40 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(37))"
+37 factorial is 13763753091226345046315979581580902400000000
+It has 36 digits, the trailing 0's excepted
+None
+TEST 40 END
+
+TEST 41 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(41))"
+41 factorial is 33452526613163807108170062053440751665152000000000
+It has 41 digits, the trailing 0's excepted
+None
+TEST 41 END
+
+TEST 42 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(44))"
+44 factorial is 2658271574788448768043625811014615890319638528000000000
+It has 46 digits, the trailing 0's excepted
+None
+TEST 42 END
+
+TEST 43 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(49))"
+49 factorial is 608281864034267560872252163321295376887552831379210240000000000
+It has 53 digits, the trailing 0's excepted
+None
+TEST 43 END
+
+TEST 44 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(52))"
+52 factorial is 80658175170943878571660636856403766975289505440883277824000000000000
+It has 56 digits, the trailing 0's excepted
+None
+TEST 44 END
+
+TEST 45 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(53))"
+53 factorial is 4274883284060025564298013753389399649690343788366813724672000000000000
+It has 58 digits, the trailing 0's excepted
+None
+TEST 45 END
+
+TEST 46 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(141))"
+The least number >= 141 that is the first member of a Betrothed pair is 195
+The Betrothed pair itself is (195, 140)
+None
+TEST 46 END
+
+TEST 47 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(200))"
+The least number >= 200 that is the first member of a Betrothed pair is 1050
+The Betrothed pair itself is (1050, 1925)
+None
+TEST 47 END
+
+TEST 48 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(1100))"
+The least number >= 1100 that is the first member of a Betrothed pair is 1575
+The Betrothed pair itself is (1575, 1648)
+None
+TEST 48 END
+
+TEST 49 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(1600))"
+The least number >= 1600 that is the first member of a Betrothed pair is 1648
+The Betrothed pair itself is (1648, 1575)
+None
+TEST 49 END
+
+TEST 50 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(1650))"
+The least number >= 1650 that is the first member of a Betrothed pair is 1925
+The Betrothed pair itself is (1925, 1050)
+None
+TEST 50 END
+
+TEST 51 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(1930))"
+The least number >= 1930 that is the first member of a Betrothed pair is 2024
+The Betrothed pair itself is (2024, 2295)
+None
+TEST 51 END
+
+TEST 52 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(2030))"
+The least number >= 2030 that is the first member of a Betrothed pair is 2295
+The Betrothed pair itself is (2295, 2024)
+None
+TEST 52 END
+
+TEST 53 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(2300))"
+The least number >= 2300 that is the first member of a Betrothed pair is 5775
+The Betrothed pair itself is (5775, 6128)
+None
+TEST 53 END
+
+TEST 54 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(5600))"
+The least number >= 5600 that is the first member of a Betrothed pair is 5775
+The Betrothed pair itself is (5775, 6128)
+None
+TEST 54 END
+
+TEST 55 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(5780))"
+The least number >= 5780 that is the first member of a Betrothed pair is 6128
+The Betrothed pair itself is (6128, 5775)
+None
+TEST 55 END
+
+TEST 56 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(6130))"
+The least number >= 6130 that is the first member of a Betrothed pair is 8892
+The Betrothed pair itself is (8892, 16587)
+None
+TEST 56 END
+
+TEST 57 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(890))"
+The least number >= 890 that is the first member of a Betrothed pair is 1050
+The Betrothed pair itself is (1050, 1925)
+None
+TEST 57 END
+
+TEST 58 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(1060))"
+The least number >= 1060 that is the first member of a Betrothed pair is 1575
+The Betrothed pair itself is (1575, 1648)
+None
+TEST 58 END
+
+TEST 59 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(1600))"
+The least number >= 1600 that is the first member of a Betrothed pair is 1648
+The Betrothed pair itself is (1648, 1575)
+None
+TEST 59 END
+
+TEST 60 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(3000))"
+The least number >= 3000 that is the first member of a Betrothed pair is 5775
+The Betrothed pair itself is (5775, 6128)
+None
+TEST 60 END
+
+TEST 61 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(40, 80))"
+The maximum gap between successive prime numbers in that interval is 5
+None
+TEST 61 END
+
+TEST 62 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(81, 204))"
+The maximum gap between successive prime numbers in that interval is 13
+None
+TEST 62 END
+
+TEST 63 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(440, 540))"
+The maximum gap between successive prime numbers in that interval is 11
+None
+TEST 63 END
+
+TEST 64 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(180, 677))"
+The maximum gap between successive prime numbers in that interval is 17
+None
+TEST 64 END
+
+TEST 65 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(250, 1300))"
+The maximum gap between successive prime numbers in that interval is 21
+None
+TEST 65 END
+
+TEST 66 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(320, 1700))"
+The maximum gap between successive prime numbers in that interval is 33
+None
+TEST 66 END
+
+TEST 67 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(489, 23986))"
+The maximum gap between successive prime numbers in that interval is 51
+None
+TEST 67 END
+
+TEST 68 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(5435, 9835))"
+The maximum gap between successive prime numbers in that interval is 35
+None
+TEST 68 END
+
+TEST 69 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(19345, 87234))"
+The maximum gap between successive prime numbers in that interval is 71
+None
+TEST 69 END
+
+TEST 70 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(43456, 62045))"
+The maximum gap between successive prime numbers in that interval is 57
+None
+TEST 70 END
+
+TEST 71 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(344245, 782345))"
+The maximum gap between successive prime numbers in that interval is 113
+None
+TEST 71 END
+
+TEST 72 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(54256, 223404))"
+The maximum gap between successive prime numbers in that interval is 85
+None
+TEST 72 END
+
+TEST 73 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(4536672, 5692345))"
+The maximum gap between successive prime numbers in that interval is 153
+None
+TEST 73 END
+
+TEST 74 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(236672, 1692345))"
+The maximum gap between successive prime numbers in that interval is 131
+None
+TEST 74 END
+
+TEST 75 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(7777777, 9999999))"
+The maximum gap between successive prime numbers in that interval is 151
+None
+TEST 75 END
+
+TEST 76 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(20, 30))"
+24 and 30 with 27 as average
+26 and 30 with 28 as average
+28 and 30 with 29 as average
+None
+TEST 76 END
+
+TEST 77 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(25, 31))"
+25 and 31 with 28 as average
+26 and 30 with 28 as average
+27 and 31 with 29 as average
+28 and 30 with 29 as average
+29 and 31 with 30 as average
+None
+TEST 77 END
+
+TEST 78 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(35, 42))"
+35 and 41 with 38 as average
+36 and 40 with 38 as average
+36 and 42 with 39 as average
+37 and 41 with 39 as average
+38 and 40 with 39 as average
+38 and 42 with 40 as average
+39 and 41 with 40 as average
+None
+TEST 78 END
+
+TEST 79 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(70, 127))"
+78 and 80 with 79 as average
+78 and 82 with 80 as average
+78 and 84 with 81 as average
+78 and 86 with 82 as average
+78 and 90 with 84 as average
+78 and 92 with 85 as average
+78 and 94 with 86 as average
+78 and 96 with 87 as average
+79 and 81 with 80 as average
+79 and 83 with 81 as average
+79 and 85 with 82 as average
+79 and 87 with 83 as average
+79 and 91 with 85 as average
+79 and 93 with 86 as average
+79 and 95 with 87 as average
+89 and 91 with 90 as average
+89 and 93 with 91 as average
+89 and 95 with 92 as average
+89 and 97 with 93 as average
+None
+TEST 79 END
+
+TEST 80 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(100, 220))"
+124 and 210 with 167 as average
+126 and 210 with 168 as average
+128 and 210 with 169 as average
+146 and 210 with 178 as average
+148 and 210 with 179 as average
+168 and 210 with 189 as average
+None
+TEST 80 END
+
+TEST 81 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(320, 583))"
+346 and 410 with 378 as average
+346 and 432 with 389 as average
+347 and 431 with 389 as average
+348 and 410 with 379 as average
+348 and 430 with 389 as average
+357 and 421 with 389 as average
+358 and 420 with 389 as average
+368 and 410 with 389 as average
+369 and 543 with 456 as average
+378 and 540 with 459 as average
+389 and 431 with 410 as average
+457 and 521 with 489 as average
+458 and 520 with 489 as average
+468 and 510 with 489 as average
+478 and 542 with 510 as average
+479 and 541 with 510 as average
+489 and 531 with 510 as average
+None
+TEST 81 END
+
+TEST 82 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(370, 667))"
+378 and 540 with 459 as average
+378 and 642 with 510 as average
+379 and 641 with 510 as average
+389 and 431 with 410 as average
+389 and 631 with 510 as average
+389 and 651 with 520 as average
+389 and 653 with 521 as average
+456 and 630 with 543 as average
+457 and 521 with 489 as average
+458 and 520 with 489 as average
+459 and 621 with 540 as average
+468 and 510 with 489 as average
+478 and 542 with 510 as average
+479 and 541 with 510 as average
+489 and 531 with 510 as average
+567 and 653 with 610 as average
+568 and 610 with 589 as average
+568 and 652 with 610 as average
+569 and 651 with 610 as average
+578 and 642 with 610 as average
+579 and 641 with 610 as average
+589 and 631 with 610 as average
+589 and 651 with 620 as average
+589 and 653 with 621 as average
+None
+TEST 82 END
+
+TEST 83 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(521, 662))"
+567 and 653 with 610 as average
+568 and 610 with 589 as average
+568 and 652 with 610 as average
+569 and 651 with 610 as average
+578 and 642 with 610 as average
+579 and 641 with 610 as average
+589 and 631 with 610 as average
+589 and 651 with 620 as average
+589 and 653 with 621 as average
+None
+TEST 83 END
+
+TEST 84 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(643, 834))"
+678 and 742 with 710 as average
+678 and 762 with 720 as average
+678 and 764 with 721 as average
+678 and 830 with 754 as average
+679 and 741 with 710 as average
+679 and 761 with 720 as average
+679 and 763 with 721 as average
+679 and 821 with 750 as average
+689 and 731 with 710 as average
+689 and 751 with 720 as average
+689 and 753 with 721 as average
+689 and 831 with 760 as average
+789 and 831 with 810 as average
+None
+TEST 84 END
+
+TEST 85 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(823, 4467))"
+1257 and 4321 with 2789 as average
+1258 and 4320 with 2789 as average
+1268 and 4310 with 2789 as average
+1368 and 4210 with 2789 as average
+1568 and 3210 with 2389 as average
+2368 and 3210 with 2789 as average
+None
+TEST 85 END
+
+TEST 86 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(2344, 7234))"
+2368 and 3210 with 2789 as average
+2368 and 5210 with 3789 as average
+2368 and 7210 with 4789 as average
+None
+TEST 86 END
+
+TEST 87 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(2034, 4345))"
+2368 and 3210 with 2789 as average
+None
+TEST 87 END
+
+TEST 88 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(3034, 9345))"
+3678 and 8742 with 6210 as average
+3679 and 8741 with 6210 as average
+3689 and 8731 with 6210 as average
+3789 and 8631 with 6210 as average
+4589 and 8431 with 6510 as average
+4789 and 7631 with 6210 as average
+5678 and 8742 with 7210 as average
+5679 and 8741 with 7210 as average
+5689 and 8731 with 7210 as average
+5789 and 8631 with 7210 as average
+6789 and 7631 with 7210 as average
+6789 and 8431 with 7610 as average
+None
+TEST 88 END
+
+TEST 89 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(5382, 10234))"
+5678 and 8742 with 7210 as average
+5678 and 9542 with 7610 as average
+5678 and 9630 with 7654 as average
+5679 and 8741 with 7210 as average
+5679 and 9541 with 7610 as average
+5679 and 9621 with 7650 as average
+5689 and 8731 with 7210 as average
+5689 and 9531 with 7610 as average
+5789 and 8631 with 7210 as average
+5789 and 9431 with 7610 as average
+6789 and 7631 with 7210 as average
+6789 and 8431 with 7610 as average
+6789 and 9631 with 8210 as average
+6789 and 9831 with 8310 as average
+6789 and 9851 with 8320 as average
+6789 and 9853 with 8321 as average
+None
+TEST 89 END
+
+TEST 90 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(6723, 35423))"
+6789 and 7631 with 7210 as average
+6789 and 8431 with 7610 as average
+6789 and 9631 with 8210 as average
+6789 and 9831 with 8310 as average
+6789 and 9851 with 8320 as average
+6789 and 9853 with 8321 as average
+None
+TEST 90 END
+
+TEST 91 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(1, 7))"
+a
+b
+c
+d
+e
+f
+g
+None
+TEST 91 END
+
+TEST 92 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(6, 1))"
+abcdef
+None
+TEST 92 END
+
+TEST 93 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(4, 4))"
+abcd
+hgfe
+ijkl
+ponm
+None
+TEST 93 END
+
+TEST 94 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(8, 12))"
+abcdefgh
+ponmlkji
+qrstuvwx
+fedcbazy
+ghijklmn
+vutsrqpo
+wxyzabcd
+lkjihgfe
+mnopqrst
+bazyxwvu
+cdefghij
+rqponmlk
+None
+TEST 94 END
+
+TEST 95 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(11, 9))"
+abcdefghijk
+vutsrqponml
+wxyzabcdefg
+rqponmlkjih
+stuvwxyzabc
+nmlkjihgfed
+opqrstuvwxy
+jihgfedcbaz
+klmnopqrstu
+None
+TEST 95 END
+
+TEST 96 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(5, 16))"
+abcde
+jihgf
+klmno
+tsrqp
+uvwxy
+dcbaz
+efghi
+nmlkj
+opqrs
+xwvut
+yzabc
+hgfed
+ijklm
+rqpon
+stuvw
+bazyx
+None
+TEST 96 END
+
+TEST 97 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(14, 5))"
+abcdefghijklmn
+bazyxwvutsrqpo
+cdefghijklmnop
+dcbazyxwvutsrq
+efghijklmnopqr
+None
+TEST 97 END
+
+TEST 98 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(17, 17))"
+abcdefghijklmnopq
+hgfedcbazyxwvutsr
+ijklmnopqrstuvwxy
+ponmlkjihgfedcbaz
+qrstuvwxyzabcdefg
+xwvutsrqponmlkjih
+yzabcdefghijklmno
+fedcbazyxwvutsrqp
+ghijklmnopqrstuvw
+nmlkjihgfedcbazyx
+opqrstuvwxyzabcde
+vutsrqponmlkjihgf
+wxyzabcdefghijklm
+dcbazyxwvutsrqpon
+efghijklmnopqrstu
+lkjihgfedcbazyxwv
+mnopqrstuvwxyzabc
+None
+TEST 98 END
+
+TEST 99 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(20, 13))"
+abcdefghijklmnopqrst
+nmlkjihgfedcbazyxwvu
+opqrstuvwxyzabcdefgh
+bazyxwvutsrqponmlkji
+cdefghijklmnopqrstuv
+ponmlkjihgfedcbazyxw
+qrstuvwxyzabcdefghij
+dcbazyxwvutsrqponmlk
+efghijklmnopqrstuvwx
+rqponmlkjihgfedcbazy
+stuvwxyzabcdefghijkl
+fedcbazyxwvutsrqponm
+ghijklmnopqrstuvwxyz
+None
+TEST 99 END
+
+TEST 100 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(10, 24))"
+abcdefghij
+tsrqponmlk
+uvwxyzabcd
+nmlkjihgfe
+opqrstuvwx
+hgfedcbazy
+ijklmnopqr
+bazyxwvuts
+cdefghijkl
+vutsrqponm
+wxyzabcdef
+ponmlkjihg
+qrstuvwxyz
+jihgfedcba
+klmnopqrst
+dcbazyxwvu
+efghijklmn
+xwvutsrqpo
+yzabcdefgh
+rqponmlkji
+stuvwxyzab
+lkjihgfedc
+mnopqrstuv
+fedcbazyxw
+None
+TEST 100 END
+
+TEST 101 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(26, 26))"
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+None
+TEST 101 END
+
+TEST 102 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(30, 18))"
+abcdefghijklmnopqrstuvwxyzabcd
+hgfedcbazyxwvutsrqponmlkjihgfe
+ijklmnopqrstuvwxyzabcdefghijkl
+ponmlkjihgfedcbazyxwvutsrqponm
+qrstuvwxyzabcdefghijklmnopqrst
+xwvutsrqponmlkjihgfedcbazyxwvu
+yzabcdefghijklmnopqrstuvwxyzab
+fedcbazyxwvutsrqponmlkjihgfedc
+ghijklmnopqrstuvwxyzabcdefghij
+nmlkjihgfedcbazyxwvutsrqponmlk
+opqrstuvwxyzabcdefghijklmnopqr
+vutsrqponmlkjihgfedcbazyxwvuts
+wxyzabcdefghijklmnopqrstuvwxyz
+dcbazyxwvutsrqponmlkjihgfedcba
+efghijklmnopqrstuvwxyzabcdefgh
+lkjihgfedcbazyxwvutsrqponmlkji
+mnopqrstuvwxyzabcdefghijklmnop
+tsrqponmlkjihgfedcbazyxwvutsrq
+None
+TEST 102 END
+
+TEST 103 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(18, 34))"
+abcdefghijklmnopqr
+jihgfedcbazyxwvuts
+klmnopqrstuvwxyzab
+tsrqponmlkjihgfedc
+uvwxyzabcdefghijkl
+dcbazyxwvutsrqponm
+efghijklmnopqrstuv
+nmlkjihgfedcbazyxw
+opqrstuvwxyzabcdef
+xwvutsrqponmlkjihg
+yzabcdefghijklmnop
+hgfedcbazyxwvutsrq
+ijklmnopqrstuvwxyz
+rqponmlkjihgfedcba
+stuvwxyzabcdefghij
+bazyxwvutsrqponmlk
+cdefghijklmnopqrst
+lkjihgfedcbazyxwvu
+mnopqrstuvwxyzabcd
+vutsrqponmlkjihgfe
+wxyzabcdefghijklmn
+fedcbazyxwvutsrqpo
+ghijklmnopqrstuvwx
+ponmlkjihgfedcbazy
+qrstuvwxyzabcdefgh
+zyxwvutsrqponmlkji
+abcdefghijklmnopqr
+jihgfedcbazyxwvuts
+klmnopqrstuvwxyzab
+tsrqponmlkjihgfedc
+uvwxyzabcdefghijkl
+dcbazyxwvutsrqponm
+efghijklmnopqrstuv
+nmlkjihgfedcbazyxw
+None
+TEST 103 END
+
+TEST 104 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(40, 51))"
+abcdefghijklmnopqrstuvwxyzabcdefghijklmn
+bazyxwvutsrqponmlkjihgfedcbazyxwvutsrqpo
+cdefghijklmnopqrstuvwxyzabcdefghijklmnop
+dcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrq
+efghijklmnopqrstuvwxyzabcdefghijklmnopqr
+fedcbazyxwvutsrqponmlkjihgfedcbazyxwvuts
+ghijklmnopqrstuvwxyzabcdefghijklmnopqrst
+hgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvu
+ijklmnopqrstuvwxyzabcdefghijklmnopqrstuv
+jihgfedcbazyxwvutsrqponmlkjihgfedcbazyxw
+klmnopqrstuvwxyzabcdefghijklmnopqrstuvwx
+lkjihgfedcbazyxwvutsrqponmlkjihgfedcbazy
+mnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+nmlkjihgfedcbazyxwvutsrqponmlkjihgfedcba
+opqrstuvwxyzabcdefghijklmnopqrstuvwxyzab
+ponmlkjihgfedcbazyxwvutsrqponmlkjihgfedc
+qrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd
+rqponmlkjihgfedcbazyxwvutsrqponmlkjihgfe
+stuvwxyzabcdefghijklmnopqrstuvwxyzabcdef
+tsrqponmlkjihgfedcbazyxwvutsrqponmlkjihg
+uvwxyzabcdefghijklmnopqrstuvwxyzabcdefgh
+vutsrqponmlkjihgfedcbazyxwvutsrqponmlkji
+wxyzabcdefghijklmnopqrstuvwxyzabcdefghij
+xwvutsrqponmlkjihgfedcbazyxwvutsrqponmlk
+yzabcdefghijklmnopqrstuvwxyzabcdefghijkl
+zyxwvutsrqponmlkjihgfedcbazyxwvutsrqponm
+abcdefghijklmnopqrstuvwxyzabcdefghijklmn
+bazyxwvutsrqponmlkjihgfedcbazyxwvutsrqpo
+cdefghijklmnopqrstuvwxyzabcdefghijklmnop
+dcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrq
+efghijklmnopqrstuvwxyzabcdefghijklmnopqr
+fedcbazyxwvutsrqponmlkjihgfedcbazyxwvuts
+ghijklmnopqrstuvwxyzabcdefghijklmnopqrst
+hgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvu
+ijklmnopqrstuvwxyzabcdefghijklmnopqrstuv
+jihgfedcbazyxwvutsrqponmlkjihgfedcbazyxw
+klmnopqrstuvwxyzabcdefghijklmnopqrstuvwx
+lkjihgfedcbazyxwvutsrqponmlkjihgfedcbazy
+mnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+nmlkjihgfedcbazyxwvutsrqponmlkjihgfedcba
+opqrstuvwxyzabcdefghijklmnopqrstuvwxyzab
+ponmlkjihgfedcbazyxwvutsrqponmlkjihgfedc
+qrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd
+rqponmlkjihgfedcbazyxwvutsrqponmlkjihgfe
+stuvwxyzabcdefghijklmnopqrstuvwxyzabcdef
+tsrqponmlkjihgfedcbazyxwvutsrqponmlkjihg
+uvwxyzabcdefghijklmnopqrstuvwxyzabcdefgh
+vutsrqponmlkjihgfedcbazyxwvutsrqponmlkji
+wxyzabcdefghijklmnopqrstuvwxyzabcdefghij
+xwvutsrqponmlkjihgfedcbazyxwvutsrqponmlk
+yzabcdefghijklmnopqrstuvwxyzabcdefghijkl
+None
+TEST 104 END
+
+TEST 105 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(55, 39))"
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabc
+fedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfed
+ghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghi
+lkjihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkj
+mnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmno
+rqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqp
+stuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu
+xwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwv
+yzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyza
+dcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcb
+efghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefg
+jihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjih
+klmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklm
+ponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqpon
+qrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrs
+vutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvut
+wxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxy
+bazyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcbaz
+cdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcde
+hgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgf
+ijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijk
+nmlkjihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqponml
+opqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopq
+tsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsr
+uvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvw
+zyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcbazyx
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabc
+fedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfed
+ghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghi
+lkjihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkj
+mnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmno
+rqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqp
+stuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstu
+xwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwv
+yzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyza
+dcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcb
+efghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefg
+jihgfedcbazyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjih
+klmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklm
+None
+TEST 105 END
+
+TEST 106 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,2,3],[8,9,4],[7,6,5]]) and not is_heterosquare([[1,2,3,8,9,4],[7,6,5]]) and not is_heterosquare([[1,2,3],[8,9,4],[7,6,1]]))"
+True
+TEST 106 END
+
+TEST 107 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,2,9],[4,3,7],[6,8,5]]) and not is_heterosquare([[1,2,9],[7,3,4],[6,8,5]]) and not is_heterosquare([[1,2,10],[4,3,7],[6,8,5]]))"
+True
+TEST 107 END
+
+TEST 108 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,2,9],[5,6,8],[3,7,4]]) and not is_heterosquare([[1,2,9],[5,8,6],[3,7,4]]) and not is_heterosquare([[1,2,0],[5,6,8],[3,7,4]]))"
+True
+TEST 108 END
+
+TEST 109 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,3,5],[8,2,6],[4,9,7]]) and not is_heterosquare([[5,3,1],[8,2,6],[4,9,7]]) and not is_heterosquare([[1,3,5,8],[2,6],[4,9,7]]))"
+True
+TEST 109 END
+
+TEST 110 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,3,8],[5,4,6],[7,2,9]]) and not is_heterosquare([[7,3,8],[5,4,6],[1,2,9]]) and not is_heterosquare([[1,3,8],[5,4,6],[7,3,9]]))"
+True
+TEST 110 END
+
+TEST 111 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,3,8],[9,7,6],[4,5,2]]) and not is_heterosquare([[1,2,8],[9,7,3],[4,5,6]]) and not is_heterosquare([[1,3,8],[9,7,6,4,5,2]]))"
+True
+TEST 111 END
+
+TEST 112 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,5,4],[9,3,7],[8,6,2]]) and not is_heterosquare([[1,5,4],[3,7,9],[8,6,2]]) and not is_heterosquare([[1,5,6],[9,3,7],[8,6,2]]))"
+True
+TEST 112 END
+
+TEST 113 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,6,3],[9,5,7],[8,4,2]]) and not is_heterosquare([[1,6,3],[9,7,5],[8,4,2]]) and not is_heterosquare([[1,6,3],[9,5,7],[8,4,2],[10,11,12]]))"
+True
+TEST 113 END
+
+TEST 114 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,6,5],[9,2,8],[3,7,4]]) and not is_heterosquare([[1,6,5],[7,2,8],[3,9,4]]) and not is_heterosquare([[1,60,5],[9,2,8],[3,7,4]]))"
+True
+TEST 114 END
+
+TEST 115 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,7,2],[9,4,5],[6,3,8]]) and not is_heterosquare([[1,8,2],[9,4,5],[6,3,7]]) and not is_heterosquare([[1,7,2],[9,4,5],[6,3,7]]))"
+True
+TEST 115 END
+
+TEST 116 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[2,3,7],[9,1,8],[6,5,4]]) and not is_heterosquare([[2,5,7],[9,1,8],[6,3,4]]) and not is_heterosquare([[2,3,7],[9,1],[8,6,5,4]]))"
+True
+TEST 116 END
+
+TEST 117 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[3,2,9],[4,1,8],[5,6,7]]) and not is_heterosquare([[3,2,9],[4,7,8],[5,6,1]]) and not is_heterosquare([[3,2],[9,4,1,8,5],[6,7]]))"
+True
+TEST 117 END
+
+TEST 118 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[2,1,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]) and not is_heterosquare([[2,1,3,4],[5,6,7,8],[9,10,11,12],[13,14,16,15]]) and not is_heterosquare([[2,1,3,4],[5,7,6,8],[9,11,10,12],[13,14,15,16]]))"
+True
+TEST 118 END
+
+TEST 119 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[21,22,23,24,25],[20,7,8,9,10],[19,6,1,2,11],[18,5,4,3,12],[17,16,15,14,13]]) and not is_heterosquare([[21,22,24,23,25],[20,7,8,9,10],[12,6,1,2,11],[18,5,4,3,19],[13,16,15,14,17]])) and not is_heterosquare([[25,24,23,21,22],[20,7,8,9,10],[19,6,1,2,11],[18,5,4,3,12],[17,16,15,14,13]])"
+True
+TEST 119 END
+
+TEST 120 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[2,1,3,4,5,6],[7,8,9,10,11,12],[13,14,15,16,17,18],[19,20,21,22,23,24],[25,26,27,28,29,30],[31,32,33,34,35,36]]) and not is_heterosquare([[2,3,1,4,5,6],[7,8,9,10,11,12],[13,14,15,16,23,18],[19,24,21,22,17,20],[34,26,25,28,29,30],[27,32,33,31,35,36]]) and not is_heterosquare([[2,1,3,4,5,6],[7,8,9,10,11,12],[13,14,15,16,17,18,19,20,21,22,23,24],[25,26,27,28,29,30],[31,32,33,34,35,36]]))"
+True
+TEST 120 END

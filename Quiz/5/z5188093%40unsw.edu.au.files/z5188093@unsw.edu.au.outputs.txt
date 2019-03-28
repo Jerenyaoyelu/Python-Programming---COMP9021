@@ -1,0 +1,200 @@
+TEST 1 BEGIN
+$ echo 16 | python3 quiz_5.py
+Input a nonnegative integer: 16
+The encoded set is: {2}
+The derived set is encoded as: 16
+It is: {2}
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 17 | python3 quiz_5.py
+Input a nonnegative integer: 17
+The encoded set is: {0, 2}
+The derived set is encoded as: 17
+It is: {0, 2}
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 18 | python3 quiz_5.py
+Input a nonnegative integer: 18
+The encoded set is: {-1, 2}
+The derived set is encoded as: 6
+It is: {-1, 1}
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 19 | python3 quiz_5.py
+Input a nonnegative integer: 19
+The encoded set is: {-1, 0, 2}
+The derived set is encoded as: 6
+It is: {-1, 1}
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 20 | python3 quiz_5.py
+Input a nonnegative integer: 20
+The encoded set is: {1, 2}
+The derived set is encoded as: 68
+It is: {1, 3}
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 1022 | python3 quiz_5.py
+Input a nonnegative integer: 1022
+The encoded set is: {-5, -4, -3, -2, -1, 1, 2, 3, 4}
+The derived set is encoded as: 679608832
+It is: {-15, -14, -12, -9, -5}
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 1023 | python3 quiz_5.py
+Input a nonnegative integer: 1023
+The encoded set is: {-5, -4, -3, -2, -1, 0, 1, 2, 3, 4}
+The derived set is encoded as: 679608832
+It is: {-15, -14, -12, -9, -5}
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 1024 | python3 quiz_5.py
+Input a nonnegative integer: 1024
+The encoded set is: {5}
+The derived set is encoded as: 1024
+It is: {5}
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 1025 | python3 quiz_5.py
+Input a nonnegative integer: 1025
+The encoded set is: {0, 5}
+The derived set is encoded as: 1025
+It is: {0, 5}
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 1026 | python3 quiz_5.py
+Input a nonnegative integer: 1026
+The encoded set is: {-1, 5}
+The derived set is encoded as: 258
+It is: {-1, 4}
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 1083 | python3 quiz_5.py
+Input a nonnegative integer: 1083
+The encoded set is: {-3, -2, -1, 0, 2, 5}
+The derived set is encoded as: 2724
+It is: {-6, -5, -4, -3, 1}
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 1084 | python3 quiz_5.py
+Input a nonnegative integer: 1084
+The encoded set is: {-3, -2, 1, 2, 5}
+The derived set is encoded as: 744
+It is: {-5, -4, -3, -2, 3}
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 1085 | python3 quiz_5.py
+Input a nonnegative integer: 1085
+The encoded set is: {-3, -2, 0, 1, 2, 5}
+The derived set is encoded as: 744
+It is: {-5, -4, -3, -2, 3}
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 1086 | python3 quiz_5.py
+Input a nonnegative integer: 1086
+The encoded set is: {-3, -2, -1, 1, 2, 5}
+The derived set is encoded as: 2608
+It is: {-6, -5, -3, 2}
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 1087 | python3 quiz_5.py
+Input a nonnegative integer: 1087
+The encoded set is: {-3, -2, -1, 0, 1, 2, 5}
+The derived set is encoded as: 2608
+It is: {-6, -5, -3, 2}
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo 2341874 | python3 quiz_5.py
+Input a nonnegative integer: 2341874
+The encoded set is: {-11, -9, -8, -7, -6, -5, -4, -3, -1, 2, 3, 4, 6, 8}
+The derived set is encoded as: 213760679883143400641870518288384
+It is: {-54, -53, -52, -50, -49, -46, -45, -41, -39, -35, -31, -28, -20, -11}
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo 2341875 | python3 quiz_5.py
+Input a nonnegative integer: 2341875
+The encoded set is: {-11, -9, -8, -7, -6, -5, -4, -3, -1, 0, 2, 3, 4, 6, 8}
+The derived set is encoded as: 213760679883143400641870518288384
+It is: {-54, -53, -52, -50, -49, -46, -45, -41, -39, -35, -31, -28, -20, -11}
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo 2341876 | python3 quiz_5.py
+Input a nonnegative integer: 2341876
+The encoded set is: {-11, -9, -8, -7, -6, -5, -4, -3, 1, 2, 3, 4, 6, 8}
+The derived set is encoded as: 51352269823149220381390259879936
+It is: {-53, -52, -50, -47, -46, -43, -41, -37, -35, -29, -28, -20, -11}
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo 2341877 | python3 quiz_5.py
+Input a nonnegative integer: 2341877
+The encoded set is: {-11, -9, -8, -7, -6, -5, -4, -3, 0, 1, 2, 3, 4, 6, 8}
+The derived set is encoded as: 51352269823149220381390259879936
+It is: {-53, -52, -50, -47, -46, -43, -41, -37, -35, -29, -28, -20, -11}
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo 2341878 | python3 quiz_5.py
+Input a nonnegative integer: 2341878
+The encoded set is: {-11, -9, -8, -7, -6, -5, -4, -3, -1, 1, 2, 3, 4, 6, 8}
+The derived set is encoded as: 206035469697149370737768500559872
+It is: {-54, -53, -51, -50, -48, -46, -44, -41, -38, -35, -30, -28, -20, -11}
+TEST 20 END
+
+TEST 21 BEGIN
+$ echo 928173894562168545 | python3 quiz_5.py
+Input a nonnegative integer: 928173894562168545
+The encoded set is: {-30, -28, -27, -24, -22, -19, -18, -14, -13, -11, -10, -9, -7, -6, -5, -4, -3, 0, 3, 5, 6, 8, 12, 15, 16, 17, 18, 20, 24, 27, 29}
+The derived set is encoded as: 1662393641689991058123429934568699236908107015591406884656306922989478166192252912710054189290250225910947564233649384959679956212388902353059339829248
+It is: {-250, -247, -243, -242, -238, -236, -232, -228, -225, -216, -206, -201, -195, -185, -182, -168, -150, -131, -130, -109, -106, -85, -79, -58, -50, -30}
+TEST 21 END
+
+TEST 22 BEGIN
+$ echo 928173894562168546 | python3 quiz_5.py
+Input a nonnegative integer: 928173894562168546
+The encoded set is: {-30, -28, -27, -24, -22, -19, -18, -14, -13, -11, -10, -9, -7, -6, -5, -4, -3, -1, 3, 5, 6, 8, 12, 15, 16, 17, 18, 20, 24, 27, 29}
+The derived set is encoded as: 8311443358282401221749948304837898896328034125736625719575429018023519377070030546470081767078742138133681092568336394244507751258497000814093377994752
+It is: {-251, -250, -248, -247, -243, -238, -237, -232, -229, -225, -217, -216, -206, -202, -195, -186, -182, -169, -168, -151, -150, -131, -109, -107, -85, -80, -58, -51, -30}
+TEST 22 END
+
+TEST 23 BEGIN
+$ echo 928173894562168547 | python3 quiz_5.py
+Input a nonnegative integer: 928173894562168547
+The encoded set is: {-30, -28, -27, -24, -22, -19, -18, -14, -13, -11, -10, -9, -7, -6, -5, -4, -3, -1, 0, 3, 5, 6, 8, 12, 15, 16, 17, 18, 20, 24, 27, 29}
+The derived set is encoded as: 8311443358282401221749948304837898896328034125736625719575429018023519377070030546470081767078742138133681092568336394244507751258497000814093377994752
+It is: {-251, -250, -248, -247, -243, -238, -237, -232, -229, -225, -217, -216, -206, -202, -195, -186, -182, -169, -168, -151, -150, -131, -109, -107, -85, -80, -58, -51, -30}
+TEST 23 END
+
+TEST 24 BEGIN
+$ echo 928173894562168548| python3 quiz_5.py
+Input a nonnegative integer: 928173894562168548
+The encoded set is: {-30, -28, -27, -24, -22, -19, -18, -14, -13, -11, -10, -9, -7, -6, -5, -4, -3, 1, 3, 5, 6, 8, 12, 15, 16, 17, 18, 20, 24, 27, 29}
+The derived set is encoded as: 2077942073643810418493472079609194506977892208488210853456758084614837939511812050583338447112895565576775454112450426912567803716174855610174806163456
+It is: {-250, -249, -247, -246, -243, -241, -238, -235, -232, -227, -225, -216, -215, -206, -200, -195, -184, -182, -168, -167, -150, -149, -131, -129, -109, -105, -85, -78, -58, -49, -30}
+TEST 24 END
+
+TEST 25 BEGIN
+$ echo 928173894562168549| python3 quiz_5.py
+Input a nonnegative integer: 928173894562168549
+The encoded set is: {-30, -28, -27, -24, -22, -19, -18, -14, -13, -11, -10, -9, -7, -6, -5, -4, -3, 0, 1, 3, 5, 6, 8, 12, 15, 16, 17, 18, 20, 24, 27, 29}
+The derived set is encoded as: 2077942073643810418493472079609194506977892208488210853456758084614837939511812050583338447112895565576775454112450426912567803716174855610174806163456
+It is: {-250, -249, -247, -246, -243, -241, -238, -235, -232, -227, -225, -216, -215, -206, -200, -195, -184, -182, -168, -167, -150, -149, -131, -129, -109, -105, -85, -78, -58, -49, -30}
+TEST 25 END
+

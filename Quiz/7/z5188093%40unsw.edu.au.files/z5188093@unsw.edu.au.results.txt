@@ -1,0 +1,16 @@
+Test 1 ... passed	0.25
+Test 2 ... passed	0.25
+Test 3 ... passed	0.25
+Test 4 ... passed	0.25
+Test 5 ... passed	0.25
+Test 6 ... passed	0.25
+Test 7 ... passed	0.25
+Test 8 ... passed	0.25
+Test 9 ... passed	0.25
+Test 10 ... failed	0
+
+Penalty       	
+
+Bonus         	
+
+Total mark    	2.25

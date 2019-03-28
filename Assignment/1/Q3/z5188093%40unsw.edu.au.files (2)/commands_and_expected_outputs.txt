@@ -1,0 +1,110 @@
+TEST 1 BEGIN
+$ echo -e 'not_a_file' | python3 cable_car.py
+Please enter the name of the file you want to get data from: not_a_file
+Sorry, there is no such file.
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo -e 'cable_car_wrong_1.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_wrong_1.txt
+Sorry, input file does not store valid data.
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo -e 'cable_car_wrong_2.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_wrong_2.txt
+Sorry, input file does not store valid data.
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo -e 'cable_car_wrong_3.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_wrong_3.txt
+Sorry, input file does not store valid data.
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo -e 'cable_car_wrong_4.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_wrong_4.txt
+Sorry, input file does not store valid data.
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo -e 'cable_car_1.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_1.txt
+The ride is perfect!
+The longest good ride has a length of: 1
+The minimal number of pillars to remove to build a perfect ride from the rest is: 0
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo -e 'cable_car_2.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_2.txt
+The ride is perfect!
+The longest good ride has a length of: 4
+The minimal number of pillars to remove to build a perfect ride from the rest is: 0
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo -e 'cable_car_3.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_3.txt
+The ride could be better...
+The longest good ride has a length of: 2
+The minimal number of pillars to remove to build a perfect ride from the rest is: 5
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo -e 'cable_car_4.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_4.txt
+The ride could be better...
+The longest good ride has a length of: 2
+The minimal number of pillars to remove to build a perfect ride from the rest is: 6
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo -e 'cable_car_5.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_5.txt
+The ride could be better...
+The longest good ride has a length of: 6
+The minimal number of pillars to remove to build a perfect ride from the rest is: 9
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo -e 'cable_car_6.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_6.txt
+The ride could be better...
+The longest good ride has a length of: 3
+The minimal number of pillars to remove to build a perfect ride from the rest is: 26
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo -e 'cable_car_7.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_7.txt
+The ride could be better...
+The longest good ride has a length of: 2
+The minimal number of pillars to remove to build a perfect ride from the rest is: 68
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo -e 'cable_car_8.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_8.txt
+The ride could be better...
+The longest good ride has a length of: 8
+The minimal number of pillars to remove to build a perfect ride from the rest is: 125
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo -e 'cable_car_9.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_9.txt
+The ride could be better...
+The longest good ride has a length of: 4
+The minimal number of pillars to remove to build a perfect ride from the rest is: 411
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo -e 'cable_car_10.txt' | python3 cable_car.py
+Please enter the name of the file you want to get data from: cable_car_10.txt
+The ride could be better...
+The longest good ride has a length of: 993
+The minimal number of pillars to remove to build a perfect ride from the rest is: 1330
+TEST 15 END
+

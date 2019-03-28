@@ -1,0 +1,3395 @@
+TEST 1 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(23, 1, 30))"
+Here is L: [29]
+The decomposition of L into increasing sublists is: [[29]]
+None
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(24, 2, 30))"
+Here is L: [22, 12]
+The decomposition of L into increasing sublists is: [[22], [12]]
+None
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(25, 3, 30))"
+Here is L: [12, 24, 29]
+The decomposition of L into increasing sublists is: [[12, 24, 29]]
+None
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(26, 4, 30))"
+Here is L: [23, 29, 6, 21]
+The decomposition of L into increasing sublists is: [[23, 29], [6, 21]]
+None
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(27, 5, 30))"
+Here is L: [20, 15, 22, 8, 30]
+The decomposition of L into increasing sublists is: [[20], [15, 22], [8, 30]]
+None
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(28, 7, 60))"
+Here is L: [7, 47, 8, 34, 38, 45, 11]
+The decomposition of L into increasing sublists is: [[7, 47], [8, 34, 38, 45], [11]]
+None
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(29, 8, 60))"
+Here is L: [35, 4, 22, 38, 54, 38, 18, 5]
+The decomposition of L into increasing sublists is: [[35], [4, 22, 38, 54], [38], [18], [5]]
+None
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(30, 9, 60))"
+Here is L: [34, 51, 18, 39, 1, 39, 41, 52, 13]
+The decomposition of L into increasing sublists is: [[34, 51], [18, 39], [1, 39, 41, 52], [13]]
+None
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(31, 14, 60))"
+Here is L: [0, 30, 7, 48, 25, 9, 43, 2, 8, 60, 7, 34, 14, 45]
+The decomposition of L into increasing sublists is: [[0, 30], [7, 48], [25], [9, 43], [2, 8, 60], [7, 34], [14, 45]]
+None
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(32, 19, 60))"
+Here is L: [4, 59, 13, 9, 19, 44, 57, 15, 31, 1, 46, 2, 6, 20, 32, 21, 53, 3, 33]
+The decomposition of L into increasing sublists is: [[4, 59], [13], [9, 19, 44, 57], [15, 31], [1, 46], [2, 6, 20, 32], [21, 53], [3, 33]]
+None
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(33, 25, 60))"
+Here is L: [36, 10, 40, 14, 52, 53, 17, 30, 41, 56, 57, 34, 58, 33, 11, 41, 57, 39, 60, 32, 20, 43, 33, 30, 28]
+The decomposition of L into increasing sublists is: [[36], [10, 40], [14, 52, 53], [17, 30, 41, 56, 57], [34, 58], [33], [11, 41, 57], [39, 60], [32], [20, 43], [33], [30], [28]]
+None
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(34, 30, 100))"
+Here is L: [67, 45, 74, 3, 29, 3, 49, 46, 8, 54, 39, 43, 12, 74, 65, 19, 12, 35, 44, 78, 0, 99, 19, 96, 67, 11, 7, 47, 32, 94]
+The decomposition of L into increasing sublists is: [[67], [45, 74], [3, 29], [3, 49], [46], [8, 54], [39, 43], [12, 74], [65], [19], [12, 35, 44, 78], [0, 99], [19, 96], [67], [11], [7, 47], [32, 94]]
+None
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(35, 41, 100))"
+Here is L: [70, 42, 96, 16, 95, 43, 19, 36, 55, 32, 72, 7, 95, 67, 96, 35, 83, 46, 91, 74, 96, 12, 46, 1, 65, 1, 12, 92, 63, 47, 93, 3, 43, 86, 63, 6, 2, 30, 41, 10, 20]
+The decomposition of L into increasing sublists is: [[70], [42, 96], [16, 95], [43], [19, 36, 55], [32, 72], [7, 95], [67, 96], [35, 83], [46, 91], [74, 96], [12, 46], [1, 65], [1, 12, 92], [63], [47, 93], [3, 43, 86], [63], [6], [2, 30, 41], [10, 20]]
+None
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(36, 56, 100))"
+Here is L: [42, 7, 2, 36, 10, 0, 64, 80, 22, 31, 34, 93, 83, 55, 46, 71, 34, 69, 9, 73, 52, 62, 49, 44, 96, 50, 31, 50, 21, 15, 65, 63, 89, 97, 26, 67, 37, 23, 62, 90, 75, 41, 91, 70, 21, 0, 76, 49, 63, 17, 96, 27, 53, 47, 26, 63]
+The decomposition of L into increasing sublists is: [[42], [7], [2, 36], [10], [0, 64, 80], [22, 31, 34, 93], [83], [55], [46, 71], [34, 69], [9, 73], [52, 62], [49], [44, 96], [50], [31, 50], [21], [15, 65], [63, 89, 97], [26, 67], [37], [23, 62, 90], [75], [41, 91], [70], [21], [0, 76], [49, 63], [17, 96], [27, 53], [47], [26, 63]]
+None
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 -c "from exercise_1 import * ; print(f(37, 81, 100))"
+Here is L: [87, 77, 11, 79, 85, 95, 81, 65, 4, 80, 47, 56, 67, 13, 87, 58, 76, 36, 48, 94, 54, 56, 18, 6, 11, 52, 9, 69, 36, 46, 82, 90, 55, 75, 72, 46, 81, 90, 73, 4, 67, 79, 27, 64, 53, 8, 1, 0, 83, 65, 46, 8, 90, 74, 28, 3, 41, 45, 67, 20, 2, 93, 1, 27, 94, 92, 39, 89, 29, 65, 83, 38, 79, 5, 36, 34, 91, 26, 61, 18, 27]
+The decomposition of L into increasing sublists is: [[87], [77], [11, 79, 85, 95], [81], [65], [4, 80], [47, 56, 67], [13, 87], [58, 76], [36, 48, 94], [54, 56], [18], [6, 11, 52], [9, 69], [36, 46, 82, 90], [55, 75], [72], [46, 81, 90], [73], [4, 67, 79], [27, 64], [53], [8], [1], [0, 83], [65], [46], [8, 90], [74], [28], [3, 41, 45, 67], [20], [2, 93], [1, 27, 94], [92], [39, 89], [29, 65, 83], [38, 79], [5, 36], [34, 91], [26, 61], [18, 27]]
+None
+TEST 15 END
+
+TEST 16 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(23, 2, 6))"
+Here is L: [994685, 10]
+List members of length 2 with no successive occurrences of the same digit:
+    10
+None
+TEST 16 END
+
+TEST 17 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(24, 3, 5))"
+Here is L: [50182, 2991, 2]
+List members of length 1 with no successive occurrences of the same digit:
+    2
+List members of length 5 with no successive occurrences of the same digit:
+    50182
+None
+TEST 17 END
+
+TEST 18 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(25, 4, 4))"
+Here is L: [786, 0, 81, 43]
+List members of length 1 with no successive occurrences of the same digit:
+    0
+List members of length 2 with no successive occurrences of the same digit:
+    81 43
+List members of length 3 with no successive occurrences of the same digit:
+    786
+None
+TEST 18 END
+
+TEST 19 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(26, 5, 5))"
+Here is L: [26575, 26890, 615, 929, 7]
+List members of length 1 with no successive occurrences of the same digit:
+    7
+List members of length 3 with no successive occurrences of the same digit:
+    615 929
+List members of length 5 with no successive occurrences of the same digit:
+    26575 26890
+None
+TEST 19 END
+
+TEST 20 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(26, 6, 3))"
+Here is L: [3, 615, 0, 42, 6, 6]
+List members of length 1 with no successive occurrences of the same digit:
+    3 0 6 6
+List members of length 2 with no successive occurrences of the same digit:
+    42
+List members of length 3 with no successive occurrences of the same digit:
+    615
+None
+TEST 20 END
+
+TEST 21 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(27, 7, 6))"
+Here is L: [62899, 36335, 25, 0, 69, 32, 51]
+List members of length 1 with no successive occurrences of the same digit:
+    0
+List members of length 2 with no successive occurrences of the same digit:
+    25 69 32 51
+None
+TEST 21 END
+
+TEST 22 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(28, 8, 4))"
+Here is L: [0, 9785, 3, 7, 215, 2, 166, 9]
+List members of length 1 with no successive occurrences of the same digit:
+    0 3 7 2 9
+List members of length 3 with no successive occurrences of the same digit:
+    215
+List members of length 4 with no successive occurrences of the same digit:
+    9785
+None
+TEST 22 END
+
+TEST 23 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(29, 9, 7))"
+Here is L: [5, 1421, 51500, 19558, 0, 3771645, 11209, 5524719, 876693]
+List members of length 1 with no successive occurrences of the same digit:
+    5 0
+List members of length 4 with no successive occurrences of the same digit:
+    1421
+None
+TEST 23 END
+
+TEST 24 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(30, 10, 6))"
+Here is L: [4738, 492, 3440, 6, 385, 17572, 0, 0, 0, 9]
+List members of length 1 with no successive occurrences of the same digit:
+    6 0 0 0 9
+List members of length 3 with no successive occurrences of the same digit:
+    492 385
+List members of length 4 with no successive occurrences of the same digit:
+    4738
+List members of length 5 with no successive occurrences of the same digit:
+    17572
+None
+TEST 24 END
+
+TEST 25 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(31, 11, 5))"
+Here is L: [0, 0, 0, 1, 3797, 99299, 2, 4340, 7945, 3, 7335]
+List members of length 1 with no successive occurrences of the same digit:
+    0 0 0 1 2 3
+List members of length 4 with no successive occurrences of the same digit:
+    3797 4340 7945
+None
+TEST 25 END
+
+TEST 26 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(32, 11, 9))"
+Here is L: [3, 38, 508, 0, 5, 44337631, 0, 78802, 0, 1263101, 3405188]
+List members of length 1 with no successive occurrences of the same digit:
+    3 0 5 0 0
+List members of length 2 with no successive occurrences of the same digit:
+    38
+List members of length 3 with no successive occurrences of the same digit:
+    508
+List members of length 7 with no successive occurrences of the same digit:
+    1263101
+None
+TEST 26 END
+
+TEST 27 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(33, 12, 5))"
+Here is L: [2740, 30568, 61, 69818, 3055, 80886, 5259, 69240, 455, 86, 9276, 52]
+List members of length 2 with no successive occurrences of the same digit:
+    61 86 52
+List members of length 4 with no successive occurrences of the same digit:
+    2740 5259 9276
+List members of length 5 with no successive occurrences of the same digit:
+    30568 69818 69240
+None
+TEST 27 END
+
+TEST 28 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(34, 15, 7))"
+Here is L: [76775, 0, 0, 8463, 321056, 12390, 12, 5686, 0, 0, 33451, 0, 75, 4783, 329097]
+List members of length 1 with no successive occurrences of the same digit:
+    0 0 0 0 0
+List members of length 2 with no successive occurrences of the same digit:
+    12 75
+List members of length 4 with no successive occurrences of the same digit:
+    8463 5686 4783
+List members of length 5 with no successive occurrences of the same digit:
+    12390
+List members of length 6 with no successive occurrences of the same digit:
+    321056 329097
+None
+TEST 28 END
+
+TEST 29 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(35, 20, 6))"
+Here is L: [5494, 138124, 44625, 161531, 55, 72, 0, 48053, 752190, 1584, 1, 184, 0, 93, 0, 65034, 0, 5, 0, 21]
+List members of length 1 with no successive occurrences of the same digit:
+    0 1 0 0 0 5 0
+List members of length 2 with no successive occurrences of the same digit:
+    72 93 21
+List members of length 3 with no successive occurrences of the same digit:
+    184
+List members of length 4 with no successive occurrences of the same digit:
+    5494 1584
+List members of length 5 with no successive occurrences of the same digit:
+    48053 65034
+List members of length 6 with no successive occurrences of the same digit:
+    138124 161531 752190
+None
+TEST 29 END
+
+TEST 30 BEGIN
+$ python3 -c "from exercise_2 import * ; print(f(36, 30, 8))"
+Here is L: [7650, 0, 0, 84153046, 31, 7084, 73411, 8892, 9, 867530, 6542421, 99131, 932460, 401, 15, 66758255, 536, 3022, 9953872, 93490, 22614859, 0, 2325668, 427, 27284, 4298105, 0, 62054190, 39723375, 1417957]
+List members of length 1 with no successive occurrences of the same digit:
+    0 0 9 0 0
+List members of length 2 with no successive occurrences of the same digit:
+    31 15
+List members of length 3 with no successive occurrences of the same digit:
+    401 536 427
+List members of length 4 with no successive occurrences of the same digit:
+    7650 7084
+List members of length 5 with no successive occurrences of the same digit:
+    93490 27284
+List members of length 6 with no successive occurrences of the same digit:
+    867530 932460
+List members of length 7 with no successive occurrences of the same digit:
+    6542421 4298105 1417957
+List members of length 8 with no successive occurrences of the same digit:
+    84153046 62054190
+None
+TEST 30 END
+
+TEST 31 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(1))"
+1 factorial is 1
+It has 1 digit, the trailing 0's excepted
+None
+TEST 31 END
+
+TEST 32 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(8))"
+8 factorial is 40320
+It has 4 digits, the trailing 0's excepted
+None
+TEST 32 END
+
+TEST 33 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(12))"
+12 factorial is 479001600
+It has 7 digits, the trailing 0's excepted
+None
+TEST 33 END
+
+TEST 34 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(15))"
+15 factorial is 1307674368000
+It has 10 digits, the trailing 0's excepted
+None
+TEST 34 END
+
+TEST 35 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(18))"
+18 factorial is 6402373705728000
+It has 13 digits, the trailing 0's excepted
+None
+TEST 35 END
+
+TEST 36 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(22))"
+22 factorial is 1124000727777607680000
+It has 18 digits, the trailing 0's excepted
+None
+TEST 36 END
+
+TEST 37 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(25))"
+25 factorial is 15511210043330985984000000
+It has 20 digits, the trailing 0's excepted
+None
+TEST 37 END
+
+TEST 38 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(28))"
+28 factorial is 304888344611713860501504000000
+It has 24 digits, the trailing 0's excepted
+None
+TEST 38 END
+
+TEST 39 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(32))"
+32 factorial is 263130836933693530167218012160000000
+It has 29 digits, the trailing 0's excepted
+None
+TEST 39 END
+
+TEST 40 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(37))"
+37 factorial is 13763753091226345046315979581580902400000000
+It has 36 digits, the trailing 0's excepted
+None
+TEST 40 END
+
+TEST 41 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(41))"
+41 factorial is 33452526613163807108170062053440751665152000000000
+It has 41 digits, the trailing 0's excepted
+None
+TEST 41 END
+
+TEST 42 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(44))"
+44 factorial is 2658271574788448768043625811014615890319638528000000000
+It has 46 digits, the trailing 0's excepted
+None
+TEST 42 END
+
+TEST 43 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(49))"
+49 factorial is 608281864034267560872252163321295376887552831379210240000000000
+It has 53 digits, the trailing 0's excepted
+None
+TEST 43 END
+
+TEST 44 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(52))"
+52 factorial is 80658175170943878571660636856403766975289505440883277824000000000000
+It has 56 digits, the trailing 0's excepted
+None
+TEST 44 END
+
+TEST 45 BEGIN
+$ python3 -c "from exercise_3 import * ; print(f(53))"
+53 factorial is 4274883284060025564298013753389399649690343788366813724672000000000000
+It has 58 digits, the trailing 0's excepted
+None
+TEST 45 END
+
+TEST 46 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(141))"
+None
+TEST 46 END
+
+TEST 47 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(200))"
+None
+TEST 47 END
+
+TEST 48 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(1100))"
+None
+TEST 48 END
+
+TEST 49 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(1600))"
+None
+TEST 49 END
+
+TEST 50 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(1650))"
+None
+TEST 50 END
+
+TEST 51 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(1930))"
+None
+TEST 51 END
+
+TEST 52 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(2030))"
+None
+TEST 52 END
+
+TEST 53 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(2300))"
+None
+TEST 53 END
+
+TEST 54 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(5600))"
+None
+TEST 54 END
+
+TEST 55 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(5780))"
+None
+TEST 55 END
+
+TEST 56 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(6130))"
+None
+TEST 56 END
+
+TEST 57 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(890))"
+None
+TEST 57 END
+
+TEST 58 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(1060))"
+None
+TEST 58 END
+
+TEST 59 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(1600))"
+None
+TEST 59 END
+
+TEST 60 BEGIN
+$ python3 -c "from exercise_4 import * ; print(f(3000))"
+None
+TEST 60 END
+
+TEST 61 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(40, 80))"
+The maximum gap between successive prime numbers in that interval is 5
+None
+TEST 61 END
+
+TEST 62 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(81, 204))"
+The maximum gap between successive prime numbers in that interval is 13
+None
+TEST 62 END
+
+TEST 63 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(440, 540))"
+The maximum gap between successive prime numbers in that interval is 11
+None
+TEST 63 END
+
+TEST 64 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(180, 677))"
+The maximum gap between successive prime numbers in that interval is 17
+None
+TEST 64 END
+
+TEST 65 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(250, 1300))"
+The maximum gap between successive prime numbers in that interval is 21
+None
+TEST 65 END
+
+TEST 66 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(320, 1700))"
+The maximum gap between successive prime numbers in that interval is 33
+None
+TEST 66 END
+
+TEST 67 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(489, 23986))"
+The maximum gap between successive prime numbers in that interval is 51
+None
+TEST 67 END
+
+TEST 68 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(5435, 9835))"
+The maximum gap between successive prime numbers in that interval is 35
+None
+TEST 68 END
+
+TEST 69 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(19345, 87234))"
+Max running time exceeded, program killed
+TEST 69 END
+
+TEST 70 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(43456, 62045))"
+Max running time exceeded, program killed
+TEST 70 END
+
+TEST 71 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(344245, 782345))"
+Max running time exceeded, program killed
+TEST 71 END
+
+TEST 72 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(54256, 223404))"
+Max running time exceeded, program killed
+TEST 72 END
+
+TEST 73 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(4536672, 5692345))"
+Max running time exceeded, program killed
+TEST 73 END
+
+TEST 74 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(236672, 1692345))"
+Max running time exceeded, program killed
+TEST 74 END
+
+TEST 75 BEGIN
+$ python3 -c "from exercise_5 import * ; print(f(7777777, 9999999))"
+Max running time exceeded, program killed
+TEST 75 END
+
+TEST 76 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(20, 30))"
+23 and 24 with 23 as average
+23 and 26 with 24 as average
+23 and 28 with 25 as average
+24 and 25 with 24 as average
+24 and 27 with 25 as average
+24 and 29 with 26 as average
+25 and 26 with 25 as average
+25 and 28 with 26 as average
+26 and 27 with 26 as average
+26 and 29 with 27 as average
+27 and 28 with 27 as average
+28 and 29 with 28 as average
+None
+TEST 76 END
+
+TEST 77 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(25, 31))"
+25 and 26 with 25 as average
+25 and 28 with 26 as average
+26 and 27 with 26 as average
+26 and 29 with 27 as average
+27 and 28 with 27 as average
+28 and 29 with 28 as average
+None
+TEST 77 END
+
+TEST 78 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(35, 42))"
+35 and 36 with 35 as average
+35 and 38 with 36 as average
+36 and 37 with 36 as average
+36 and 39 with 37 as average
+37 and 38 with 37 as average
+38 and 39 with 38 as average
+None
+TEST 78 END
+
+TEST 79 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(70, 127))"
+78 and 79 with 78 as average
+78 and 89 with 83 as average
+78 and 123 with 100 as average
+79 and 122 with 100 as average
+122 and 123 with 122 as average
+122 and 125 with 123 as average
+122 and 127 with 124 as average
+123 and 124 with 123 as average
+123 and 126 with 124 as average
+124 and 125 with 124 as average
+124 and 127 with 125 as average
+125 and 126 with 125 as average
+126 and 127 with 126 as average
+None
+TEST 79 END
+
+TEST 80 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(100, 220))"
+122 and 123 with 122 as average
+122 and 125 with 123 as average
+122 and 127 with 124 as average
+122 and 129 with 125 as average
+122 and 133 with 127 as average
+122 and 135 with 128 as average
+122 and 137 with 129 as average
+122 and 143 with 132 as average
+122 and 145 with 133 as average
+122 and 147 with 134 as average
+122 and 149 with 135 as average
+122 and 153 with 137 as average
+122 and 155 with 138 as average
+122 and 157 with 139 as average
+122 and 163 with 142 as average
+122 and 165 with 143 as average
+122 and 167 with 144 as average
+122 and 169 with 145 as average
+122 and 173 with 147 as average
+122 and 175 with 148 as average
+122 and 177 with 149 as average
+122 and 183 with 152 as average
+122 and 185 with 153 as average
+122 and 187 with 154 as average
+122 and 189 with 155 as average
+122 and 193 with 157 as average
+122 and 195 with 158 as average
+122 and 197 with 159 as average
+123 and 124 with 123 as average
+123 and 126 with 124 as average
+123 and 128 with 125 as average
+123 and 132 with 127 as average
+123 and 134 with 128 as average
+123 and 136 with 129 as average
+123 and 142 with 132 as average
+123 and 144 with 133 as average
+123 and 146 with 134 as average
+123 and 148 with 135 as average
+123 and 152 with 137 as average
+123 and 154 with 138 as average
+123 and 156 with 139 as average
+123 and 162 with 142 as average
+123 and 164 with 143 as average
+123 and 166 with 144 as average
+123 and 168 with 145 as average
+123 and 172 with 147 as average
+123 and 174 with 148 as average
+123 and 176 with 149 as average
+123 and 182 with 152 as average
+123 and 184 with 153 as average
+123 and 186 with 154 as average
+123 and 188 with 155 as average
+123 and 192 with 157 as average
+123 and 194 with 158 as average
+123 and 196 with 159 as average
+124 and 125 with 124 as average
+124 and 127 with 125 as average
+124 and 129 with 126 as average
+124 and 133 with 128 as average
+124 and 135 with 129 as average
+124 and 139 with 131 as average
+124 and 143 with 133 as average
+124 and 145 with 134 as average
+124 and 147 with 135 as average
+124 and 149 with 136 as average
+124 and 153 with 138 as average
+124 and 155 with 139 as average
+124 and 159 with 141 as average
+124 and 163 with 143 as average
+124 and 165 with 144 as average
+124 and 167 with 145 as average
+124 and 169 with 146 as average
+124 and 173 with 148 as average
+124 and 175 with 149 as average
+124 and 179 with 151 as average
+124 and 183 with 153 as average
+124 and 185 with 154 as average
+124 and 187 with 155 as average
+124 and 189 with 156 as average
+124 and 193 with 158 as average
+124 and 195 with 159 as average
+124 and 199 with 161 as average
+125 and 126 with 125 as average
+125 and 128 with 126 as average
+125 and 132 with 128 as average
+125 and 134 with 129 as average
+125 and 138 with 131 as average
+125 and 142 with 133 as average
+125 and 144 with 134 as average
+125 and 146 with 135 as average
+125 and 148 with 136 as average
+125 and 152 with 138 as average
+125 and 154 with 139 as average
+125 and 158 with 141 as average
+125 and 162 with 143 as average
+125 and 164 with 144 as average
+125 and 166 with 145 as average
+125 and 168 with 146 as average
+125 and 172 with 148 as average
+125 and 174 with 149 as average
+125 and 178 with 151 as average
+125 and 182 with 153 as average
+125 and 184 with 154 as average
+125 and 186 with 155 as average
+125 and 188 with 156 as average
+125 and 192 with 158 as average
+125 and 194 with 159 as average
+125 and 198 with 161 as average
+126 and 127 with 126 as average
+126 and 129 with 127 as average
+126 and 133 with 129 as average
+126 and 137 with 131 as average
+126 and 139 with 132 as average
+126 and 143 with 134 as average
+126 and 145 with 135 as average
+126 and 147 with 136 as average
+126 and 149 with 137 as average
+126 and 153 with 139 as average
+126 and 157 with 141 as average
+126 and 159 with 142 as average
+126 and 163 with 144 as average
+126 and 165 with 145 as average
+126 and 167 with 146 as average
+126 and 169 with 147 as average
+126 and 173 with 149 as average
+126 and 177 with 151 as average
+126 and 179 with 152 as average
+126 and 183 with 154 as average
+126 and 185 with 155 as average
+126 and 187 with 156 as average
+126 and 189 with 157 as average
+126 and 193 with 159 as average
+126 and 197 with 161 as average
+126 and 199 with 162 as average
+127 and 128 with 127 as average
+127 and 132 with 129 as average
+127 and 136 with 131 as average
+127 and 138 with 132 as average
+127 and 142 with 134 as average
+127 and 144 with 135 as average
+127 and 146 with 136 as average
+127 and 148 with 137 as average
+127 and 152 with 139 as average
+127 and 156 with 141 as average
+127 and 158 with 142 as average
+127 and 162 with 144 as average
+127 and 164 with 145 as average
+127 and 166 with 146 as average
+127 and 168 with 147 as average
+127 and 172 with 149 as average
+127 and 176 with 151 as average
+127 and 178 with 152 as average
+127 and 182 with 154 as average
+127 and 184 with 155 as average
+127 and 186 with 156 as average
+127 and 188 with 157 as average
+127 and 192 with 159 as average
+127 and 196 with 161 as average
+127 and 198 with 162 as average
+128 and 129 with 128 as average
+128 and 135 with 131 as average
+128 and 137 with 132 as average
+128 and 139 with 133 as average
+128 and 143 with 135 as average
+128 and 145 with 136 as average
+128 and 147 with 137 as average
+128 and 149 with 138 as average
+128 and 155 with 141 as average
+128 and 157 with 142 as average
+128 and 159 with 143 as average
+128 and 163 with 145 as average
+128 and 165 with 146 as average
+128 and 167 with 147 as average
+128 and 169 with 148 as average
+128 and 175 with 151 as average
+128 and 177 with 152 as average
+128 and 179 with 153 as average
+128 and 183 with 155 as average
+128 and 185 with 156 as average
+128 and 187 with 157 as average
+128 and 189 with 158 as average
+128 and 195 with 161 as average
+128 and 197 with 162 as average
+128 and 199 with 163 as average
+129 and 134 with 131 as average
+129 and 136 with 132 as average
+129 and 138 with 133 as average
+129 and 142 with 135 as average
+129 and 144 with 136 as average
+129 and 146 with 137 as average
+129 and 148 with 138 as average
+129 and 154 with 141 as average
+129 and 156 with 142 as average
+129 and 158 with 143 as average
+129 and 162 with 145 as average
+129 and 164 with 146 as average
+129 and 166 with 147 as average
+129 and 168 with 148 as average
+129 and 174 with 151 as average
+129 and 176 with 152 as average
+129 and 178 with 153 as average
+129 and 182 with 155 as average
+129 and 184 with 156 as average
+129 and 186 with 157 as average
+129 and 188 with 158 as average
+129 and 194 with 161 as average
+129 and 196 with 162 as average
+129 and 198 with 163 as average
+132 and 133 with 132 as average
+132 and 135 with 133 as average
+132 and 137 with 134 as average
+132 and 139 with 135 as average
+132 and 143 with 137 as average
+132 and 145 with 138 as average
+132 and 147 with 139 as average
+132 and 153 with 142 as average
+132 and 155 with 143 as average
+132 and 157 with 144 as average
+132 and 159 with 145 as average
+132 and 163 with 147 as average
+132 and 165 with 148 as average
+132 and 167 with 149 as average
+132 and 173 with 152 as average
+132 and 175 with 153 as average
+132 and 177 with 154 as average
+132 and 179 with 155 as average
+132 and 183 with 157 as average
+132 and 185 with 158 as average
+132 and 187 with 159 as average
+132 and 193 with 162 as average
+132 and 195 with 163 as average
+132 and 197 with 164 as average
+132 and 199 with 165 as average
+133 and 134 with 133 as average
+133 and 136 with 134 as average
+133 and 138 with 135 as average
+133 and 142 with 137 as average
+133 and 144 with 138 as average
+133 and 146 with 139 as average
+133 and 152 with 142 as average
+133 and 154 with 143 as average
+133 and 156 with 144 as average
+133 and 158 with 145 as average
+133 and 162 with 147 as average
+133 and 164 with 148 as average
+133 and 166 with 149 as average
+133 and 172 with 152 as average
+133 and 174 with 153 as average
+133 and 176 with 154 as average
+133 and 178 with 155 as average
+133 and 182 with 157 as average
+133 and 184 with 158 as average
+133 and 186 with 159 as average
+133 and 192 with 162 as average
+133 and 194 with 163 as average
+133 and 196 with 164 as average
+133 and 198 with 165 as average
+134 and 135 with 134 as average
+134 and 137 with 135 as average
+134 and 139 with 136 as average
+134 and 143 with 138 as average
+134 and 145 with 139 as average
+134 and 149 with 141 as average
+134 and 153 with 143 as average
+134 and 155 with 144 as average
+134 and 157 with 145 as average
+134 and 159 with 146 as average
+134 and 163 with 148 as average
+134 and 165 with 149 as average
+134 and 169 with 151 as average
+134 and 173 with 153 as average
+134 and 175 with 154 as average
+134 and 177 with 155 as average
+134 and 179 with 156 as average
+134 and 183 with 158 as average
+134 and 185 with 159 as average
+134 and 189 with 161 as average
+134 and 193 with 163 as average
+134 and 195 with 164 as average
+134 and 197 with 165 as average
+134 and 199 with 166 as average
+135 and 136 with 135 as average
+135 and 138 with 136 as average
+135 and 142 with 138 as average
+135 and 144 with 139 as average
+135 and 148 with 141 as average
+135 and 152 with 143 as average
+135 and 154 with 144 as average
+135 and 156 with 145 as average
+135 and 158 with 146 as average
+135 and 162 with 148 as average
+135 and 164 with 149 as average
+135 and 168 with 151 as average
+135 and 172 with 153 as average
+135 and 174 with 154 as average
+135 and 176 with 155 as average
+135 and 178 with 156 as average
+135 and 182 with 158 as average
+135 and 184 with 159 as average
+135 and 188 with 161 as average
+135 and 192 with 163 as average
+135 and 194 with 164 as average
+135 and 196 with 165 as average
+135 and 198 with 166 as average
+136 and 137 with 136 as average
+136 and 139 with 137 as average
+136 and 143 with 139 as average
+136 and 147 with 141 as average
+136 and 149 with 142 as average
+136 and 153 with 144 as average
+136 and 155 with 145 as average
+136 and 157 with 146 as average
+136 and 159 with 147 as average
+136 and 163 with 149 as average
+136 and 167 with 151 as average
+136 and 169 with 152 as average
+136 and 173 with 154 as average
+136 and 175 with 155 as average
+136 and 177 with 156 as average
+136 and 179 with 157 as average
+136 and 183 with 159 as average
+136 and 187 with 161 as average
+136 and 189 with 162 as average
+136 and 193 with 164 as average
+136 and 195 with 165 as average
+136 and 197 with 166 as average
+136 and 199 with 167 as average
+137 and 138 with 137 as average
+137 and 142 with 139 as average
+137 and 146 with 141 as average
+137 and 148 with 142 as average
+137 and 152 with 144 as average
+137 and 154 with 145 as average
+137 and 156 with 146 as average
+137 and 158 with 147 as average
+137 and 162 with 149 as average
+137 and 166 with 151 as average
+137 and 168 with 152 as average
+137 and 172 with 154 as average
+137 and 174 with 155 as average
+137 and 176 with 156 as average
+137 and 178 with 157 as average
+137 and 182 with 159 as average
+137 and 186 with 161 as average
+137 and 188 with 162 as average
+137 and 192 with 164 as average
+137 and 194 with 165 as average
+137 and 196 with 166 as average
+137 and 198 with 167 as average
+138 and 139 with 138 as average
+138 and 145 with 141 as average
+138 and 147 with 142 as average
+138 and 149 with 143 as average
+138 and 153 with 145 as average
+138 and 155 with 146 as average
+138 and 157 with 147 as average
+138 and 159 with 148 as average
+138 and 165 with 151 as average
+138 and 167 with 152 as average
+138 and 169 with 153 as average
+138 and 173 with 155 as average
+138 and 175 with 156 as average
+138 and 177 with 157 as average
+138 and 179 with 158 as average
+138 and 185 with 161 as average
+138 and 187 with 162 as average
+138 and 189 with 163 as average
+138 and 193 with 165 as average
+138 and 195 with 166 as average
+138 and 197 with 167 as average
+138 and 199 with 168 as average
+139 and 144 with 141 as average
+139 and 146 with 142 as average
+139 and 148 with 143 as average
+139 and 152 with 145 as average
+139 and 154 with 146 as average
+139 and 156 with 147 as average
+139 and 158 with 148 as average
+139 and 164 with 151 as average
+139 and 166 with 152 as average
+139 and 168 with 153 as average
+139 and 172 with 155 as average
+139 and 174 with 156 as average
+139 and 176 with 157 as average
+139 and 178 with 158 as average
+139 and 184 with 161 as average
+139 and 186 with 162 as average
+139 and 188 with 163 as average
+139 and 192 with 165 as average
+139 and 194 with 166 as average
+139 and 196 with 167 as average
+139 and 198 with 168 as average
+142 and 143 with 142 as average
+142 and 145 with 143 as average
+142 and 147 with 144 as average
+142 and 149 with 145 as average
+142 and 153 with 147 as average
+142 and 155 with 148 as average
+142 and 157 with 149 as average
+142 and 163 with 152 as average
+142 and 165 with 153 as average
+142 and 167 with 154 as average
+142 and 169 with 155 as average
+142 and 173 with 157 as average
+142 and 175 with 158 as average
+142 and 177 with 159 as average
+142 and 183 with 162 as average
+142 and 185 with 163 as average
+142 and 187 with 164 as average
+142 and 189 with 165 as average
+142 and 193 with 167 as average
+142 and 195 with 168 as average
+142 and 197 with 169 as average
+143 and 144 with 143 as average
+143 and 146 with 144 as average
+143 and 148 with 145 as average
+143 and 152 with 147 as average
+143 and 154 with 148 as average
+143 and 156 with 149 as average
+143 and 162 with 152 as average
+143 and 164 with 153 as average
+143 and 166 with 154 as average
+143 and 168 with 155 as average
+143 and 172 with 157 as average
+143 and 174 with 158 as average
+143 and 176 with 159 as average
+143 and 182 with 162 as average
+143 and 184 with 163 as average
+143 and 186 with 164 as average
+143 and 188 with 165 as average
+143 and 192 with 167 as average
+143 and 194 with 168 as average
+143 and 196 with 169 as average
+144 and 145 with 144 as average
+144 and 147 with 145 as average
+144 and 149 with 146 as average
+144 and 153 with 148 as average
+144 and 155 with 149 as average
+144 and 159 with 151 as average
+144 and 163 with 153 as average
+144 and 165 with 154 as average
+144 and 167 with 155 as average
+144 and 169 with 156 as average
+144 and 173 with 158 as average
+144 and 175 with 159 as average
+144 and 179 with 161 as average
+144 and 183 with 163 as average
+144 and 185 with 164 as average
+144 and 187 with 165 as average
+144 and 189 with 166 as average
+144 and 193 with 168 as average
+144 and 195 with 169 as average
+144 and 199 with 171 as average
+145 and 146 with 145 as average
+145 and 148 with 146 as average
+145 and 152 with 148 as average
+145 and 154 with 149 as average
+145 and 158 with 151 as average
+145 and 162 with 153 as average
+145 and 164 with 154 as average
+145 and 166 with 155 as average
+145 and 168 with 156 as average
+145 and 172 with 158 as average
+145 and 174 with 159 as average
+145 and 178 with 161 as average
+145 and 182 with 163 as average
+145 and 184 with 164 as average
+145 and 186 with 165 as average
+145 and 188 with 166 as average
+145 and 192 with 168 as average
+145 and 194 with 169 as average
+145 and 198 with 171 as average
+146 and 147 with 146 as average
+146 and 149 with 147 as average
+146 and 153 with 149 as average
+146 and 157 with 151 as average
+146 and 159 with 152 as average
+146 and 163 with 154 as average
+146 and 165 with 155 as average
+146 and 167 with 156 as average
+146 and 169 with 157 as average
+146 and 173 with 159 as average
+146 and 177 with 161 as average
+146 and 179 with 162 as average
+146 and 183 with 164 as average
+146 and 185 with 165 as average
+146 and 187 with 166 as average
+146 and 189 with 167 as average
+146 and 193 with 169 as average
+146 and 197 with 171 as average
+146 and 199 with 172 as average
+147 and 148 with 147 as average
+147 and 152 with 149 as average
+147 and 156 with 151 as average
+147 and 158 with 152 as average
+147 and 162 with 154 as average
+147 and 164 with 155 as average
+147 and 166 with 156 as average
+147 and 168 with 157 as average
+147 and 172 with 159 as average
+147 and 176 with 161 as average
+147 and 178 with 162 as average
+147 and 182 with 164 as average
+147 and 184 with 165 as average
+147 and 186 with 166 as average
+147 and 188 with 167 as average
+147 and 192 with 169 as average
+147 and 196 with 171 as average
+147 and 198 with 172 as average
+148 and 149 with 148 as average
+148 and 155 with 151 as average
+148 and 157 with 152 as average
+148 and 159 with 153 as average
+148 and 163 with 155 as average
+148 and 165 with 156 as average
+148 and 167 with 157 as average
+148 and 169 with 158 as average
+148 and 175 with 161 as average
+148 and 177 with 162 as average
+148 and 179 with 163 as average
+148 and 183 with 165 as average
+148 and 185 with 166 as average
+148 and 187 with 167 as average
+148 and 189 with 168 as average
+148 and 195 with 171 as average
+148 and 197 with 172 as average
+148 and 199 with 173 as average
+149 and 154 with 151 as average
+149 and 156 with 152 as average
+149 and 158 with 153 as average
+149 and 162 with 155 as average
+149 and 164 with 156 as average
+149 and 166 with 157 as average
+149 and 168 with 158 as average
+149 and 174 with 161 as average
+149 and 176 with 162 as average
+149 and 178 with 163 as average
+149 and 182 with 165 as average
+149 and 184 with 166 as average
+149 and 186 with 167 as average
+149 and 188 with 168 as average
+149 and 194 with 171 as average
+149 and 196 with 172 as average
+149 and 198 with 173 as average
+152 and 153 with 152 as average
+152 and 155 with 153 as average
+152 and 157 with 154 as average
+152 and 159 with 155 as average
+152 and 163 with 157 as average
+152 and 165 with 158 as average
+152 and 167 with 159 as average
+152 and 173 with 162 as average
+152 and 175 with 163 as average
+152 and 177 with 164 as average
+152 and 179 with 165 as average
+152 and 183 with 167 as average
+152 and 185 with 168 as average
+152 and 187 with 169 as average
+152 and 193 with 172 as average
+152 and 195 with 173 as average
+152 and 197 with 174 as average
+152 and 199 with 175 as average
+153 and 154 with 153 as average
+153 and 156 with 154 as average
+153 and 158 with 155 as average
+153 and 162 with 157 as average
+153 and 164 with 158 as average
+153 and 166 with 159 as average
+153 and 172 with 162 as average
+153 and 174 with 163 as average
+153 and 176 with 164 as average
+153 and 178 with 165 as average
+153 and 182 with 167 as average
+153 and 184 with 168 as average
+153 and 186 with 169 as average
+153 and 192 with 172 as average
+153 and 194 with 173 as average
+153 and 196 with 174 as average
+153 and 198 with 175 as average
+154 and 155 with 154 as average
+154 and 157 with 155 as average
+154 and 159 with 156 as average
+154 and 163 with 158 as average
+154 and 165 with 159 as average
+154 and 169 with 161 as average
+154 and 173 with 163 as average
+154 and 175 with 164 as average
+154 and 177 with 165 as average
+154 and 179 with 166 as average
+154 and 183 with 168 as average
+154 and 185 with 169 as average
+154 and 189 with 171 as average
+154 and 193 with 173 as average
+154 and 195 with 174 as average
+154 and 197 with 175 as average
+154 and 199 with 176 as average
+155 and 156 with 155 as average
+155 and 158 with 156 as average
+155 and 162 with 158 as average
+155 and 164 with 159 as average
+155 and 168 with 161 as average
+155 and 172 with 163 as average
+155 and 174 with 164 as average
+155 and 176 with 165 as average
+155 and 178 with 166 as average
+155 and 182 with 168 as average
+155 and 184 with 169 as average
+155 and 188 with 171 as average
+155 and 192 with 173 as average
+155 and 194 with 174 as average
+155 and 196 with 175 as average
+155 and 198 with 176 as average
+156 and 157 with 156 as average
+156 and 159 with 157 as average
+156 and 163 with 159 as average
+156 and 167 with 161 as average
+156 and 169 with 162 as average
+156 and 173 with 164 as average
+156 and 175 with 165 as average
+156 and 177 with 166 as average
+156 and 179 with 167 as average
+156 and 183 with 169 as average
+156 and 187 with 171 as average
+156 and 189 with 172 as average
+156 and 193 with 174 as average
+156 and 195 with 175 as average
+156 and 197 with 176 as average
+156 and 199 with 177 as average
+157 and 158 with 157 as average
+157 and 162 with 159 as average
+157 and 166 with 161 as average
+157 and 168 with 162 as average
+157 and 172 with 164 as average
+157 and 174 with 165 as average
+157 and 176 with 166 as average
+157 and 178 with 167 as average
+157 and 182 with 169 as average
+157 and 186 with 171 as average
+157 and 188 with 172 as average
+157 and 192 with 174 as average
+157 and 194 with 175 as average
+157 and 196 with 176 as average
+157 and 198 with 177 as average
+158 and 159 with 158 as average
+158 and 165 with 161 as average
+158 and 167 with 162 as average
+158 and 169 with 163 as average
+158 and 173 with 165 as average
+158 and 175 with 166 as average
+158 and 177 with 167 as average
+158 and 179 with 168 as average
+158 and 185 with 171 as average
+158 and 187 with 172 as average
+158 and 189 with 173 as average
+158 and 193 with 175 as average
+158 and 195 with 176 as average
+158 and 197 with 177 as average
+158 and 199 with 178 as average
+159 and 164 with 161 as average
+159 and 166 with 162 as average
+159 and 168 with 163 as average
+159 and 172 with 165 as average
+159 and 174 with 166 as average
+159 and 176 with 167 as average
+159 and 178 with 168 as average
+159 and 184 with 171 as average
+159 and 186 with 172 as average
+159 and 188 with 173 as average
+159 and 192 with 175 as average
+159 and 194 with 176 as average
+159 and 196 with 177 as average
+159 and 198 with 178 as average
+162 and 163 with 162 as average
+162 and 165 with 163 as average
+162 and 167 with 164 as average
+162 and 169 with 165 as average
+162 and 173 with 167 as average
+162 and 175 with 168 as average
+162 and 177 with 169 as average
+162 and 183 with 172 as average
+162 and 185 with 173 as average
+162 and 187 with 174 as average
+162 and 189 with 175 as average
+162 and 193 with 177 as average
+162 and 195 with 178 as average
+162 and 197 with 179 as average
+163 and 164 with 163 as average
+163 and 166 with 164 as average
+163 and 168 with 165 as average
+163 and 172 with 167 as average
+163 and 174 with 168 as average
+163 and 176 with 169 as average
+163 and 182 with 172 as average
+163 and 184 with 173 as average
+163 and 186 with 174 as average
+163 and 188 with 175 as average
+163 and 192 with 177 as average
+163 and 194 with 178 as average
+163 and 196 with 179 as average
+164 and 165 with 164 as average
+164 and 167 with 165 as average
+164 and 169 with 166 as average
+164 and 173 with 168 as average
+164 and 175 with 169 as average
+164 and 179 with 171 as average
+164 and 183 with 173 as average
+164 and 185 with 174 as average
+164 and 187 with 175 as average
+164 and 189 with 176 as average
+164 and 193 with 178 as average
+164 and 195 with 179 as average
+164 and 199 with 181 as average
+165 and 166 with 165 as average
+165 and 168 with 166 as average
+165 and 172 with 168 as average
+165 and 174 with 169 as average
+165 and 178 with 171 as average
+165 and 182 with 173 as average
+165 and 184 with 174 as average
+165 and 186 with 175 as average
+165 and 188 with 176 as average
+165 and 192 with 178 as average
+165 and 194 with 179 as average
+165 and 198 with 181 as average
+166 and 167 with 166 as average
+166 and 169 with 167 as average
+166 and 173 with 169 as average
+166 and 177 with 171 as average
+166 and 179 with 172 as average
+166 and 183 with 174 as average
+166 and 185 with 175 as average
+166 and 187 with 176 as average
+166 and 189 with 177 as average
+166 and 193 with 179 as average
+166 and 197 with 181 as average
+166 and 199 with 182 as average
+167 and 168 with 167 as average
+167 and 172 with 169 as average
+167 and 176 with 171 as average
+167 and 178 with 172 as average
+167 and 182 with 174 as average
+167 and 184 with 175 as average
+167 and 186 with 176 as average
+167 and 188 with 177 as average
+167 and 192 with 179 as average
+167 and 196 with 181 as average
+167 and 198 with 182 as average
+168 and 169 with 168 as average
+168 and 175 with 171 as average
+168 and 177 with 172 as average
+168 and 179 with 173 as average
+168 and 183 with 175 as average
+168 and 185 with 176 as average
+168 and 187 with 177 as average
+168 and 189 with 178 as average
+168 and 195 with 181 as average
+168 and 197 with 182 as average
+168 and 199 with 183 as average
+169 and 174 with 171 as average
+169 and 176 with 172 as average
+169 and 178 with 173 as average
+169 and 182 with 175 as average
+169 and 184 with 176 as average
+169 and 186 with 177 as average
+169 and 188 with 178 as average
+169 and 194 with 181 as average
+169 and 196 with 182 as average
+169 and 198 with 183 as average
+172 and 173 with 172 as average
+172 and 175 with 173 as average
+172 and 177 with 174 as average
+172 and 179 with 175 as average
+172 and 183 with 177 as average
+172 and 185 with 178 as average
+172 and 187 with 179 as average
+172 and 193 with 182 as average
+172 and 195 with 183 as average
+172 and 197 with 184 as average
+172 and 199 with 185 as average
+173 and 174 with 173 as average
+173 and 176 with 174 as average
+173 and 178 with 175 as average
+173 and 182 with 177 as average
+173 and 184 with 178 as average
+173 and 186 with 179 as average
+173 and 192 with 182 as average
+173 and 194 with 183 as average
+173 and 196 with 184 as average
+173 and 198 with 185 as average
+174 and 175 with 174 as average
+174 and 177 with 175 as average
+174 and 179 with 176 as average
+174 and 183 with 178 as average
+174 and 185 with 179 as average
+174 and 189 with 181 as average
+174 and 193 with 183 as average
+174 and 195 with 184 as average
+174 and 197 with 185 as average
+174 and 199 with 186 as average
+175 and 176 with 175 as average
+175 and 178 with 176 as average
+175 and 182 with 178 as average
+175 and 184 with 179 as average
+175 and 188 with 181 as average
+175 and 192 with 183 as average
+175 and 194 with 184 as average
+175 and 196 with 185 as average
+175 and 198 with 186 as average
+176 and 177 with 176 as average
+176 and 179 with 177 as average
+176 and 183 with 179 as average
+176 and 187 with 181 as average
+176 and 189 with 182 as average
+176 and 193 with 184 as average
+176 and 195 with 185 as average
+176 and 197 with 186 as average
+176 and 199 with 187 as average
+177 and 178 with 177 as average
+177 and 182 with 179 as average
+177 and 186 with 181 as average
+177 and 188 with 182 as average
+177 and 192 with 184 as average
+177 and 194 with 185 as average
+177 and 196 with 186 as average
+177 and 198 with 187 as average
+178 and 179 with 178 as average
+178 and 185 with 181 as average
+178 and 187 with 182 as average
+178 and 189 with 183 as average
+178 and 193 with 185 as average
+178 and 195 with 186 as average
+178 and 197 with 187 as average
+178 and 199 with 188 as average
+179 and 184 with 181 as average
+179 and 186 with 182 as average
+179 and 188 with 183 as average
+179 and 192 with 185 as average
+179 and 194 with 186 as average
+179 and 196 with 187 as average
+179 and 198 with 188 as average
+182 and 183 with 182 as average
+182 and 185 with 183 as average
+182 and 187 with 184 as average
+182 and 189 with 185 as average
+182 and 193 with 187 as average
+182 and 195 with 188 as average
+182 and 197 with 189 as average
+183 and 184 with 183 as average
+183 and 186 with 184 as average
+183 and 188 with 185 as average
+183 and 192 with 187 as average
+183 and 194 with 188 as average
+183 and 196 with 189 as average
+184 and 185 with 184 as average
+184 and 187 with 185 as average
+184 and 189 with 186 as average
+184 and 193 with 188 as average
+184 and 195 with 189 as average
+184 and 199 with 191 as average
+185 and 186 with 185 as average
+185 and 188 with 186 as average
+185 and 192 with 188 as average
+185 and 194 with 189 as average
+185 and 198 with 191 as average
+186 and 187 with 186 as average
+186 and 189 with 187 as average
+186 and 193 with 189 as average
+186 and 197 with 191 as average
+186 and 199 with 192 as average
+187 and 188 with 187 as average
+187 and 192 with 189 as average
+187 and 196 with 191 as average
+187 and 198 with 192 as average
+188 and 189 with 188 as average
+188 and 195 with 191 as average
+188 and 197 with 192 as average
+188 and 199 with 193 as average
+189 and 194 with 191 as average
+189 and 196 with 192 as average
+189 and 198 with 193 as average
+192 and 193 with 192 as average
+192 and 195 with 193 as average
+192 and 197 with 194 as average
+192 and 199 with 195 as average
+193 and 194 with 193 as average
+193 and 196 with 194 as average
+193 and 198 with 195 as average
+194 and 195 with 194 as average
+194 and 197 with 195 as average
+194 and 199 with 196 as average
+195 and 196 with 195 as average
+195 and 198 with 196 as average
+196 and 197 with 196 as average
+196 and 199 with 197 as average
+197 and 198 with 197 as average
+198 and 199 with 198 as average
+None
+TEST 80 END
+
+TEST 81 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(320, 583))"
+344 and 345 with 344 as average
+344 and 347 with 345 as average
+344 and 349 with 346 as average
+344 and 355 with 349 as average
+344 and 365 with 354 as average
+344 and 367 with 355 as average
+344 and 369 with 356 as average
+344 and 375 with 359 as average
+344 and 385 with 364 as average
+344 and 387 with 365 as average
+344 and 389 with 366 as average
+344 and 395 with 369 as average
+344 and 455 with 399 as average
+344 and 457 with 400 as average
+344 and 459 with 401 as average
+344 and 477 with 410 as average
+344 and 479 with 411 as average
+344 and 497 with 420 as average
+344 and 499 with 421 as average
+344 and 567 with 455 as average
+344 and 569 with 456 as average
+345 and 346 with 345 as average
+345 and 348 with 346 as average
+345 and 354 with 349 as average
+345 and 364 with 354 as average
+345 and 366 with 355 as average
+345 and 368 with 356 as average
+345 and 374 with 359 as average
+345 and 384 with 364 as average
+345 and 386 with 365 as average
+345 and 388 with 366 as average
+345 and 394 with 369 as average
+345 and 456 with 400 as average
+345 and 458 with 401 as average
+345 and 476 with 410 as average
+345 and 478 with 411 as average
+345 and 496 with 420 as average
+345 and 498 with 421 as average
+345 and 566 with 455 as average
+345 and 568 with 456 as average
+346 and 347 with 346 as average
+346 and 349 with 347 as average
+346 and 365 with 355 as average
+346 and 367 with 356 as average
+346 and 369 with 357 as average
+346 and 385 with 365 as average
+346 and 387 with 366 as average
+346 and 389 with 367 as average
+346 and 455 with 400 as average
+346 and 457 with 401 as average
+346 and 459 with 402 as average
+346 and 475 with 410 as average
+346 and 477 with 411 as average
+346 and 479 with 412 as average
+346 and 495 with 420 as average
+346 and 497 with 421 as average
+346 and 499 with 422 as average
+346 and 567 with 456 as average
+346 and 569 with 457 as average
+347 and 348 with 347 as average
+347 and 364 with 355 as average
+347 and 366 with 356 as average
+347 and 368 with 357 as average
+347 and 384 with 365 as average
+347 and 386 with 366 as average
+347 and 388 with 367 as average
+347 and 456 with 401 as average
+347 and 458 with 402 as average
+347 and 476 with 411 as average
+347 and 478 with 412 as average
+347 and 496 with 421 as average
+347 and 498 with 422 as average
+347 and 566 with 456 as average
+347 and 568 with 457 as average
+348 and 349 with 348 as average
+348 and 359 with 353 as average
+348 and 365 with 356 as average
+348 and 367 with 357 as average
+348 and 369 with 358 as average
+348 and 379 with 363 as average
+348 and 385 with 366 as average
+348 and 387 with 367 as average
+348 and 389 with 368 as average
+348 and 399 with 373 as average
+348 and 455 with 401 as average
+348 and 457 with 402 as average
+348 and 459 with 403 as average
+348 and 475 with 411 as average
+348 and 477 with 412 as average
+348 and 479 with 413 as average
+348 and 495 with 421 as average
+348 and 497 with 422 as average
+348 and 499 with 423 as average
+348 and 567 with 457 as average
+348 and 569 with 458 as average
+349 and 358 with 353 as average
+349 and 364 with 356 as average
+349 and 366 with 357 as average
+349 and 368 with 358 as average
+349 and 378 with 363 as average
+349 and 384 with 366 as average
+349 and 386 with 367 as average
+349 and 388 with 368 as average
+349 and 398 with 373 as average
+349 and 456 with 402 as average
+349 and 458 with 403 as average
+349 and 476 with 412 as average
+349 and 478 with 413 as average
+349 and 496 with 422 as average
+349 and 498 with 423 as average
+349 and 566 with 457 as average
+349 and 568 with 458 as average
+354 and 355 with 354 as average
+354 and 357 with 355 as average
+354 and 359 with 356 as average
+354 and 365 with 359 as average
+354 and 375 with 364 as average
+354 and 377 with 365 as average
+354 and 379 with 366 as average
+354 and 385 with 369 as average
+354 and 395 with 374 as average
+354 and 397 with 375 as average
+354 and 399 with 376 as average
+354 and 467 with 410 as average
+354 and 469 with 411 as average
+354 and 487 with 420 as average
+354 and 489 with 421 as average
+354 and 577 with 465 as average
+354 and 579 with 466 as average
+355 and 356 with 355 as average
+355 and 358 with 356 as average
+355 and 364 with 359 as average
+355 and 374 with 364 as average
+355 and 376 with 365 as average
+355 and 378 with 366 as average
+355 and 384 with 369 as average
+355 and 394 with 374 as average
+355 and 396 with 375 as average
+355 and 398 with 376 as average
+355 and 466 with 410 as average
+355 and 468 with 411 as average
+355 and 486 with 420 as average
+355 and 488 with 421 as average
+355 and 576 with 465 as average
+355 and 578 with 466 as average
+356 and 357 with 356 as average
+356 and 359 with 357 as average
+356 and 375 with 365 as average
+356 and 377 with 366 as average
+356 and 379 with 367 as average
+356 and 395 with 375 as average
+356 and 397 with 376 as average
+356 and 399 with 377 as average
+356 and 465 with 410 as average
+356 and 467 with 411 as average
+356 and 469 with 412 as average
+356 and 485 with 420 as average
+356 and 487 with 421 as average
+356 and 489 with 422 as average
+356 and 577 with 466 as average
+356 and 579 with 467 as average
+357 and 358 with 357 as average
+357 and 374 with 365 as average
+357 and 376 with 366 as average
+357 and 378 with 367 as average
+357 and 394 with 375 as average
+357 and 396 with 376 as average
+357 and 398 with 377 as average
+357 and 466 with 411 as average
+357 and 468 with 412 as average
+357 and 486 with 421 as average
+357 and 488 with 422 as average
+357 and 576 with 466 as average
+357 and 578 with 467 as average
+358 and 359 with 358 as average
+358 and 369 with 363 as average
+358 and 375 with 366 as average
+358 and 377 with 367 as average
+358 and 379 with 368 as average
+358 and 389 with 373 as average
+358 and 395 with 376 as average
+358 and 397 with 377 as average
+358 and 399 with 378 as average
+358 and 465 with 411 as average
+358 and 467 with 412 as average
+358 and 469 with 413 as average
+358 and 485 with 421 as average
+358 and 487 with 422 as average
+358 and 489 with 423 as average
+358 and 577 with 467 as average
+358 and 579 with 468 as average
+359 and 368 with 363 as average
+359 and 374 with 366 as average
+359 and 376 with 367 as average
+359 and 378 with 368 as average
+359 and 388 with 373 as average
+359 and 394 with 376 as average
+359 and 396 with 377 as average
+359 and 398 with 378 as average
+359 and 466 with 412 as average
+359 and 468 with 413 as average
+359 and 486 with 422 as average
+359 and 488 with 423 as average
+359 and 576 with 467 as average
+359 and 578 with 468 as average
+364 and 365 with 364 as average
+364 and 367 with 365 as average
+364 and 369 with 366 as average
+364 and 375 with 369 as average
+364 and 385 with 374 as average
+364 and 387 with 375 as average
+364 and 389 with 376 as average
+364 and 395 with 379 as average
+364 and 457 with 410 as average
+364 and 459 with 411 as average
+364 and 477 with 420 as average
+364 and 479 with 421 as average
+364 and 497 with 430 as average
+364 and 499 with 431 as average
+364 and 567 with 465 as average
+364 and 569 with 466 as average
+365 and 366 with 365 as average
+365 and 368 with 366 as average
+365 and 374 with 369 as average
+365 and 384 with 374 as average
+365 and 386 with 375 as average
+365 and 388 with 376 as average
+365 and 394 with 379 as average
+365 and 456 with 410 as average
+365 and 458 with 411 as average
+365 and 476 with 420 as average
+365 and 478 with 421 as average
+365 and 496 with 430 as average
+365 and 498 with 431 as average
+365 and 566 with 465 as average
+365 and 568 with 466 as average
+366 and 367 with 366 as average
+366 and 369 with 367 as average
+366 and 385 with 375 as average
+366 and 387 with 376 as average
+366 and 389 with 377 as average
+366 and 455 with 410 as average
+366 and 457 with 411 as average
+366 and 459 with 412 as average
+366 and 475 with 420 as average
+366 and 477 with 421 as average
+366 and 479 with 422 as average
+366 and 495 with 430 as average
+366 and 497 with 431 as average
+366 and 499 with 432 as average
+366 and 567 with 466 as average
+366 and 569 with 467 as average
+367 and 368 with 367 as average
+367 and 384 with 375 as average
+367 and 386 with 376 as average
+367 and 388 with 377 as average
+367 and 456 with 411 as average
+367 and 458 with 412 as average
+367 and 476 with 421 as average
+367 and 478 with 422 as average
+367 and 496 with 431 as average
+367 and 498 with 432 as average
+367 and 566 with 466 as average
+367 and 568 with 467 as average
+368 and 369 with 368 as average
+368 and 379 with 373 as average
+368 and 385 with 376 as average
+368 and 387 with 377 as average
+368 and 389 with 378 as average
+368 and 399 with 383 as average
+368 and 455 with 411 as average
+368 and 457 with 412 as average
+368 and 459 with 413 as average
+368 and 475 with 421 as average
+368 and 477 with 422 as average
+368 and 479 with 423 as average
+368 and 495 with 431 as average
+368 and 497 with 432 as average
+368 and 499 with 433 as average
+368 and 567 with 467 as average
+368 and 569 with 468 as average
+369 and 378 with 373 as average
+369 and 384 with 376 as average
+369 and 386 with 377 as average
+369 and 388 with 378 as average
+369 and 398 with 383 as average
+369 and 456 with 412 as average
+369 and 458 with 413 as average
+369 and 476 with 422 as average
+369 and 478 with 423 as average
+369 and 496 with 432 as average
+369 and 498 with 433 as average
+369 and 566 with 467 as average
+369 and 568 with 468 as average
+374 and 375 with 374 as average
+374 and 377 with 375 as average
+374 and 379 with 376 as average
+374 and 385 with 379 as average
+374 and 395 with 384 as average
+374 and 397 with 385 as average
+374 and 399 with 386 as average
+374 and 467 with 420 as average
+374 and 469 with 421 as average
+374 and 487 with 430 as average
+374 and 489 with 431 as average
+374 and 577 with 475 as average
+374 and 579 with 476 as average
+375 and 376 with 375 as average
+375 and 378 with 376 as average
+375 and 384 with 379 as average
+375 and 394 with 384 as average
+375 and 396 with 385 as average
+375 and 398 with 386 as average
+375 and 466 with 420 as average
+375 and 468 with 421 as average
+375 and 486 with 430 as average
+375 and 488 with 431 as average
+375 and 576 with 475 as average
+375 and 578 with 476 as average
+376 and 377 with 376 as average
+376 and 379 with 377 as average
+376 and 395 with 385 as average
+376 and 397 with 386 as average
+376 and 399 with 387 as average
+376 and 465 with 420 as average
+376 and 467 with 421 as average
+376 and 469 with 422 as average
+376 and 485 with 430 as average
+376 and 487 with 431 as average
+376 and 489 with 432 as average
+376 and 577 with 476 as average
+376 and 579 with 477 as average
+377 and 378 with 377 as average
+377 and 394 with 385 as average
+377 and 396 with 386 as average
+377 and 398 with 387 as average
+377 and 466 with 421 as average
+377 and 468 with 422 as average
+377 and 486 with 431 as average
+377 and 488 with 432 as average
+377 and 576 with 476 as average
+377 and 578 with 477 as average
+378 and 379 with 378 as average
+378 and 389 with 383 as average
+378 and 395 with 386 as average
+378 and 397 with 387 as average
+378 and 399 with 388 as average
+378 and 465 with 421 as average
+378 and 467 with 422 as average
+378 and 469 with 423 as average
+378 and 485 with 431 as average
+378 and 487 with 432 as average
+378 and 489 with 433 as average
+378 and 577 with 477 as average
+378 and 579 with 478 as average
+379 and 388 with 383 as average
+379 and 394 with 386 as average
+379 and 396 with 387 as average
+379 and 398 with 388 as average
+379 and 466 with 422 as average
+379 and 468 with 423 as average
+379 and 486 with 432 as average
+379 and 488 with 433 as average
+379 and 576 with 477 as average
+379 and 578 with 478 as average
+384 and 385 with 384 as average
+384 and 387 with 385 as average
+384 and 389 with 386 as average
+384 and 395 with 389 as average
+384 and 457 with 420 as average
+384 and 459 with 421 as average
+384 and 477 with 430 as average
+384 and 479 with 431 as average
+384 and 567 with 475 as average
+384 and 569 with 476 as average
+385 and 386 with 385 as average
+385 and 388 with 386 as average
+385 and 394 with 389 as average
+385 and 456 with 420 as average
+385 and 458 with 421 as average
+385 and 476 with 430 as average
+385 and 478 with 431 as average
+385 and 566 with 475 as average
+385 and 568 with 476 as average
+386 and 387 with 386 as average
+386 and 389 with 387 as average
+386 and 455 with 420 as average
+386 and 457 with 421 as average
+386 and 459 with 422 as average
+386 and 475 with 430 as average
+386 and 477 with 431 as average
+386 and 479 with 432 as average
+386 and 567 with 476 as average
+386 and 569 with 477 as average
+387 and 388 with 387 as average
+387 and 456 with 421 as average
+387 and 458 with 422 as average
+387 and 476 with 431 as average
+387 and 478 with 432 as average
+387 and 566 with 476 as average
+387 and 568 with 477 as average
+388 and 389 with 388 as average
+388 and 399 with 393 as average
+388 and 455 with 421 as average
+388 and 457 with 422 as average
+388 and 459 with 423 as average
+388 and 475 with 431 as average
+388 and 477 with 432 as average
+388 and 479 with 433 as average
+388 and 567 with 477 as average
+388 and 569 with 478 as average
+389 and 398 with 393 as average
+389 and 456 with 422 as average
+389 and 458 with 423 as average
+389 and 476 with 432 as average
+389 and 478 with 433 as average
+389 and 566 with 477 as average
+389 and 568 with 478 as average
+394 and 395 with 394 as average
+394 and 397 with 395 as average
+394 and 399 with 396 as average
+394 and 467 with 430 as average
+394 and 469 with 431 as average
+394 and 577 with 485 as average
+394 and 579 with 486 as average
+395 and 396 with 395 as average
+395 and 398 with 396 as average
+395 and 466 with 430 as average
+395 and 468 with 431 as average
+395 and 576 with 485 as average
+395 and 578 with 486 as average
+396 and 397 with 396 as average
+396 and 399 with 397 as average
+396 and 465 with 430 as average
+396 and 467 with 431 as average
+396 and 469 with 432 as average
+396 and 577 with 486 as average
+396 and 579 with 487 as average
+397 and 398 with 397 as average
+397 and 466 with 431 as average
+397 and 468 with 432 as average
+397 and 576 with 486 as average
+397 and 578 with 487 as average
+398 and 399 with 398 as average
+398 and 465 with 431 as average
+398 and 467 with 432 as average
+398 and 469 with 433 as average
+398 and 577 with 487 as average
+398 and 579 with 488 as average
+399 and 466 with 432 as average
+399 and 468 with 433 as average
+399 and 576 with 487 as average
+399 and 578 with 488 as average
+455 and 456 with 455 as average
+455 and 458 with 456 as average
+455 and 476 with 465 as average
+455 and 478 with 466 as average
+455 and 496 with 475 as average
+455 and 498 with 476 as average
+455 and 566 with 510 as average
+455 and 568 with 511 as average
+456 and 457 with 456 as average
+456 and 459 with 457 as average
+456 and 475 with 465 as average
+456 and 477 with 466 as average
+456 and 479 with 467 as average
+456 and 495 with 475 as average
+456 and 497 with 476 as average
+456 and 499 with 477 as average
+456 and 567 with 511 as average
+456 and 569 with 512 as average
+457 and 458 with 457 as average
+457 and 476 with 466 as average
+457 and 478 with 467 as average
+457 and 496 with 476 as average
+457 and 498 with 477 as average
+457 and 566 with 511 as average
+457 and 568 with 512 as average
+458 and 459 with 458 as average
+458 and 475 with 466 as average
+458 and 477 with 467 as average
+458 and 479 with 468 as average
+458 and 495 with 476 as average
+458 and 497 with 477 as average
+458 and 499 with 478 as average
+458 and 567 with 512 as average
+458 and 569 with 513 as average
+459 and 476 with 467 as average
+459 and 478 with 468 as average
+459 and 496 with 477 as average
+459 and 498 with 478 as average
+459 and 566 with 512 as average
+459 and 568 with 513 as average
+465 and 466 with 465 as average
+465 and 468 with 466 as average
+465 and 486 with 475 as average
+465 and 488 with 476 as average
+465 and 576 with 520 as average
+465 and 578 with 521 as average
+466 and 467 with 466 as average
+466 and 469 with 467 as average
+466 and 485 with 475 as average
+466 and 487 with 476 as average
+466 and 489 with 477 as average
+466 and 577 with 521 as average
+466 and 579 with 522 as average
+467 and 468 with 467 as average
+467 and 486 with 476 as average
+467 and 488 with 477 as average
+467 and 576 with 521 as average
+467 and 578 with 522 as average
+468 and 469 with 468 as average
+468 and 485 with 476 as average
+468 and 487 with 477 as average
+468 and 489 with 478 as average
+468 and 577 with 522 as average
+468 and 579 with 523 as average
+469 and 486 with 477 as average
+469 and 488 with 478 as average
+469 and 576 with 522 as average
+469 and 578 with 523 as average
+475 and 476 with 475 as average
+475 and 478 with 476 as average
+475 and 496 with 485 as average
+475 and 498 with 486 as average
+475 and 566 with 520 as average
+475 and 568 with 521 as average
+476 and 477 with 476 as average
+476 and 479 with 477 as average
+476 and 495 with 485 as average
+476 and 497 with 486 as average
+476 and 499 with 487 as average
+476 and 567 with 521 as average
+476 and 569 with 522 as average
+477 and 478 with 477 as average
+477 and 496 with 486 as average
+477 and 498 with 487 as average
+477 and 566 with 521 as average
+477 and 568 with 522 as average
+478 and 479 with 478 as average
+478 and 495 with 486 as average
+478 and 497 with 487 as average
+478 and 499 with 488 as average
+478 and 567 with 522 as average
+478 and 569 with 523 as average
+479 and 496 with 487 as average
+479 and 498 with 488 as average
+479 and 566 with 522 as average
+479 and 568 with 523 as average
+485 and 486 with 485 as average
+485 and 488 with 486 as average
+485 and 576 with 530 as average
+485 and 578 with 531 as average
+486 and 487 with 486 as average
+486 and 489 with 487 as average
+486 and 577 with 531 as average
+486 and 579 with 532 as average
+487 and 488 with 487 as average
+487 and 576 with 531 as average
+487 and 578 with 532 as average
+488 and 489 with 488 as average
+488 and 577 with 532 as average
+488 and 579 with 533 as average
+489 and 576 with 532 as average
+489 and 578 with 533 as average
+495 and 496 with 495 as average
+495 and 498 with 496 as average
+495 and 566 with 530 as average
+495 and 568 with 531 as average
+496 and 497 with 496 as average
+496 and 499 with 497 as average
+496 and 567 with 531 as average
+496 and 569 with 532 as average
+497 and 498 with 497 as average
+497 and 566 with 531 as average
+497 and 568 with 532 as average
+498 and 499 with 498 as average
+498 and 567 with 532 as average
+498 and 569 with 533 as average
+499 and 566 with 532 as average
+499 and 568 with 533 as average
+566 and 567 with 566 as average
+566 and 569 with 567 as average
+567 and 568 with 567 as average
+568 and 569 with 568 as average
+576 and 577 with 576 as average
+576 and 579 with 577 as average
+577 and 578 with 577 as average
+578 and 579 with 578 as average
+None
+TEST 81 END
+
+TEST 82 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(370, 667))"
+374 and 375 with 374 as average
+374 and 377 with 375 as average
+374 and 379 with 376 as average
+374 and 385 with 379 as average
+374 and 395 with 384 as average
+374 and 397 with 385 as average
+374 and 399 with 386 as average
+374 and 467 with 420 as average
+374 and 469 with 421 as average
+374 and 487 with 430 as average
+374 and 489 with 431 as average
+374 and 577 with 475 as average
+374 and 579 with 476 as average
+374 and 597 with 485 as average
+374 and 599 with 486 as average
+375 and 376 with 375 as average
+375 and 378 with 376 as average
+375 and 384 with 379 as average
+375 and 394 with 384 as average
+375 and 396 with 385 as average
+375 and 398 with 386 as average
+375 and 466 with 420 as average
+375 and 468 with 421 as average
+375 and 486 with 430 as average
+375 and 488 with 431 as average
+375 and 576 with 475 as average
+375 and 578 with 476 as average
+375 and 596 with 485 as average
+375 and 598 with 486 as average
+376 and 377 with 376 as average
+376 and 379 with 377 as average
+376 and 395 with 385 as average
+376 and 397 with 386 as average
+376 and 399 with 387 as average
+376 and 465 with 420 as average
+376 and 467 with 421 as average
+376 and 469 with 422 as average
+376 and 485 with 430 as average
+376 and 487 with 431 as average
+376 and 489 with 432 as average
+376 and 577 with 476 as average
+376 and 579 with 477 as average
+376 and 597 with 486 as average
+376 and 599 with 487 as average
+377 and 378 with 377 as average
+377 and 394 with 385 as average
+377 and 396 with 386 as average
+377 and 398 with 387 as average
+377 and 466 with 421 as average
+377 and 468 with 422 as average
+377 and 486 with 431 as average
+377 and 488 with 432 as average
+377 and 576 with 476 as average
+377 and 578 with 477 as average
+377 and 596 with 486 as average
+377 and 598 with 487 as average
+378 and 379 with 378 as average
+378 and 389 with 383 as average
+378 and 395 with 386 as average
+378 and 397 with 387 as average
+378 and 399 with 388 as average
+378 and 465 with 421 as average
+378 and 467 with 422 as average
+378 and 469 with 423 as average
+378 and 485 with 431 as average
+378 and 487 with 432 as average
+378 and 489 with 433 as average
+378 and 577 with 477 as average
+378 and 579 with 478 as average
+378 and 597 with 487 as average
+378 and 599 with 488 as average
+379 and 388 with 383 as average
+379 and 394 with 386 as average
+379 and 396 with 387 as average
+379 and 398 with 388 as average
+379 and 466 with 422 as average
+379 and 468 with 423 as average
+379 and 486 with 432 as average
+379 and 488 with 433 as average
+379 and 576 with 477 as average
+379 and 578 with 478 as average
+379 and 596 with 487 as average
+379 and 598 with 488 as average
+384 and 385 with 384 as average
+384 and 387 with 385 as average
+384 and 389 with 386 as average
+384 and 395 with 389 as average
+384 and 457 with 420 as average
+384 and 459 with 421 as average
+384 and 477 with 430 as average
+384 and 479 with 431 as average
+384 and 567 with 475 as average
+384 and 569 with 476 as average
+384 and 587 with 485 as average
+384 and 589 with 486 as average
+385 and 386 with 385 as average
+385 and 388 with 386 as average
+385 and 394 with 389 as average
+385 and 456 with 420 as average
+385 and 458 with 421 as average
+385 and 476 with 430 as average
+385 and 478 with 431 as average
+385 and 566 with 475 as average
+385 and 568 with 476 as average
+385 and 586 with 485 as average
+385 and 588 with 486 as average
+386 and 387 with 386 as average
+386 and 389 with 387 as average
+386 and 455 with 420 as average
+386 and 457 with 421 as average
+386 and 459 with 422 as average
+386 and 475 with 430 as average
+386 and 477 with 431 as average
+386 and 479 with 432 as average
+386 and 567 with 476 as average
+386 and 569 with 477 as average
+386 and 587 with 486 as average
+386 and 589 with 487 as average
+387 and 388 with 387 as average
+387 and 456 with 421 as average
+387 and 458 with 422 as average
+387 and 476 with 431 as average
+387 and 478 with 432 as average
+387 and 566 with 476 as average
+387 and 568 with 477 as average
+387 and 586 with 486 as average
+387 and 588 with 487 as average
+388 and 389 with 388 as average
+388 and 399 with 393 as average
+388 and 455 with 421 as average
+388 and 457 with 422 as average
+388 and 459 with 423 as average
+388 and 475 with 431 as average
+388 and 477 with 432 as average
+388 and 479 with 433 as average
+388 and 567 with 477 as average
+388 and 569 with 478 as average
+388 and 587 with 487 as average
+388 and 589 with 488 as average
+389 and 398 with 393 as average
+389 and 456 with 422 as average
+389 and 458 with 423 as average
+389 and 476 with 432 as average
+389 and 478 with 433 as average
+389 and 566 with 477 as average
+389 and 568 with 478 as average
+389 and 586 with 487 as average
+389 and 588 with 488 as average
+394 and 395 with 394 as average
+394 and 397 with 395 as average
+394 and 399 with 396 as average
+394 and 467 with 430 as average
+394 and 469 with 431 as average
+394 and 577 with 485 as average
+394 and 579 with 486 as average
+394 and 597 with 495 as average
+394 and 599 with 496 as average
+395 and 396 with 395 as average
+395 and 398 with 396 as average
+395 and 466 with 430 as average
+395 and 468 with 431 as average
+395 and 576 with 485 as average
+395 and 578 with 486 as average
+395 and 596 with 495 as average
+395 and 598 with 496 as average
+396 and 397 with 396 as average
+396 and 399 with 397 as average
+396 and 465 with 430 as average
+396 and 467 with 431 as average
+396 and 469 with 432 as average
+396 and 577 with 486 as average
+396 and 579 with 487 as average
+396 and 597 with 496 as average
+396 and 599 with 497 as average
+397 and 398 with 397 as average
+397 and 466 with 431 as average
+397 and 468 with 432 as average
+397 and 576 with 486 as average
+397 and 578 with 487 as average
+397 and 596 with 496 as average
+397 and 598 with 497 as average
+398 and 399 with 398 as average
+398 and 465 with 431 as average
+398 and 467 with 432 as average
+398 and 469 with 433 as average
+398 and 577 with 487 as average
+398 and 579 with 488 as average
+398 and 597 with 497 as average
+398 and 599 with 498 as average
+399 and 466 with 432 as average
+399 and 468 with 433 as average
+399 and 576 with 487 as average
+399 and 578 with 488 as average
+399 and 596 with 497 as average
+399 and 598 with 498 as average
+455 and 456 with 455 as average
+455 and 458 with 456 as average
+455 and 476 with 465 as average
+455 and 478 with 466 as average
+455 and 496 with 475 as average
+455 and 498 with 476 as average
+455 and 566 with 510 as average
+455 and 568 with 511 as average
+455 and 586 with 520 as average
+455 and 588 with 521 as average
+456 and 457 with 456 as average
+456 and 459 with 457 as average
+456 and 475 with 465 as average
+456 and 477 with 466 as average
+456 and 479 with 467 as average
+456 and 495 with 475 as average
+456 and 497 with 476 as average
+456 and 499 with 477 as average
+456 and 567 with 511 as average
+456 and 569 with 512 as average
+456 and 587 with 521 as average
+456 and 589 with 522 as average
+457 and 458 with 457 as average
+457 and 476 with 466 as average
+457 and 478 with 467 as average
+457 and 496 with 476 as average
+457 and 498 with 477 as average
+457 and 566 with 511 as average
+457 and 568 with 512 as average
+457 and 586 with 521 as average
+457 and 588 with 522 as average
+458 and 459 with 458 as average
+458 and 475 with 466 as average
+458 and 477 with 467 as average
+458 and 479 with 468 as average
+458 and 495 with 476 as average
+458 and 497 with 477 as average
+458 and 499 with 478 as average
+458 and 567 with 512 as average
+458 and 569 with 513 as average
+458 and 587 with 522 as average
+458 and 589 with 523 as average
+459 and 476 with 467 as average
+459 and 478 with 468 as average
+459 and 496 with 477 as average
+459 and 498 with 478 as average
+459 and 566 with 512 as average
+459 and 568 with 513 as average
+459 and 586 with 522 as average
+459 and 588 with 523 as average
+465 and 466 with 465 as average
+465 and 468 with 466 as average
+465 and 486 with 475 as average
+465 and 488 with 476 as average
+465 and 576 with 520 as average
+465 and 578 with 521 as average
+465 and 596 with 530 as average
+465 and 598 with 531 as average
+466 and 467 with 466 as average
+466 and 469 with 467 as average
+466 and 485 with 475 as average
+466 and 487 with 476 as average
+466 and 489 with 477 as average
+466 and 577 with 521 as average
+466 and 579 with 522 as average
+466 and 597 with 531 as average
+466 and 599 with 532 as average
+467 and 468 with 467 as average
+467 and 486 with 476 as average
+467 and 488 with 477 as average
+467 and 576 with 521 as average
+467 and 578 with 522 as average
+467 and 596 with 531 as average
+467 and 598 with 532 as average
+468 and 469 with 468 as average
+468 and 485 with 476 as average
+468 and 487 with 477 as average
+468 and 489 with 478 as average
+468 and 577 with 522 as average
+468 and 579 with 523 as average
+468 and 597 with 532 as average
+468 and 599 with 533 as average
+469 and 486 with 477 as average
+469 and 488 with 478 as average
+469 and 576 with 522 as average
+469 and 578 with 523 as average
+469 and 596 with 532 as average
+469 and 598 with 533 as average
+475 and 476 with 475 as average
+475 and 478 with 476 as average
+475 and 496 with 485 as average
+475 and 498 with 486 as average
+475 and 566 with 520 as average
+475 and 568 with 521 as average
+475 and 586 with 530 as average
+475 and 588 with 531 as average
+476 and 477 with 476 as average
+476 and 479 with 477 as average
+476 and 495 with 485 as average
+476 and 497 with 486 as average
+476 and 499 with 487 as average
+476 and 567 with 521 as average
+476 and 569 with 522 as average
+476 and 587 with 531 as average
+476 and 589 with 532 as average
+477 and 478 with 477 as average
+477 and 496 with 486 as average
+477 and 498 with 487 as average
+477 and 566 with 521 as average
+477 and 568 with 522 as average
+477 and 586 with 531 as average
+477 and 588 with 532 as average
+478 and 479 with 478 as average
+478 and 495 with 486 as average
+478 and 497 with 487 as average
+478 and 499 with 488 as average
+478 and 567 with 522 as average
+478 and 569 with 523 as average
+478 and 587 with 532 as average
+478 and 589 with 533 as average
+479 and 496 with 487 as average
+479 and 498 with 488 as average
+479 and 566 with 522 as average
+479 and 568 with 523 as average
+479 and 586 with 532 as average
+479 and 588 with 533 as average
+485 and 486 with 485 as average
+485 and 488 with 486 as average
+485 and 576 with 530 as average
+485 and 578 with 531 as average
+485 and 596 with 540 as average
+485 and 598 with 541 as average
+486 and 487 with 486 as average
+486 and 489 with 487 as average
+486 and 577 with 531 as average
+486 and 579 with 532 as average
+486 and 597 with 541 as average
+486 and 599 with 542 as average
+487 and 488 with 487 as average
+487 and 576 with 531 as average
+487 and 578 with 532 as average
+487 and 596 with 541 as average
+487 and 598 with 542 as average
+488 and 489 with 488 as average
+488 and 577 with 532 as average
+488 and 579 with 533 as average
+488 and 597 with 542 as average
+488 and 599 with 543 as average
+489 and 576 with 532 as average
+489 and 578 with 533 as average
+489 and 596 with 542 as average
+489 and 598 with 543 as average
+495 and 496 with 495 as average
+495 and 498 with 496 as average
+495 and 566 with 530 as average
+495 and 568 with 531 as average
+495 and 586 with 540 as average
+495 and 588 with 541 as average
+496 and 497 with 496 as average
+496 and 499 with 497 as average
+496 and 567 with 531 as average
+496 and 569 with 532 as average
+496 and 587 with 541 as average
+496 and 589 with 542 as average
+497 and 498 with 497 as average
+497 and 566 with 531 as average
+497 and 568 with 532 as average
+497 and 586 with 541 as average
+497 and 588 with 542 as average
+498 and 499 with 498 as average
+498 and 567 with 532 as average
+498 and 569 with 533 as average
+498 and 587 with 542 as average
+498 and 589 with 543 as average
+499 and 566 with 532 as average
+499 and 568 with 533 as average
+499 and 586 with 542 as average
+499 and 588 with 543 as average
+566 and 567 with 566 as average
+566 and 569 with 567 as average
+566 and 587 with 576 as average
+566 and 589 with 577 as average
+567 and 568 with 567 as average
+567 and 586 with 576 as average
+567 and 588 with 577 as average
+568 and 569 with 568 as average
+568 and 587 with 577 as average
+568 and 589 with 578 as average
+569 and 586 with 577 as average
+569 and 588 with 578 as average
+576 and 577 with 576 as average
+576 and 579 with 577 as average
+576 and 597 with 586 as average
+576 and 599 with 587 as average
+577 and 578 with 577 as average
+577 and 596 with 586 as average
+577 and 598 with 587 as average
+578 and 579 with 578 as average
+578 and 597 with 587 as average
+578 and 599 with 588 as average
+579 and 596 with 587 as average
+579 and 598 with 588 as average
+586 and 587 with 586 as average
+586 and 589 with 587 as average
+587 and 588 with 587 as average
+588 and 589 with 588 as average
+596 and 597 with 596 as average
+596 and 599 with 597 as average
+597 and 598 with 597 as average
+598 and 599 with 598 as average
+None
+TEST 82 END
+
+TEST 83 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(521, 662))"
+566 and 567 with 566 as average
+566 and 569 with 567 as average
+566 and 587 with 576 as average
+566 and 589 with 577 as average
+567 and 568 with 567 as average
+567 and 586 with 576 as average
+567 and 588 with 577 as average
+568 and 569 with 568 as average
+568 and 587 with 577 as average
+568 and 589 with 578 as average
+569 and 586 with 577 as average
+569 and 588 with 578 as average
+576 and 577 with 576 as average
+576 and 579 with 577 as average
+576 and 597 with 586 as average
+576 and 599 with 587 as average
+577 and 578 with 577 as average
+577 and 596 with 586 as average
+577 and 598 with 587 as average
+578 and 579 with 578 as average
+578 and 597 with 587 as average
+578 and 599 with 588 as average
+579 and 596 with 587 as average
+579 and 598 with 588 as average
+586 and 587 with 586 as average
+586 and 589 with 587 as average
+587 and 588 with 587 as average
+588 and 589 with 588 as average
+596 and 597 with 596 as average
+596 and 599 with 597 as average
+597 and 598 with 597 as average
+598 and 599 with 598 as average
+None
+TEST 83 END
+
+TEST 84 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(643, 834))"
+677 and 678 with 677 as average
+677 and 698 with 687 as average
+677 and 788 with 732 as average
+678 and 679 with 678 as average
+678 and 697 with 687 as average
+678 and 699 with 688 as average
+678 and 789 with 733 as average
+679 and 698 with 688 as average
+679 and 788 with 733 as average
+687 and 688 with 687 as average
+687 and 798 with 742 as average
+688 and 689 with 688 as average
+688 and 799 with 743 as average
+689 and 798 with 743 as average
+697 and 698 with 697 as average
+697 and 788 with 742 as average
+698 and 699 with 698 as average
+698 and 789 with 743 as average
+699 and 788 with 743 as average
+788 and 789 with 788 as average
+798 and 799 with 798 as average
+None
+TEST 84 END
+
+TEST 85 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(823, 4467))"
+Too much output
+TEST 85 END
+
+TEST 86 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(2344, 7234))"
+Too much output
+TEST 86 END
+
+TEST 87 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(2034, 4345))"
+Too much output
+TEST 87 END
+
+TEST 88 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(3034, 9345))"
+Too much output
+TEST 88 END
+
+TEST 89 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(5382, 10234))"
+5666 and 5667 with 5666 as average
+5666 and 5669 with 5667 as average
+5666 and 5687 with 5676 as average
+5666 and 5689 with 5677 as average
+5666 and 5867 with 5766 as average
+5666 and 5869 with 5767 as average
+5666 and 5887 with 5776 as average
+5666 and 5889 with 5777 as average
+5666 and 6777 with 6221 as average
+5666 and 6779 with 6222 as average
+5666 and 6797 with 6231 as average
+5666 and 6799 with 6232 as average
+5666 and 6977 with 6321 as average
+5666 and 6979 with 6322 as average
+5666 and 6997 with 6331 as average
+5666 and 6999 with 6332 as average
+5666 and 7889 with 6777 as average
+5666 and 8999 with 7332 as average
+5667 and 5668 with 5667 as average
+5667 and 5686 with 5676 as average
+5667 and 5688 with 5677 as average
+5667 and 5866 with 5766 as average
+5667 and 5868 with 5767 as average
+5667 and 5886 with 5776 as average
+5667 and 5888 with 5777 as average
+5667 and 6778 with 6222 as average
+5667 and 6798 with 6232 as average
+5667 and 6978 with 6322 as average
+5667 and 6998 with 6332 as average
+5667 and 7888 with 6777 as average
+5668 and 5669 with 5668 as average
+5668 and 5687 with 5677 as average
+5668 and 5689 with 5678 as average
+5668 and 5867 with 5767 as average
+5668 and 5869 with 5768 as average
+5668 and 5887 with 5777 as average
+5668 and 5889 with 5778 as average
+5668 and 6777 with 6222 as average
+5668 and 6779 with 6223 as average
+5668 and 6797 with 6232 as average
+5668 and 6799 with 6233 as average
+5668 and 6977 with 6322 as average
+5668 and 6979 with 6323 as average
+5668 and 6997 with 6332 as average
+5668 and 6999 with 6333 as average
+5668 and 7889 with 6778 as average
+5668 and 8999 with 7333 as average
+5669 and 5686 with 5677 as average
+5669 and 5688 with 5678 as average
+5669 and 5866 with 5767 as average
+5669 and 5868 with 5768 as average
+5669 and 5886 with 5777 as average
+5669 and 5888 with 5778 as average
+5669 and 6778 with 6223 as average
+5669 and 6798 with 6233 as average
+5669 and 6978 with 6323 as average
+5669 and 6998 with 6333 as average
+5669 and 7888 with 6778 as average
+5676 and 5677 with 5676 as average
+5676 and 5679 with 5677 as average
+5676 and 5697 with 5686 as average
+5676 and 5699 with 5687 as average
+5676 and 5877 with 5776 as average
+5676 and 5879 with 5777 as average
+5676 and 5897 with 5786 as average
+5676 and 5899 with 5787 as average
+5676 and 6787 with 6231 as average
+5676 and 6789 with 6232 as average
+5676 and 6987 with 6331 as average
+5676 and 6989 with 6332 as average
+5676 and 7899 with 6787 as average
+5677 and 5678 with 5677 as average
+5677 and 5696 with 5686 as average
+5677 and 5698 with 5687 as average
+5677 and 5876 with 5776 as average
+5677 and 5878 with 5777 as average
+5677 and 5896 with 5786 as average
+5677 and 5898 with 5787 as average
+5677 and 6788 with 6232 as average
+5677 and 6988 with 6332 as average
+5677 and 7898 with 6787 as average
+5678 and 5679 with 5678 as average
+5678 and 5697 with 5687 as average
+5678 and 5699 with 5688 as average
+5678 and 5877 with 5777 as average
+5678 and 5879 with 5778 as average
+5678 and 5897 with 5787 as average
+5678 and 5899 with 5788 as average
+5678 and 6787 with 6232 as average
+5678 and 6789 with 6233 as average
+5678 and 6987 with 6332 as average
+5678 and 6989 with 6333 as average
+5678 and 7899 with 6788 as average
+5679 and 5696 with 5687 as average
+5679 and 5698 with 5688 as average
+5679 and 5876 with 5777 as average
+5679 and 5878 with 5778 as average
+5679 and 5896 with 5787 as average
+5679 and 5898 with 5788 as average
+5679 and 6788 with 6233 as average
+5679 and 6988 with 6333 as average
+5679 and 7898 with 6788 as average
+5686 and 5687 with 5686 as average
+5686 and 5689 with 5687 as average
+5686 and 5867 with 5776 as average
+5686 and 5869 with 5777 as average
+5686 and 5887 with 5786 as average
+5686 and 5889 with 5787 as average
+5686 and 6777 with 6231 as average
+5686 and 6779 with 6232 as average
+5686 and 6797 with 6241 as average
+5686 and 6799 with 6242 as average
+5686 and 6977 with 6331 as average
+5686 and 6979 with 6332 as average
+5686 and 6997 with 6341 as average
+5686 and 6999 with 6342 as average
+5686 and 7889 with 6787 as average
+5686 and 8999 with 7342 as average
+5687 and 5688 with 5687 as average
+5687 and 5866 with 5776 as average
+5687 and 5868 with 5777 as average
+5687 and 5886 with 5786 as average
+5687 and 5888 with 5787 as average
+5687 and 6778 with 6232 as average
+5687 and 6798 with 6242 as average
+5687 and 6978 with 6332 as average
+5687 and 6998 with 6342 as average
+5687 and 7888 with 6787 as average
+5688 and 5689 with 5688 as average
+5688 and 5867 with 5777 as average
+5688 and 5869 with 5778 as average
+5688 and 5887 with 5787 as average
+5688 and 5889 with 5788 as average
+5688 and 6777 with 6232 as average
+5688 and 6779 with 6233 as average
+5688 and 6797 with 6242 as average
+5688 and 6799 with 6243 as average
+5688 and 6977 with 6332 as average
+5688 and 6979 with 6333 as average
+5688 and 6997 with 6342 as average
+5688 and 6999 with 6343 as average
+5688 and 7889 with 6788 as average
+5688 and 8999 with 7343 as average
+5689 and 5866 with 5777 as average
+5689 and 5868 with 5778 as average
+5689 and 5886 with 5787 as average
+5689 and 5888 with 5788 as average
+5689 and 6778 with 6233 as average
+5689 and 6798 with 6243 as average
+5689 and 6978 with 6333 as average
+5689 and 6998 with 6343 as average
+5689 and 7888 with 6788 as average
+5696 and 5697 with 5696 as average
+5696 and 5699 with 5697 as average
+5696 and 5877 with 5786 as average
+5696 and 5879 with 5787 as average
+5696 and 5897 with 5796 as average
+5696 and 5899 with 5797 as average
+5696 and 6787 with 6241 as average
+5696 and 6789 with 6242 as average
+5696 and 6987 with 6341 as average
+5696 and 6989 with 6342 as average
+5696 and 7899 with 6797 as average
+5697 and 5698 with 5697 as average
+5697 and 5876 with 5786 as average
+5697 and 5878 with 5787 as average
+5697 and 5896 with 5796 as average
+5697 and 5898 with 5797 as average
+5697 and 6788 with 6242 as average
+5697 and 6988 with 6342 as average
+5697 and 7898 with 6797 as average
+5698 and 5699 with 5698 as average
+5698 and 5877 with 5787 as average
+5698 and 5879 with 5788 as average
+5698 and 5897 with 5797 as average
+5698 and 5899 with 5798 as average
+5698 and 6787 with 6242 as average
+5698 and 6789 with 6243 as average
+5698 and 6987 with 6342 as average
+5698 and 6989 with 6343 as average
+5698 and 7899 with 6798 as average
+5699 and 5876 with 5787 as average
+5699 and 5878 with 5788 as average
+5699 and 5896 with 5797 as average
+5699 and 5898 with 5798 as average
+5699 and 6788 with 6243 as average
+5699 and 6988 with 6343 as average
+5699 and 7898 with 6798 as average
+5766 and 5767 with 5766 as average
+5766 and 5769 with 5767 as average
+5766 and 5787 with 5776 as average
+5766 and 5789 with 5777 as average
+5766 and 5967 with 5866 as average
+5766 and 5969 with 5867 as average
+5766 and 5987 with 5876 as average
+5766 and 5989 with 5877 as average
+5766 and 6877 with 6321 as average
+5766 and 6879 with 6322 as average
+5766 and 6897 with 6331 as average
+5766 and 6899 with 6332 as average
+5766 and 7989 with 6877 as average
+5767 and 5768 with 5767 as average
+5767 and 5786 with 5776 as average
+5767 and 5788 with 5777 as average
+5767 and 5966 with 5866 as average
+5767 and 5968 with 5867 as average
+5767 and 5986 with 5876 as average
+5767 and 5988 with 5877 as average
+5767 and 6878 with 6322 as average
+5767 and 6898 with 6332 as average
+5767 and 7988 with 6877 as average
+5768 and 5769 with 5768 as average
+5768 and 5787 with 5777 as average
+5768 and 5789 with 5778 as average
+5768 and 5967 with 5867 as average
+5768 and 5969 with 5868 as average
+5768 and 5987 with 5877 as average
+5768 and 5989 with 5878 as average
+5768 and 6877 with 6322 as average
+5768 and 6879 with 6323 as average
+5768 and 6897 with 6332 as average
+5768 and 6899 with 6333 as average
+5768 and 7989 with 6878 as average
+5769 and 5786 with 5777 as average
+5769 and 5788 with 5778 as average
+5769 and 5966 with 5867 as average
+5769 and 5968 with 5868 as average
+5769 and 5986 with 5877 as average
+5769 and 5988 with 5878 as average
+5769 and 6878 with 6323 as average
+5769 and 6898 with 6333 as average
+5769 and 7988 with 6878 as average
+5776 and 5777 with 5776 as average
+5776 and 5779 with 5777 as average
+5776 and 5797 with 5786 as average
+5776 and 5799 with 5787 as average
+5776 and 5977 with 5876 as average
+5776 and 5979 with 5877 as average
+5776 and 5997 with 5886 as average
+5776 and 5999 with 5887 as average
+5776 and 6887 with 6331 as average
+5776 and 6889 with 6332 as average
+5776 and 7999 with 6887 as average
+5777 and 5778 with 5777 as average
+5777 and 5796 with 5786 as average
+5777 and 5798 with 5787 as average
+5777 and 5976 with 5876 as average
+5777 and 5978 with 5877 as average
+5777 and 5996 with 5886 as average
+5777 and 5998 with 5887 as average
+5777 and 6888 with 6332 as average
+5777 and 7998 with 6887 as average
+5778 and 5779 with 5778 as average
+5778 and 5797 with 5787 as average
+5778 and 5799 with 5788 as average
+5778 and 5977 with 5877 as average
+5778 and 5979 with 5878 as average
+5778 and 5997 with 5887 as average
+5778 and 5999 with 5888 as average
+5778 and 6887 with 6332 as average
+5778 and 6889 with 6333 as average
+5778 and 7999 with 6888 as average
+5779 and 5796 with 5787 as average
+5779 and 5798 with 5788 as average
+5779 and 5976 with 5877 as average
+5779 and 5978 with 5878 as average
+5779 and 5996 with 5887 as average
+5779 and 5998 with 5888 as average
+5779 and 6888 with 6333 as average
+5779 and 7998 with 6888 as average
+5786 and 5787 with 5786 as average
+5786 and 5789 with 5787 as average
+5786 and 5967 with 5876 as average
+5786 and 5969 with 5877 as average
+5786 and 5987 with 5886 as average
+5786 and 5989 with 5887 as average
+5786 and 6877 with 6331 as average
+5786 and 6879 with 6332 as average
+5786 and 6897 with 6341 as average
+5786 and 6899 with 6342 as average
+5786 and 7989 with 6887 as average
+5787 and 5788 with 5787 as average
+5787 and 5966 with 5876 as average
+5787 and 5968 with 5877 as average
+5787 and 5986 with 5886 as average
+5787 and 5988 with 5887 as average
+5787 and 6878 with 6332 as average
+5787 and 6898 with 6342 as average
+5787 and 7988 with 6887 as average
+5788 and 5789 with 5788 as average
+5788 and 5967 with 5877 as average
+5788 and 5969 with 5878 as average
+5788 and 5987 with 5887 as average
+5788 and 5989 with 5888 as average
+5788 and 6877 with 6332 as average
+5788 and 6879 with 6333 as average
+5788 and 6897 with 6342 as average
+5788 and 6899 with 6343 as average
+5788 and 7989 with 6888 as average
+5789 and 5966 with 5877 as average
+5789 and 5968 with 5878 as average
+5789 and 5986 with 5887 as average
+5789 and 5988 with 5888 as average
+5789 and 6878 with 6333 as average
+5789 and 6898 with 6343 as average
+5789 and 7988 with 6888 as average
+5796 and 5797 with 5796 as average
+5796 and 5799 with 5797 as average
+5796 and 5977 with 5886 as average
+5796 and 5979 with 5887 as average
+5796 and 5997 with 5896 as average
+5796 and 5999 with 5897 as average
+5796 and 6887 with 6341 as average
+5796 and 6889 with 6342 as average
+5796 and 7999 with 6897 as average
+5797 and 5798 with 5797 as average
+5797 and 5976 with 5886 as average
+5797 and 5978 with 5887 as average
+5797 and 5996 with 5896 as average
+5797 and 5998 with 5897 as average
+5797 and 6888 with 6342 as average
+5797 and 7998 with 6897 as average
+5798 and 5799 with 5798 as average
+5798 and 5977 with 5887 as average
+5798 and 5979 with 5888 as average
+5798 and 5997 with 5897 as average
+5798 and 5999 with 5898 as average
+5798 and 6887 with 6342 as average
+5798 and 6889 with 6343 as average
+5798 and 7999 with 6898 as average
+5799 and 5976 with 5887 as average
+5799 and 5978 with 5888 as average
+5799 and 5996 with 5897 as average
+5799 and 5998 with 5898 as average
+5799 and 6888 with 6343 as average
+5799 and 7998 with 6898 as average
+5866 and 5867 with 5866 as average
+5866 and 5869 with 5867 as average
+5866 and 5887 with 5876 as average
+5866 and 5889 with 5877 as average
+5866 and 6777 with 6321 as average
+5866 and 6779 with 6322 as average
+5866 and 6797 with 6331 as average
+5866 and 6799 with 6332 as average
+5866 and 6977 with 6421 as average
+5866 and 6979 with 6422 as average
+5866 and 6997 with 6431 as average
+5866 and 6999 with 6432 as average
+5866 and 7889 with 6877 as average
+5866 and 8999 with 7432 as average
+5867 and 5868 with 5867 as average
+5867 and 5886 with 5876 as average
+5867 and 5888 with 5877 as average
+5867 and 6778 with 6322 as average
+5867 and 6798 with 6332 as average
+5867 and 6978 with 6422 as average
+5867 and 6998 with 6432 as average
+5867 and 7888 with 6877 as average
+5868 and 5869 with 5868 as average
+5868 and 5887 with 5877 as average
+5868 and 5889 with 5878 as average
+5868 and 6777 with 6322 as average
+5868 and 6779 with 6323 as average
+5868 and 6797 with 6332 as average
+5868 and 6799 with 6333 as average
+5868 and 6977 with 6422 as average
+5868 and 6979 with 6423 as average
+5868 and 6997 with 6432 as average
+5868 and 6999 with 6433 as average
+5868 and 7889 with 6878 as average
+5868 and 8999 with 7433 as average
+5869 and 5886 with 5877 as average
+5869 and 5888 with 5878 as average
+5869 and 6778 with 6323 as average
+5869 and 6798 with 6333 as average
+5869 and 6978 with 6423 as average
+5869 and 6998 with 6433 as average
+5869 and 7888 with 6878 as average
+5876 and 5877 with 5876 as average
+5876 and 5879 with 5877 as average
+5876 and 5897 with 5886 as average
+5876 and 5899 with 5887 as average
+5876 and 6787 with 6331 as average
+5876 and 6789 with 6332 as average
+5876 and 6987 with 6431 as average
+5876 and 6989 with 6432 as average
+5876 and 7899 with 6887 as average
+5877 and 5878 with 5877 as average
+5877 and 5896 with 5886 as average
+5877 and 5898 with 5887 as average
+5877 and 6788 with 6332 as average
+5877 and 6988 with 6432 as average
+5877 and 7898 with 6887 as average
+5878 and 5879 with 5878 as average
+5878 and 5897 with 5887 as average
+5878 and 5899 with 5888 as average
+5878 and 6787 with 6332 as average
+5878 and 6789 with 6333 as average
+5878 and 6987 with 6432 as average
+5878 and 6989 with 6433 as average
+5878 and 7899 with 6888 as average
+5879 and 5896 with 5887 as average
+5879 and 5898 with 5888 as average
+5879 and 6788 with 6333 as average
+5879 and 6988 with 6433 as average
+5879 and 7898 with 6888 as average
+5886 and 5887 with 5886 as average
+5886 and 5889 with 5887 as average
+5886 and 6777 with 6331 as average
+5886 and 6779 with 6332 as average
+5886 and 6797 with 6341 as average
+5886 and 6799 with 6342 as average
+5886 and 6977 with 6431 as average
+5886 and 6979 with 6432 as average
+5886 and 6997 with 6441 as average
+5886 and 6999 with 6442 as average
+5886 and 7889 with 6887 as average
+5886 and 8999 with 7442 as average
+5887 and 5888 with 5887 as average
+5887 and 6778 with 6332 as average
+5887 and 6798 with 6342 as average
+5887 and 6978 with 6432 as average
+5887 and 6998 with 6442 as average
+5887 and 7888 with 6887 as average
+5888 and 5889 with 5888 as average
+5888 and 6777 with 6332 as average
+5888 and 6779 with 6333 as average
+5888 and 6797 with 6342 as average
+5888 and 6799 with 6343 as average
+5888 and 6977 with 6432 as average
+5888 and 6979 with 6433 as average
+5888 and 6997 with 6442 as average
+5888 and 6999 with 6443 as average
+5888 and 7889 with 6888 as average
+5888 and 8999 with 7443 as average
+5889 and 6778 with 6333 as average
+5889 and 6798 with 6343 as average
+5889 and 6978 with 6433 as average
+5889 and 6998 with 6443 as average
+5889 and 7888 with 6888 as average
+5896 and 5897 with 5896 as average
+5896 and 5899 with 5897 as average
+5896 and 6787 with 6341 as average
+5896 and 6789 with 6342 as average
+5896 and 6987 with 6441 as average
+5896 and 6989 with 6442 as average
+5896 and 7899 with 6897 as average
+5897 and 5898 with 5897 as average
+5897 and 6788 with 6342 as average
+5897 and 6988 with 6442 as average
+5897 and 7898 with 6897 as average
+5898 and 5899 with 5898 as average
+5898 and 6787 with 6342 as average
+5898 and 6789 with 6343 as average
+5898 and 6987 with 6442 as average
+5898 and 6989 with 6443 as average
+5898 and 7899 with 6898 as average
+5899 and 6788 with 6343 as average
+5899 and 6988 with 6443 as average
+5899 and 7898 with 6898 as average
+5966 and 5967 with 5966 as average
+5966 and 5969 with 5967 as average
+5966 and 5987 with 5976 as average
+5966 and 5989 with 5977 as average
+5966 and 6877 with 6421 as average
+5966 and 6879 with 6422 as average
+5966 and 6897 with 6431 as average
+5966 and 6899 with 6432 as average
+5966 and 7989 with 6977 as average
+5967 and 5968 with 5967 as average
+5967 and 5986 with 5976 as average
+5967 and 5988 with 5977 as average
+5967 and 6878 with 6422 as average
+5967 and 6898 with 6432 as average
+5967 and 7988 with 6977 as average
+5968 and 5969 with 5968 as average
+5968 and 5987 with 5977 as average
+5968 and 5989 with 5978 as average
+5968 and 6877 with 6422 as average
+5968 and 6879 with 6423 as average
+5968 and 6897 with 6432 as average
+5968 and 6899 with 6433 as average
+5968 and 7989 with 6978 as average
+5969 and 5986 with 5977 as average
+5969 and 5988 with 5978 as average
+5969 and 6878 with 6423 as average
+5969 and 6898 with 6433 as average
+5969 and 7988 with 6978 as average
+5976 and 5977 with 5976 as average
+5976 and 5979 with 5977 as average
+5976 and 5997 with 5986 as average
+5976 and 5999 with 5987 as average
+5976 and 6887 with 6431 as average
+5976 and 6889 with 6432 as average
+5976 and 7999 with 6987 as average
+5977 and 5978 with 5977 as average
+5977 and 5996 with 5986 as average
+5977 and 5998 with 5987 as average
+5977 and 6888 with 6432 as average
+5977 and 7998 with 6987 as average
+5978 and 5979 with 5978 as average
+5978 and 5997 with 5987 as average
+5978 and 5999 with 5988 as average
+5978 and 6887 with 6432 as average
+5978 and 6889 with 6433 as average
+5978 and 7999 with 6988 as average
+5979 and 5996 with 5987 as average
+5979 and 5998 with 5988 as average
+5979 and 6888 with 6433 as average
+5979 and 7998 with 6988 as average
+5986 and 5987 with 5986 as average
+5986 and 5989 with 5987 as average
+5986 and 6877 with 6431 as average
+5986 and 6879 with 6432 as average
+5986 and 6897 with 6441 as average
+5986 and 6899 with 6442 as average
+5986 and 7989 with 6987 as average
+5987 and 5988 with 5987 as average
+5987 and 6878 with 6432 as average
+5987 and 6898 with 6442 as average
+5987 and 7988 with 6987 as average
+5988 and 5989 with 5988 as average
+5988 and 6877 with 6432 as average
+5988 and 6879 with 6433 as average
+5988 and 6897 with 6442 as average
+5988 and 6899 with 6443 as average
+5988 and 7989 with 6988 as average
+5989 and 6878 with 6433 as average
+5989 and 6898 with 6443 as average
+5989 and 7988 with 6988 as average
+5996 and 5997 with 5996 as average
+5996 and 5999 with 5997 as average
+5996 and 6887 with 6441 as average
+5996 and 6889 with 6442 as average
+5996 and 7999 with 6997 as average
+5997 and 5998 with 5997 as average
+5997 and 6888 with 6442 as average
+5997 and 7998 with 6997 as average
+5998 and 5999 with 5998 as average
+5998 and 6887 with 6442 as average
+5998 and 6889 with 6443 as average
+5998 and 7999 with 6998 as average
+5999 and 6888 with 6443 as average
+5999 and 7998 with 6998 as average
+6777 and 6778 with 6777 as average
+6777 and 6798 with 6787 as average
+6777 and 6978 with 6877 as average
+6777 and 6998 with 6887 as average
+6777 and 7888 with 7332 as average
+6778 and 6779 with 6778 as average
+6778 and 6797 with 6787 as average
+6778 and 6799 with 6788 as average
+6778 and 6977 with 6877 as average
+6778 and 6979 with 6878 as average
+6778 and 6997 with 6887 as average
+6778 and 6999 with 6888 as average
+6778 and 7889 with 7333 as average
+6778 and 8999 with 7888 as average
+6779 and 6798 with 6788 as average
+6779 and 6978 with 6878 as average
+6779 and 6998 with 6888 as average
+6779 and 7888 with 7333 as average
+6787 and 6788 with 6787 as average
+6787 and 6988 with 6887 as average
+6787 and 7898 with 7342 as average
+6788 and 6789 with 6788 as average
+6788 and 6987 with 6887 as average
+6788 and 6989 with 6888 as average
+6788 and 7899 with 7343 as average
+6789 and 6988 with 6888 as average
+6789 and 7898 with 7343 as average
+6797 and 6798 with 6797 as average
+6797 and 6978 with 6887 as average
+6797 and 6998 with 6897 as average
+6797 and 7888 with 7342 as average
+6798 and 6799 with 6798 as average
+6798 and 6977 with 6887 as average
+6798 and 6979 with 6888 as average
+6798 and 6997 with 6897 as average
+6798 and 6999 with 6898 as average
+6798 and 7889 with 7343 as average
+6798 and 8999 with 7898 as average
+6799 and 6978 with 6888 as average
+6799 and 6998 with 6898 as average
+6799 and 7888 with 7343 as average
+6877 and 6878 with 6877 as average
+6877 and 6898 with 6887 as average
+6877 and 7988 with 7432 as average
+6878 and 6879 with 6878 as average
+6878 and 6897 with 6887 as average
+6878 and 6899 with 6888 as average
+6878 and 7989 with 7433 as average
+6879 and 6898 with 6888 as average
+6879 and 7988 with 7433 as average
+6887 and 6888 with 6887 as average
+6887 and 7998 with 7442 as average
+6888 and 6889 with 6888 as average
+6888 and 7999 with 7443 as average
+6889 and 7998 with 7443 as average
+6897 and 6898 with 6897 as average
+6897 and 7988 with 7442 as average
+6898 and 6899 with 6898 as average
+6898 and 7989 with 7443 as average
+6899 and 7988 with 7443 as average
+6977 and 6978 with 6977 as average
+6977 and 6998 with 6987 as average
+6977 and 7888 with 7432 as average
+6978 and 6979 with 6978 as average
+6978 and 6997 with 6987 as average
+6978 and 6999 with 6988 as average
+6978 and 7889 with 7433 as average
+6978 and 8999 with 7988 as average
+6979 and 6998 with 6988 as average
+6979 and 7888 with 7433 as average
+6987 and 6988 with 6987 as average
+6987 and 7898 with 7442 as average
+6988 and 6989 with 6988 as average
+6988 and 7899 with 7443 as average
+6989 and 7898 with 7443 as average
+6997 and 6998 with 6997 as average
+6997 and 7888 with 7442 as average
+6998 and 6999 with 6998 as average
+6998 and 7889 with 7443 as average
+6998 and 8999 with 7998 as average
+6999 and 7888 with 7443 as average
+7888 and 7889 with 7888 as average
+7888 and 8999 with 8443 as average
+7898 and 7899 with 7898 as average
+7988 and 7989 with 7988 as average
+7998 and 7999 with 7998 as average
+None
+TEST 89 END
+
+TEST 90 BEGIN
+$ python3 -c "from exercise_6 import * ; print(f(6723, 35423))"
+Too much output
+TEST 90 END
+
+TEST 91 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(1, 7))"
+None
+TEST 91 END
+
+TEST 92 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(6, 1))"
+None
+TEST 92 END
+
+TEST 93 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(4, 4))"
+None
+TEST 93 END
+
+TEST 94 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(8, 12))"
+None
+TEST 94 END
+
+TEST 95 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(11, 9))"
+None
+TEST 95 END
+
+TEST 96 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(5, 16))"
+None
+TEST 96 END
+
+TEST 97 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(14, 5))"
+None
+TEST 97 END
+
+TEST 98 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(17, 17))"
+None
+TEST 98 END
+
+TEST 99 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(20, 13))"
+None
+TEST 99 END
+
+TEST 100 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(10, 24))"
+None
+TEST 100 END
+
+TEST 101 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(26, 26))"
+None
+TEST 101 END
+
+TEST 102 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(30, 18))"
+None
+TEST 102 END
+
+TEST 103 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(18, 34))"
+None
+TEST 103 END
+
+TEST 104 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(40, 51))"
+None
+TEST 104 END
+
+TEST 105 BEGIN
+$ python3 -c "from exercise_7 import * ; print(f(55, 39))"
+None
+TEST 105 END
+
+TEST 106 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,2,3],[8,9,4],[7,6,5]]) and not is_heterosquare([[1,2,3,8,9,4],[7,6,5]]) and not is_heterosquare([[1,2,3],[8,9,4],[7,6,1]]))"
+None
+TEST 106 END
+
+TEST 107 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,2,9],[4,3,7],[6,8,5]]) and not is_heterosquare([[1,2,9],[7,3,4],[6,8,5]]) and not is_heterosquare([[1,2,10],[4,3,7],[6,8,5]]))"
+None
+TEST 107 END
+
+TEST 108 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,2,9],[5,6,8],[3,7,4]]) and not is_heterosquare([[1,2,9],[5,8,6],[3,7,4]]) and not is_heterosquare([[1,2,0],[5,6,8],[3,7,4]]))"
+None
+TEST 108 END
+
+TEST 109 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,3,5],[8,2,6],[4,9,7]]) and not is_heterosquare([[5,3,1],[8,2,6],[4,9,7]]) and not is_heterosquare([[1,3,5,8],[2,6],[4,9,7]]))"
+None
+TEST 109 END
+
+TEST 110 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,3,8],[5,4,6],[7,2,9]]) and not is_heterosquare([[7,3,8],[5,4,6],[1,2,9]]) and not is_heterosquare([[1,3,8],[5,4,6],[7,3,9]]))"
+None
+TEST 110 END
+
+TEST 111 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,3,8],[9,7,6],[4,5,2]]) and not is_heterosquare([[1,2,8],[9,7,3],[4,5,6]]) and not is_heterosquare([[1,3,8],[9,7,6,4,5,2]]))"
+None
+TEST 111 END
+
+TEST 112 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,5,4],[9,3,7],[8,6,2]]) and not is_heterosquare([[1,5,4],[3,7,9],[8,6,2]]) and not is_heterosquare([[1,5,6],[9,3,7],[8,6,2]]))"
+None
+TEST 112 END
+
+TEST 113 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,6,3],[9,5,7],[8,4,2]]) and not is_heterosquare([[1,6,3],[9,7,5],[8,4,2]]) and not is_heterosquare([[1,6,3],[9,5,7],[8,4,2],[10,11,12]]))"
+None
+TEST 113 END
+
+TEST 114 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,6,5],[9,2,8],[3,7,4]]) and not is_heterosquare([[1,6,5],[7,2,8],[3,9,4]]) and not is_heterosquare([[1,60,5],[9,2,8],[3,7,4]]))"
+None
+TEST 114 END
+
+TEST 115 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[1,7,2],[9,4,5],[6,3,8]]) and not is_heterosquare([[1,8,2],[9,4,5],[6,3,7]]) and not is_heterosquare([[1,7,2],[9,4,5],[6,3,7]]))"
+None
+TEST 115 END
+
+TEST 116 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[2,3,7],[9,1,8],[6,5,4]]) and not is_heterosquare([[2,5,7],[9,1,8],[6,3,4]]) and not is_heterosquare([[2,3,7],[9,1],[8,6,5,4]]))"
+None
+TEST 116 END
+
+TEST 117 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[3,2,9],[4,1,8],[5,6,7]]) and not is_heterosquare([[3,2,9],[4,7,8],[5,6,1]]) and not is_heterosquare([[3,2],[9,4,1,8,5],[6,7]]))"
+None
+TEST 117 END
+
+TEST 118 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[2,1,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]) and not is_heterosquare([[2,1,3,4],[5,6,7,8],[9,10,11,12],[13,14,16,15]]) and not is_heterosquare([[2,1,3,4],[5,7,6,8],[9,11,10,12],[13,14,15,16]]))"
+None
+TEST 118 END
+
+TEST 119 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[21,22,23,24,25],[20,7,8,9,10],[19,6,1,2,11],[18,5,4,3,12],[17,16,15,14,13]]) and not is_heterosquare([[21,22,24,23,25],[20,7,8,9,10],[12,6,1,2,11],[18,5,4,3,19],[13,16,15,14,17]])) and not is_heterosquare([[25,24,23,21,22],[20,7,8,9,10],[19,6,1,2,11],[18,5,4,3,12],[17,16,15,14,13]])"
+None
+TEST 119 END
+
+TEST 120 BEGIN
+$ python3 -c "from exercise_8 import * ; print(is_heterosquare([[2,1,3,4,5,6],[7,8,9,10,11,12],[13,14,15,16,17,18],[19,20,21,22,23,24],[25,26,27,28,29,30],[31,32,33,34,35,36]]) and not is_heterosquare([[2,3,1,4,5,6],[7,8,9,10,11,12],[13,14,15,16,23,18],[19,24,21,22,17,20],[34,26,25,28,29,30],[27,32,33,31,35,36]]) and not is_heterosquare([[2,1,3,4,5,6],[7,8,9,10,11,12],[13,14,15,16,17,18,19,20,21,22,23,24],[25,26,27,28,29,30],[31,32,33,34,35,36]]))"
+None
+TEST 120 END
+

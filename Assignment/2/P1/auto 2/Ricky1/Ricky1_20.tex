@@ -1,0 +1,179 @@
+\documentclass[10pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes.misc}
+\usepackage[margin=0cm]{geometry}
+\pagestyle{empty}
+\tikzstyle{every node}=[cross out, draw, red]
+
+\begin{document}
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}[x=0.5cm, y=-0.5cm, ultra thick, blue]
+% Walls
+    \draw (1,0) -- (3,0);
+    \draw (4,0) -- (6,0);
+    \draw (11,0) -- (14,0);
+    \draw (19,0) -- (20,0);
+    \draw (21,0) -- (23,0);
+    \draw (25,0) -- (27,0);
+    \draw (0,1) -- (3,1);
+    \draw (5,1) -- (6,1);
+    \draw (7,1) -- (14,1);
+    \draw (15,1) -- (16,1);
+    \draw (19,1) -- (20,1);
+    \draw (21,1) -- (22,1);
+    \draw (25,1) -- (26,1);
+    \draw (1,2) -- (2,2);
+    \draw (7,2) -- (9,2);
+    \draw (10,2) -- (11,2);
+    \draw (12,2) -- (13,2);
+    \draw (16,2) -- (18,2);
+    \draw (20,2) -- (24,2);
+    \draw (25,2) -- (27,2);
+    \draw (1,3) -- (2,3);
+    \draw (3,3) -- (5,3);
+    \draw (6,3) -- (7,3);
+    \draw (8,3) -- (9,3);
+    \draw (10,3) -- (11,3);
+    \draw (12,3) -- (19,3);
+    \draw (22,3) -- (24,3);
+    \draw (0,4) -- (1,4);
+    \draw (3,4) -- (4,4);
+    \draw (5,4) -- (6,4);
+    \draw (7,4) -- (8,4);
+    \draw (9,4) -- (10,4);
+    \draw (11,4) -- (13,4);
+    \draw (14,4) -- (17,4);
+    \draw (18,4) -- (19,4);
+    \draw (20,4) -- (21,4);
+    \draw (22,4) -- (23,4);
+    \draw (25,4) -- (27,4);
+    \draw (2,5) -- (4,5);
+    \draw (5,5) -- (8,5);
+    \draw (10,5) -- (11,5);
+    \draw (13,5) -- (14,5);
+    \draw (15,5) -- (17,5);
+    \draw (21,5) -- (23,5);
+    \draw (24,5) -- (26,5);
+    \draw (0,0) -- (0,1);
+    \draw (0,2) -- (0,3);
+    \draw (1,0) -- (1,1);
+    \draw (1,2) -- (1,3);
+    \draw (1,4) -- (1,5);
+    \draw (2,1) -- (2,2);
+    \draw (2,3) -- (2,4);
+    \draw (3,0) -- (3,1);
+    \draw (3,2) -- (3,4);
+    \draw (4,1) -- (4,3);
+    \draw (4,4) -- (4,5);
+    \draw (5,0) -- (5,3);
+    \draw (5,4) -- (5,5);
+    \draw (6,0) -- (6,2);
+    \draw (7,2) -- (7,5);
+    \draw (8,3) -- (8,4);
+    \draw (10,0) -- (10,2);
+    \draw (11,3) -- (11,4);
+    \draw (12,0) -- (12,1);
+    \draw (12,2) -- (12,3);
+    \draw (12,4) -- (12,5);
+    \draw (13,2) -- (13,4);
+    \draw (14,2) -- (14,4);
+    \draw (15,0) -- (15,3);
+    \draw (15,4) -- (15,5);
+    \draw (16,0) -- (16,5);
+    \draw (17,1) -- (17,2);
+    \draw (17,3) -- (17,5);
+    \draw (18,0) -- (18,5);
+    \draw (19,1) -- (19,2);
+    \draw (19,3) -- (19,5);
+    \draw (20,0) -- (20,1);
+    \draw (20,2) -- (20,3);
+    \draw (21,2) -- (21,3);
+    \draw (21,4) -- (21,5);
+    \draw (22,0) -- (22,1);
+    \draw (22,3) -- (22,5);
+    \draw (23,0) -- (23,1);
+    \draw (24,1) -- (24,2);
+    \draw (24,3) -- (24,5);
+    \draw (25,1) -- (25,3);
+    \draw (25,4) -- (25,5);
+    \draw (26,0) -- (26,1);
+    \draw (26,2) -- (26,4);
+    \draw (27,1) -- (27,5);
+% Pillars
+    \fill[green] (7,0) circle(0.2);
+    \fill[green] (8,0) circle(0.2);
+    \fill[green] (9,0) circle(0.2);
+    \fill[green] (17,0) circle(0.2);
+    \fill[green] (24,0) circle(0.2);
+    \fill[green] (0,5) circle(0.2);
+    \fill[green] (9,5) circle(0.2);
+    \fill[green] (20,5) circle(0.2);
+% Inner points in accessible cul-de-sacs
+    \node at (0.5,0.5) {};
+    \node at (4.5,0.5) {};
+    \node at (10.5,0.5) {};
+    \node at (11.5,0.5) {};
+    \node at (12.5,0.5) {};
+    \node at (13.5,0.5) {};
+    \node at (15.5,0.5) {};
+    \node at (19.5,0.5) {};
+    \node at (21.5,0.5) {};
+    \node at (22.5,0.5) {};
+    \node at (25.5,0.5) {};
+    \node at (26.5,0.5) {};
+    \node at (1.5,1.5) {};
+    \node at (4.5,1.5) {};
+    \node at (5.5,1.5) {};
+    \node at (10.5,1.5) {};
+    \node at (16.5,1.5) {};
+    \node at (17.5,1.5) {};
+    \node at (25.5,1.5) {};
+    \node at (26.5,1.5) {};
+    \node at (1.5,2.5) {};
+    \node at (3.5,2.5) {};
+    \node at (4.5,2.5) {};
+    \node at (7.5,2.5) {};
+    \node at (8.5,2.5) {};
+    \node at (13.5,2.5) {};
+    \node at (14.5,2.5) {};
+    \node at (20.5,2.5) {};
+    \node at (25.5,2.5) {};
+    \node at (3.5,3.5) {};
+    \node at (6.5,3.5) {};
+    \node at (7.5,3.5) {};
+    \node at (11.5,3.5) {};
+    \node at (12.5,3.5) {};
+    \node at (13.5,3.5) {};
+    \node at (17.5,3.5) {};
+    \node at (22.5,3.5) {};
+    \node at (23.5,3.5) {};
+    \node at (24.5,3.5) {};
+    \node at (25.5,3.5) {};
+    \node at (3.5,4.5) {};
+    \node at (5.5,4.5) {};
+    \node at (6.5,4.5) {};
+    \node at (7.5,4.5) {};
+    \node at (17.5,4.5) {};
+    \node at (18.5,4.5) {};
+    \node at (21.5,4.5) {};
+    \node at (22.5,4.5) {};
+    \node at (23.5,4.5) {};
+    \node at (24.5,4.5) {};
+    \node at (25.5,4.5) {};
+    \node at (26.5,4.5) {};
+% Entry-exit paths without intersections
+    \draw[dashed, yellow] (16.5,0.5) -- (17.5,0.5);
+    \draw[dashed, yellow] (-0.5,4.5) -- (0.5,4.5);
+    \draw[dashed, yellow] (12.5,4.5) -- (14.5,4.5);
+    \draw[dashed, yellow] (0.5,4.5) -- (0.5,5.5);
+    \draw[dashed, yellow] (12.5,4.5) -- (12.5,5.5);
+    \draw[dashed, yellow] (14.5,4.5) -- (14.5,5.5);
+    \draw[dashed, yellow] (16.5,-0.5) -- (16.5,0.5);
+    \draw[dashed, yellow] (17.5,-0.5) -- (17.5,0.5);
+\end{tikzpicture}
+\end{center}
+\vspace*{\fill}
+
+\end{document}

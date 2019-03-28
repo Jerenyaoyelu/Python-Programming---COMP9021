@@ -1,0 +1,1791 @@
+TEST 1 BEGIN
+$ python3 -c 'from question_1 import *; f(89, 1, 100)'
+Here is L: [10]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[10]]
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c 'from question_1 import *; f(90, 2, 100)'
+Here is L: [26, 91]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[26, 91]]
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c 'from question_1 import *; f(90, 2, 1)'
+Here is L: [0, 0]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[0]]
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c 'from question_1 import *; f(91, 3, 10)'
+Here is L: [1, 9, 2]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[1, 9], [2]]
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c 'from question_1 import *; f(92, 3, 5)'
+Here is L: [3, 4, 4]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[3, 4]]
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c 'from question_1 import *; f(93, 3, 8)'
+Here is L: [7, 5, 1]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[7], [5], [1]]
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c 'from question_1 import *; f(94, 4, 100)'
+Here is L: [69, 23, 15, 35]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[69], [23], [15, 35]]
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c 'from question_1 import *; f(95, 4, 5)'
+Here is L: [4, 4, 5, 4]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[4, 5], [4]]
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c 'from question_1 import *; f(97, 4, 20)'
+Here is L: [6, 13, 11, 1]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[6, 13], [11], [1]]
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c 'from question_1 import *; f(98, 5, 200)'
+Here is L: [91, 147, 11, 90, 107]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[91, 147], [11, 90, 107]]
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c 'from question_1 import *; f(99, 5, 30)'
+Here is L: [12, 12, 6, 19, 5]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[12], [6, 19], [5]]
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c 'from question_1 import *; f(100, 6, 20)'
+Here is L: [4, 14, 14, 5, 12, 11]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[4, 14], [5, 12], [11]]
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 -c 'from question_1 import *; f(101, 7, 30)'
+Here is L: [18, 27, 6, 29, 30, 17, 29]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[18, 27], [6, 29, 30], [17, 29]]
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 -c 'from question_1 import *; f(102, 8, 40)'
+Here is L: [9, 39, 22, 10, 35, 38, 11, 24]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[9, 39], [22], [10, 35, 38], [11, 24]]
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 -c 'from question_1 import *; f(102, 8, 40)'
+Here is L: [9, 39, 22, 10, 35, 38, 11, 24]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[9, 39], [22], [10, 35, 38], [11, 24]]
+TEST 15 END
+
+TEST 16 BEGIN
+$ python3 -c 'from question_1 import *; f(103, 9, 4)'
+Here is L: [3, 1, 0, 4, 0, 3, 3, 2, 0]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[3], [1], [0, 4], [0, 3], [2], [0]]
+TEST 16 END
+
+TEST 17 BEGIN
+$ python3 -c 'from question_1 import *; f(104, 10, 10)'
+Here is L: [0, 3, 3, 6, 5, 0, 2, 0, 2, 1]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[0, 3, 6], [5], [0, 2], [0, 2], [1]]
+TEST 17 END
+
+TEST 18 BEGIN
+$ python3 -c 'from question_1 import *; f(105, 11, 25)'
+Here is L: [18, 11, 18, 25, 3, 0, 9, 16, 24, 18, 10]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[18], [11, 18, 25], [3], [0, 9, 16, 24], [18], [10]]
+TEST 18 END
+
+TEST 19 BEGIN
+$ python3 -c 'from question_1 import *; f(106, 12, 30)'
+Here is L: [22, 28, 15, 0, 17, 30, 16, 26, 15, 1, 30, 25]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[22, 28], [15], [0, 17, 30], [16, 26], [15], [1, 30], [25]]
+TEST 19 END
+
+TEST 20 BEGIN
+$ python3 -c 'from question_1 import *; f(107, 20, 90)'
+Here is L: [31, 79, 74, 84, 54, 61, 39, 17, 54, 69, 15, 32, 37, 76, 4, 90, 84, 35, 40, 24]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[31, 79], [74, 84], [54, 61], [39], [17, 54, 69], [15, 32, 37, 76], [4, 90], [84], [35, 40], [24]]
+TEST 20 END
+
+TEST 21 BEGIN
+$ python3 -c 'from question_1 import *; f(108, 29, 21)'
+Here is L: [4, 2, 21, 12, 8, 12, 6, 2, 9, 6, 5, 6, 10, 6, 3, 6, 2, 17, 13, 3, 17, 10, 21, 12, 6, 20, 19, 20, 1]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[4], [2, 21], [12], [8, 12], [6], [2, 9], [6], [5, 6, 10], [6], [3, 6], [2, 17], [13], [3, 17], [10, 21], [12], [6, 20], [19, 20], [1]]
+TEST 21 END
+
+TEST 22 BEGIN
+$ python3 -c 'from question_1 import *; f(109, 38, 3)'
+Here is L: [2, 1, 3, 3, 0, 0, 1, 3, 2, 0, 1, 3, 2, 3, 1, 2, 2, 0, 1, 0, 2, 1, 1, 1, 3, 3, 1, 3, 2, 1, 1, 0, 0, 3, 3, 3, 0, 2]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[2], [1, 3], [0, 1, 3], [2], [0, 1, 3], [2, 3], [1, 2], [0, 1], [0, 2], [1, 3], [1, 3], [2], [1], [0, 3], [0, 2]]
+TEST 22 END
+
+TEST 23 BEGIN
+$ python3 -c 'from question_1 import *; f(110, 47, 20)'
+Here is L: [12, 19, 7, 13, 15, 8, 20, 17, 2, 17, 13, 16, 10, 1, 3, 16, 2, 4, 14, 20, 0, 16, 13, 18, 7, 8, 9, 11, 11, 16, 3, 13, 17, 14, 8, 4, 6, 8, 13, 15, 7, 5, 14, 7, 2, 15, 10]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[12, 19], [7, 13, 15], [8, 20], [17], [2, 17], [13, 16], [10], [1, 3, 16], [2, 4, 14, 20], [0, 16], [13, 18], [7, 8, 9, 11, 16], [3, 13, 17], [14], [8], [4, 6, 8, 13, 15], [7], [5, 14], [7], [2, 15], [10]]
+TEST 23 END
+
+TEST 24 BEGIN
+$ python3 -c 'from question_1 import *; f(111, 56, 80)'
+Here is L: [27, 40, 63, 24, 50, 53, 78, 21, 80, 24, 53, 71, 29, 23, 59, 53, 49, 35, 48, 28, 44, 63, 4, 40, 30, 72, 57, 52, 8, 54, 65, 13, 37, 12, 43, 58, 27, 43, 30, 64, 2, 2, 53, 80, 64, 38, 63, 61, 62, 69, 13, 79, 19, 1, 21, 62]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[27, 40, 63], [24, 50, 53, 78], [21, 80], [24, 53, 71], [29], [23, 59], [53], [49], [35, 48], [28, 44, 63], [4, 40], [30, 72], [57], [52], [8, 54, 65], [13, 37], [12, 43, 58], [27, 43], [30, 64], [2, 53, 80], [64], [38, 63], [61, 62, 69], [13, 79], [19], [1, 21, 62]]
+TEST 24 END
+
+TEST 25 BEGIN
+$ python3 -c 'from question_1 import *; f(112, 65, 20)'
+Here is L: [15, 18, 19, 9, 14, 13, 5, 11, 7, 16, 14, 0, 12, 19, 7, 14, 14, 8, 11, 6, 7, 19, 5, 14, 16, 11, 13, 19, 12, 8, 0, 2, 2, 7, 9, 12, 20, 2, 18, 0, 2, 7, 8, 17, 15, 0, 8, 20, 13, 16, 5, 9, 17, 13, 4, 16, 19, 3, 6, 19, 8, 7, 18, 18, 5]
+The decomposition of L into increasing sequences,
+    with consecutive duplicates removed, is:
+    [[15, 18, 19], [9, 14], [13], [5, 11], [7, 16], [14], [0, 12, 19], [7, 14], [8, 11], [6, 7, 19], [5, 14, 16], [11, 13, 19], [12], [8], [0, 2, 7, 9, 12, 20], [2, 18], [0, 2, 7, 8, 17], [15], [0, 8, 20], [13, 16], [5, 9, 17], [13], [4, 16, 19], [3, 6, 19], [8], [7, 18], [5]]
+TEST 25 END
+
+TEST 26 BEGIN
+$ python3 -c 'from question_2 import *; f(16)'
+16 in binary reads as: 10000.
+Only one bit is set to 1 in the binary representation of 16.
+TEST 26 END
+
+TEST 27 BEGIN
+$ python3 -c 'from question_2 import *; f(17)'
+17 in binary reads as: 10001.
+2 bits are set to 1 in the binary representation of 17.
+TEST 27 END
+
+TEST 28 BEGIN
+$ python3 -c 'from question_2 import *; f(21)'
+21 in binary reads as: 10101.
+3 bits are set to 1 in the binary representation of 21.
+TEST 28 END
+
+TEST 29 BEGIN
+$ python3 -c 'from question_2 import *; f(39)'
+39 in binary reads as: 100111.
+4 bits are set to 1 in the binary representation of 39.
+TEST 29 END
+
+TEST 30 BEGIN
+$ python3 -c 'from question_2 import *; f(437)'
+437 in binary reads as: 110110101.
+6 bits are set to 1 in the binary representation of 437.
+TEST 30 END
+
+TEST 31 BEGIN
+$ python3 -c 'from question_2 import *; f(21)'
+21 in binary reads as: 10101.
+3 bits are set to 1 in the binary representation of 21.
+TEST 31 END
+
+TEST 32 BEGIN
+$ python3 -c 'from question_2 import *; f(9703)'
+9703 in binary reads as: 10010111100111.
+9 bits are set to 1 in the binary representation of 9703.
+TEST 32 END
+
+TEST 33 BEGIN
+$ python3 -c 'from question_2 import *; f(49274)'
+49274 in binary reads as: 1100000001111010.
+7 bits are set to 1 in the binary representation of 49274.
+TEST 33 END
+
+TEST 34 BEGIN
+$ python3 -c 'from question_2 import *; f(993849)'
+993849 in binary reads as: 11110010101000111001.
+11 bits are set to 1 in the binary representation of 993849.
+TEST 34 END
+
+TEST 35 BEGIN
+$ python3 -c 'from question_2 import *; f(2848654)'
+2848654 in binary reads as: 1010110111011110001110.
+14 bits are set to 1 in the binary representation of 2848654.
+TEST 35 END
+
+TEST 36 BEGIN
+$ python3 -c 'from question_2 import *; f(98364078)'
+98364078 in binary reads as: 101110111001110101010101110.
+17 bits are set to 1 in the binary representation of 98364078.
+TEST 36 END
+
+TEST 37 BEGIN
+$ python3 -c 'from question_2 import *; f(583648078)'
+583648078 in binary reads as: 100010110010011100001101001110.
+14 bits are set to 1 in the binary representation of 583648078.
+TEST 37 END
+
+TEST 38 BEGIN
+$ python3 -c 'from question_2 import *; f(1118889046)'
+1118889046 in binary reads as: 1000010101100001110010001010110.
+13 bits are set to 1 in the binary representation of 1118889046.
+TEST 38 END
+
+TEST 39 BEGIN
+$ python3 -c 'from question_2 import *; f(89651834437)'
+89651834437 in binary reads as: 1010011011111101010100110111001000101.
+21 bits are set to 1 in the binary representation of 89651834437.
+TEST 39 END
+
+TEST 40 BEGIN
+$ python3 -c 'from question_2 import *; f(672097435874)'
+672097435874 in binary reads as: 1001110001111100001000010000000011100010.
+15 bits are set to 1 in the binary representation of 672097435874.
+TEST 40 END
+
+TEST 41 BEGIN
+$ python3 -c 'from question_2 import *; f(2344456788993)'
+2344456788993 in binary reads as: 100010000111011100100000111001110000000001.
+16 bits are set to 1 in the binary representation of 2344456788993.
+TEST 41 END
+
+TEST 42 BEGIN
+$ python3 -c 'from question_2 import *; f(92345245233524)'
+92345245233524 in binary reads as: 10100111111110011001101100010011111000101110100.
+27 bits are set to 1 in the binary representation of 92345245233524.
+TEST 42 END
+
+TEST 43 BEGIN
+$ python3 -c 'from question_2 import *; f(233469455654573)'
+233469455654573 in binary reads as: 110101000101011011010111111110000101111010101101.
+29 bits are set to 1 in the binary representation of 233469455654573.
+TEST 43 END
+
+TEST 44 BEGIN
+$ python3 -c 'from question_2 import *; f(3256776566757673)'
+3256776566757673 in binary reads as: 1011100100100000010101100010010111111101100100101001.
+25 bits are set to 1 in the binary representation of 3256776566757673.
+TEST 44 END
+
+TEST 45 BEGIN
+$ python3 -c 'from question_2 import *; f(45645643374576756)'
+45645643374576756 in binary reads as: 10100010001010100111100010000110111000101100010001110100.
+24 bits are set to 1 in the binary representation of 45645643374576756.
+TEST 45 END
+
+TEST 46 BEGIN
+$ python3 -c 'from question_2 import *; f(586456367676588857)'
+586456367676588857 in binary reads as: 100000100011100000101111010110001111101000010000001100111001.
+26 bits are set to 1 in the binary representation of 586456367676588857.
+TEST 46 END
+
+TEST 47 BEGIN
+$ python3 -c 'from question_2 import *; f(6734347764556565843)'
+6734347764556565843 in binary reads as: 101110101110101001101011001110010011100010101110000110101010011.
+34 bits are set to 1 in the binary representation of 6734347764556565843.
+TEST 47 END
+
+TEST 48 BEGIN
+$ python3 -c 'from question_2 import *; f(21547848435675767745)'
+21547848435675767745 in binary reads as: 10010101100001001010101011111110010100010011010010010001111000001.
+30 bits are set to 1 in the binary representation of 21547848435675767745.
+TEST 48 END
+
+TEST 49 BEGIN
+$ python3 -c 'from question_2 import *; f(568912413454534663453)'
+568912413454534663453 in binary reads as: 111101101011100111110111010011100111101001011101100110101110100011101.
+44 bits are set to 1 in the binary representation of 568912413454534663453.
+TEST 49 END
+
+TEST 50 BEGIN
+$ python3 -c 'from question_2 import *; f(5645834684354657343465)'
+5645834684354657343465 in binary reads as: 1001100100000111110110010000111001000000110100011000000010101011111101001.
+32 bits are set to 1 in the binary representation of 5645834684354657343465.
+TEST 50 END
+
+TEST 51 BEGIN
+$ python3 -c 'from question_3 import *; f(7)'
+The decomposition of 7 into prime factors reads:
+   7 = 7
+TEST 51 END
+
+TEST 52 BEGIN
+$ python3 -c 'from question_3 import *; f(30)'
+The decomposition of 30 into prime factors reads:
+   30 = 2 x 3 x 5
+TEST 52 END
+
+TEST 53 BEGIN
+$ python3 -c 'from question_3 import *; f(234)'
+The decomposition of 234 into prime factors reads:
+   234 = 2 x 3^2 x 13
+TEST 53 END
+
+TEST 54 BEGIN
+$ python3 -c 'from question_3 import *; f(892)'
+The decomposition of 892 into prime factors reads:
+   892 = 2^2 x 223
+TEST 54 END
+
+TEST 55 BEGIN
+$ python3 -c 'from question_3 import *; f(3456)'
+The decomposition of 3456 into prime factors reads:
+   3456 = 2^7 x 3^3
+TEST 55 END
+
+TEST 56 BEGIN
+$ python3 -c 'from question_3 import *; f(9834)'
+The decomposition of 9834 into prime factors reads:
+   9834 = 2 x 3 x 11 x 149
+TEST 56 END
+
+TEST 57 BEGIN
+$ python3 -c 'from question_3 import *; f(34562)'
+The decomposition of 34562 into prime factors reads:
+   34562 = 2 x 11 x 1571
+TEST 57 END
+
+TEST 58 BEGIN
+$ python3 -c 'from question_3 import *; f(45590)'
+The decomposition of 45590 into prime factors reads:
+   45590 = 2 x 5 x 47 x 97
+TEST 58 END
+
+TEST 59 BEGIN
+$ python3 -c 'from question_3 import *; f(345656)'
+The decomposition of 345656 into prime factors reads:
+   345656 = 2^3 x 43207
+TEST 59 END
+
+TEST 60 BEGIN
+$ python3 -c 'from question_3 import *; f(684288)'
+The decomposition of 684288 into prime factors reads:
+   684288 = 2^8 x 3^5 x 11
+TEST 60 END
+
+TEST 61 BEGIN
+$ python3 -c 'from question_3 import *; f(879394)'
+The decomposition of 879394 into prime factors reads:
+   879394 = 2 x 439697
+TEST 61 END
+
+TEST 62 BEGIN
+$ python3 -c 'from question_3 import *; f(888888)'
+The decomposition of 888888 into prime factors reads:
+   888888 = 2^3 x 3 x 7 x 11 x 13 x 37
+TEST 62 END
+
+TEST 63 BEGIN
+$ python3 -c 'from question_3 import *; f(1234566)'
+The decomposition of 1234566 into prime factors reads:
+   1234566 = 2 x 3^2 x 107 x 641
+TEST 63 END
+
+TEST 64 BEGIN
+$ python3 -c 'from question_3 import *; f(2342456)'
+The decomposition of 2342456 into prime factors reads:
+   2342456 = 2^3 x 292807
+TEST 64 END
+
+TEST 65 BEGIN
+$ python3 -c 'from question_3 import *; f(2343345)'
+The decomposition of 2343345 into prime factors reads:
+   2343345 = 3 x 5 x 29 x 5387
+TEST 65 END
+
+TEST 66 BEGIN
+$ python3 -c 'from question_3 import *; f(3344550)'
+The decomposition of 3344550 into prime factors reads:
+   3344550 = 2 x 3 x 5^2 x 11 x 2027
+TEST 66 END
+
+TEST 67 BEGIN
+$ python3 -c 'from question_3 import *; f(8891420)'
+The decomposition of 8891420 into prime factors reads:
+   8891420 = 2^2 x 5 x 31 x 14341
+TEST 67 END
+
+TEST 68 BEGIN
+$ python3 -c 'from question_3 import *; f(9048245)'
+The decomposition of 9048245 into prime factors reads:
+   9048245 = 5 x 83 x 21803
+TEST 68 END
+
+TEST 69 BEGIN
+$ python3 -c 'from question_3 import *; f(34554672)'
+The decomposition of 34554672 into prime factors reads:
+   34554672 = 2^4 x 3^2 x 239963
+TEST 69 END
+
+TEST 70 BEGIN
+$ python3 -c 'from question_3 import *; f(45621235)'
+The decomposition of 45621235 into prime factors reads:
+   45621235 = 5 x 11^2 x 75407
+TEST 70 END
+
+TEST 71 BEGIN
+$ python3 -c 'from question_3 import *; f(91234124)'
+The decomposition of 91234124 into prime factors reads:
+   91234124 = 2^2 x 19 x 1200449
+TEST 71 END
+
+TEST 72 BEGIN
+$ python3 -c 'from question_3 import *; f(342433221)'
+The decomposition of 342433221 into prime factors reads:
+   342433221 = 3 x 13 x 8780339
+TEST 72 END
+
+TEST 73 BEGIN
+$ python3 -c 'from question_3 import *; f(456451256)'
+The decomposition of 456451256 into prime factors reads:
+   456451256 = 2^3 x 79 x 151 x 4783
+TEST 73 END
+
+TEST 74 BEGIN
+$ python3 -c 'from question_3 import *; f(5228391875)'
+The decomposition of 5228391875 into prime factors reads:
+   5228391875 = 5^4 x 7^3 x 29^3
+TEST 74 END
+
+TEST 75 BEGIN
+$ python3 -c 'from question_3 import *; f(6277868289)'
+The decomposition of 6277868289 into prime factors reads:
+   6277868289 = 3^2 x 7^8 x 11^2
+TEST 75 END
+
+TEST 76 BEGIN
+$ python3 -c 'from question_4 import *; f(24, 78)'
+There are 12 prime numbers between 24 and 78.
+TEST 76 END
+
+TEST 77 BEGIN
+$ python3 -c 'from question_4 import *; f(11, 56)'
+There are 12 prime numbers between 11 and 56.
+TEST 77 END
+
+TEST 78 BEGIN
+$ python3 -c 'from question_4 import *; f(23, 534)'
+There are 91 prime numbers between 23 and 534.
+TEST 78 END
+
+TEST 79 BEGIN
+$ python3 -c 'from question_4 import *; f(34, 3463)'
+There are 474 prime numbers between 34 and 3463.
+TEST 79 END
+
+TEST 80 BEGIN
+$ python3 -c 'from question_4 import *; f(143, 342)'
+There are 34 prime numbers between 143 and 342.
+TEST 80 END
+
+TEST 81 BEGIN
+$ python3 -c 'from question_4 import *; f(234, 457)'
+There are 37 prime numbers between 234 and 457.
+TEST 81 END
+
+TEST 82 BEGIN
+$ python3 -c 'from question_4 import *; f(1000, 3434)'
+There are 313 prime numbers between 1000 and 3434.
+TEST 82 END
+
+TEST 83 BEGIN
+$ python3 -c 'from question_4 import *; f(8933, 23414)'
+There are 1497 prime numbers between 8933 and 23414.
+TEST 83 END
+
+TEST 84 BEGIN
+$ python3 -c 'from question_4 import *; f(2342, 235235)'
+There are 20505 prime numbers between 2342 and 235235.
+TEST 84 END
+
+TEST 85 BEGIN
+$ python3 -c 'from question_4 import *; f(235, 3423524)'
+There are 245064 prime numbers between 235 and 3423524.
+TEST 85 END
+
+TEST 86 BEGIN
+$ python3 -c 'from question_4 import *; f(9984, 232454)'
+There are 19404 prime numbers between 9984 and 232454.
+TEST 86 END
+
+TEST 87 BEGIN
+$ python3 -c 'from question_4 import *; f(234554, 3423523)'
+There are 224321 prime numbers between 234554 and 3423523.
+TEST 87 END
+
+TEST 88 BEGIN
+$ python3 -c 'from question_4 import *; f(909812, 2312414)'
+There are 98351 prime numbers between 909812 and 2312414.
+TEST 88 END
+
+TEST 89 BEGIN
+$ python3 -c 'from question_4 import *; f(324235, 3253463)'
+There are 205866 prime numbers between 324235 and 3253463.
+TEST 89 END
+
+TEST 90 BEGIN
+$ python3 -c 'from question_4 import *; f(3, 3125563)'
+There are 225208 prime numbers between 3 and 3125563.
+TEST 90 END
+
+TEST 91 BEGIN
+$ python3 -c 'from question_4 import *; f(555, 5555555)'
+There are 384225 prime numbers between 555 and 5555555.
+TEST 91 END
+
+TEST 92 BEGIN
+$ python3 -c 'from question_4 import *; f(32423, 456346)'
+There are 34706 prime numbers between 32423 and 456346.
+TEST 92 END
+
+TEST 93 BEGIN
+$ python3 -c 'from question_4 import *; f(1, 1232553)'
+There are 95235 prime numbers between 1 and 1232553.
+TEST 93 END
+
+TEST 94 BEGIN
+$ python3 -c 'from question_4 import *; f(9834, 435546)'
+There are 35394 prime numbers between 9834 and 435546.
+TEST 94 END
+
+TEST 95 BEGIN
+$ python3 -c 'from question_4 import *; f(23, 4461224)'
+There are 313395 prime numbers between 23 and 4461224.
+TEST 95 END
+
+TEST 96 BEGIN
+$ python3 -c 'from question_4 import *; f(234235, 5645747)'
+There are 369351 prime numbers between 234235 and 5645747.
+TEST 96 END
+
+TEST 97 BEGIN
+$ python3 -c 'from question_4 import *; f(145667, 7834134)'
+There are 515821 prime numbers between 145667 and 7834134.
+TEST 97 END
+
+TEST 98 BEGIN
+$ python3 -c 'from question_4 import *; f(672342, 9341232)'
+There are 569234 prime numbers between 672342 and 9341232.
+TEST 98 END
+
+TEST 99 BEGIN
+$ python3 -c 'from question_4 import *; f(7823045, 9079934)'
+There are 78780 prime numbers between 7823045 and 9079934.
+TEST 99 END
+
+TEST 100 BEGIN
+$ python3 -c 'from question_4 import *; f(13, 9998734)'
+There are 664503 prime numbers between 13 and 9998734.
+TEST 100 END
+
+TEST 101 BEGIN
+$ python3 -c 'from question_5 import *; f(1913)'
+In 1913, maximum inflation was: 1.03
+It was achieved in the following months: Jun
+TEST 101 END
+
+TEST 102 BEGIN
+$ python3 -c 'from question_5 import *; f(1918)'
+In 1918, maximum inflation was: 2.72
+It was achieved in the following months: Jul
+TEST 102 END
+
+TEST 103 BEGIN
+$ python3 -c 'from question_5 import *; f(1921)'
+In 1921, maximum inflation was: 0.57
+It was achieved in the following months: Jul
+TEST 103 END
+
+TEST 104 BEGIN
+$ python3 -c 'from question_5 import *; f(1925)'
+In 1925, maximum inflation was: 1.69
+It was achieved in the following months: Nov
+TEST 104 END
+
+TEST 105 BEGIN
+$ python3 -c 'from question_5 import *; f(1933)'
+In 1933, maximum inflation was: 3.15
+It was achieved in the following months: Jul
+TEST 105 END
+
+TEST 106 BEGIN
+$ python3 -c 'from question_5 import *; f(1938)'
+In 1938, maximum inflation was: 0.71
+It was achieved in the following months: Apr
+TEST 106 END
+
+TEST 107 BEGIN
+$ python3 -c 'from question_5 import *; f(1940)'
+In 1940, maximum inflation was: 0.72
+It was achieved in the following months: Feb
+TEST 107 END
+
+TEST 108 BEGIN
+$ python3 -c 'from question_5 import *; f(1944)'
+In 1944, maximum inflation was: 0.57
+It was achieved in the following months: Apr, Jun, Jul
+TEST 108 END
+
+TEST 109 BEGIN
+$ python3 -c 'from question_5 import *; f(1951)'
+In 1951, maximum inflation was: 1.6
+It was achieved in the following months: Jan
+TEST 109 END
+
+TEST 110 BEGIN
+$ python3 -c 'from question_5 import *; f(1957)'
+In 1957, maximum inflation was: 0.71
+It was achieved in the following months: Jul
+TEST 110 END
+
+TEST 111 BEGIN
+$ python3 -c 'from question_5 import *; f(1959)'
+In 1959, maximum inflation was: 0.35
+It was achieved in the following months: Jan, Apr
+TEST 111 END
+
+TEST 112 BEGIN
+$ python3 -c 'from question_5 import *; f(1961)'
+In 1961, maximum inflation was: 0.67
+It was achieved in the following months: Jul
+TEST 112 END
+
+TEST 113 BEGIN
+$ python3 -c 'from question_5 import *; f(1965)'
+In 1965, maximum inflation was: 0.64
+It was achieved in the following months: Jun
+TEST 113 END
+
+TEST 114 BEGIN
+$ python3 -c 'from question_5 import *; f(1972)'
+In 1972, maximum inflation was: 0.49
+It was achieved in the following months: Feb
+TEST 114 END
+
+TEST 115 BEGIN
+$ python3 -c 'from question_5 import *; f(1977)'
+In 1977, maximum inflation was: 1.03
+It was achieved in the following months: Feb
+TEST 115 END
+
+TEST 116 BEGIN
+$ python3 -c 'from question_5 import *; f(1982)'
+In 1982, maximum inflation was: 1.25
+It was achieved in the following months: Jun
+TEST 116 END
+
+TEST 117 BEGIN
+$ python3 -c 'from question_5 import *; f(1985)'
+In 1985, maximum inflation was: 0.47
+It was achieved in the following months: Feb, Apr
+TEST 117 END
+
+TEST 118 BEGIN
+$ python3 -c 'from question_5 import *; f(1989)'
+In 1989, maximum inflation was: 0.65
+It was achieved in the following months: Apr
+TEST 118 END
+
+TEST 119 BEGIN
+$ python3 -c 'from question_5 import *; f(1992)'
+In 1992, maximum inflation was: 0.51
+It was achieved in the following months: Mar
+TEST 119 END
+
+TEST 120 BEGIN
+$ python3 -c 'from question_5 import *; f(1999)'
+In 1999, maximum inflation was: 0.73
+It was achieved in the following months: Apr
+TEST 120 END
+
+TEST 121 BEGIN
+$ python3 -c 'from question_5 import *; f(2001)'
+In 2001, maximum inflation was: 0.63
+It was achieved in the following months: Jan
+TEST 121 END
+
+TEST 122 BEGIN
+$ python3 -c 'from question_5 import *; f(2005)'
+In 2005, maximum inflation was: 1.22
+It was achieved in the following months: Sep
+TEST 122 END
+
+TEST 123 BEGIN
+$ python3 -c 'from question_5 import *; f(2008)'
+In 2008, maximum inflation was: 1.01
+It was achieved in the following months: Jun
+TEST 123 END
+
+TEST 124 BEGIN
+$ python3 -c 'from question_5 import *; f(2010)'
+In 2010, maximum inflation was: 0.41
+It was achieved in the following months: Mar
+TEST 124 END
+
+TEST 125 BEGIN
+$ python3 -c 'from question_5 import *; f(2012)'
+In 2012, maximum inflation was: 0.76
+It was achieved in the following months: Mar
+TEST 125 END
+
+TEST 126 BEGIN
+$ python3 -c 'from question_6 import *; f(23, 1, 3)'
+Here is the square: 
+1
+It is a good square.
+Ordering the elements from left to right column, from top to bottom, yields:
+1
+TEST 126 END
+
+TEST 127 BEGIN
+$ python3 -c 'from question_6 import *; f(24, 2, 5)'
+Here is the square: 
+3 4
+1 1
+It is not a good square because it contains duplicates, namely: 1
+TEST 127 END
+
+TEST 128 BEGIN
+$ python3 -c 'from question_6 import *; f(24, 2, 12)'
+Here is the square: 
+11  6
+ 9  2
+It is a good square.
+Ordering the elements from left to right column, from top to bottom, yields:
+ 2  9
+ 6 11
+TEST 128 END
+
+TEST 129 BEGIN
+$ python3 -c 'from question_6 import *; f(25, 3, 5)'
+Here is the square: 
+3 0 1
+2 3 0
+2 0 2
+It is not a good square because it contains duplicates, namely: 0 2 3
+TEST 129 END
+
+TEST 130 BEGIN
+$ python3 -c 'from question_6 import *; f(26, 3, 50)'
+Here is the square: 
+47 12 42
+13 27 38
+34  3  8
+It is a good square.
+Ordering the elements from left to right column, from top to bottom, yields:
+ 3 13 38
+ 8 27 42
+12 34 47
+TEST 130 END
+
+TEST 131 BEGIN
+$ python3 -c 'from question_6 import *; f(27, 4, 8)'
+Here is the square: 
+7 4 4 3
+1 1 4 5
+4 5 6 2
+3 3 7 1
+It is not a good square because it contains duplicates, namely: 1 3 4 5 7
+TEST 131 END
+
+TEST 132 BEGIN
+$ python3 -c 'from question_6 import *; f(28, 4, 80)'
+Here is the square: 
+14 16 69 76
+22 28 16 59
+53 26 27 18
+50 20 16 77
+It is not a good square because it contains duplicates, namely: 16
+TEST 132 END
+
+TEST 133 BEGIN
+$ python3 -c 'from question_6 import *; f(29, 5, 15)'
+Here is the square: 
+ 8  1  5  9 13
+ 9  4  1  8 14
+ 5  6  6  0  0
+ 1 13  7 10  3
+12  5  1  7  5
+It is not a good square because it contains duplicates, namely: 0 1 5 6 7 8 9 13
+TEST 133 END
+
+TEST 134 BEGIN
+$ python3 -c 'from question_6 import *; f(30, 5, 500)'
+Here is the square: 
+276 413 148 312  15
+318 334 423 107 131
+ 24 203 192 328  68
+ 41 236   3 267 477
+124  13  37  81 465
+It is a good square.
+Ordering the elements from left to right column, from top to bottom, yields:
+  3  41 131 267 334
+ 13  68 148 276 413
+ 15  81 192 312 423
+ 24 107 203 318 465
+ 37 124 236 328 477
+TEST 134 END
+
+TEST 135 BEGIN
+$ python3 -c 'from question_6 import *; f(31, 6, 130)'
+Here is the square: 
+  3 120  28 100  36  11
+ 35  28  59  35  37   8
+ 15  34  59 114 105  52
+ 23  30   5 103  87  50
+ 52  84 100  93  63  53
+ 55 106  15  13  46  91
+It is not a good square because it contains duplicates, namely: 15 28 35 52 59 100
+TEST 135 END
+
+TEST 136 BEGIN
+$ python3 -c 'from question_6 import *; f(32, 6, 233534)'
+Here is the square: 
+ 20295  55998  37917  79463 183069  62336
+130089   6375 188806  10105  26276  85123
+133412  86596 221006  14958 137048 181028
+231158 122885  97245 157604    195 142189
+197988 204874  33137 137536   2466 127262
+191544 202635 220945  53206 219303  75452
+It is a good square.
+Ordering the elements from left to right column, from top to bottom, yields:
+   195  26276  75452 127262 157604 202635
+  2466  33137  79463 130089 181028 204874
+  6375  37917  85123 133412 183069 219303
+ 10105  53206  86596 137048 188806 220945
+ 14958  55998  97245 137536 191544 221006
+ 20295  62336 122885 142189 197988 231158
+TEST 136 END
+
+TEST 137 BEGIN
+$ python3 -c 'from question_6 import *; f(33, 7, 34)'
+Here is the square: 
+10 14 17 30 33 11 32
+20 33 30 28 18  4 19
+26 19 33 31  3 27 17
+20 15  7  3 20 18 13
+ 4 23  7 20 15 32 17
+20  0 22 33 19 25 24
+11  7  2 23  7  4  9
+It is not a good square because it contains duplicates, namely: 3 4 7 11 15 17 18 19 20 23 30 32 33
+TEST 137 END
+
+TEST 138 BEGIN
+$ python3 -c 'from question_6 import *; f(34, 7, 34000)'
+Here is the square: 
+23401  1813 15028  1960 25497 23900  4231
+27792 20066 22356  6195 33533 10146  6323
+17971 22745    96 10154  5662  4012 24196
+16725  3914 25345 10928 20316 19133 25008
+20568 13945 13500 29695 11744  8593 25688
+27780 15475 16282  7335  4907 29130 18405
+27192  7669 18539 12962 11450 26572 22411
+It is a good square.
+Ordering the elements from left to right column, from top to bottom, yields:
+   96  5662 10154 15028 19133 23401 26572
+ 1813  6195 10928 15475 20066 23900 27192
+ 1960  6323 11450 16282 20316 24196 27780
+ 3914  7335 11744 16725 20568 25008 27792
+ 4012  7669 12962 17971 22356 25345 29130
+ 4231  8593 13500 18405 22411 25497 29695
+ 4907 10146 13945 18539 22745 25688 33533
+TEST 138 END
+
+TEST 139 BEGIN
+$ python3 -c 'from question_6 import *; f(35, 8, 56)'
+Here is the square: 
+35 21 48  8 47 21 55  9
+18 27 16 36  3 47 33 48
+55 51 17 41 23 51 45 37
+48  6 23  0 32  0  6 46
+31 23 46  1 21 43 31  3
+ 1 15 20  5 10 21 10 36
+ 4 30 54 23  5 18 10 36
+ 4 43  8 34 46 52 28 52
+It is not a good square because it contains duplicates, namely: 0 1 3 4 5 6 8 10 18 21 23 31 36 43 46 47 48 51 52 55
+TEST 139 END
+
+TEST 140 BEGIN
+$ python3 -c 'from question_6 import *; f(36, 8, 32233)'
+Here is the square: 
+10770  1912 32217   683 31432 26259 30091 29798
+25883  9321 28674  2575    13 16466 20545  5782
+ 8114  8828 23935 21376 14168 11944 18352  8784
+17785  2547 18879 13364 27110 16056 32163 12778
+11322 24782 26414 12964 29139  7972 12847  5493
+ 4045 16847 16298 22990 25056  6669 17176  9644
+ 6044 16112 23116 19441 10634 23372 29040 17997
+ 5521   103 19460 12631 29514 16206  4542 24824
+It is a good square.
+Ordering the elements from left to right column, from top to bottom, yields:
+   13  5493  8828 12778 16298 19441 24782 29040
+  103  5521  9321 12847 16466 19460 24824 29139
+  683  5782  9644 12964 16847 20545 25056 29514
+ 1912  6044 10634 13364 17176 21376 25883 29798
+ 2547  6669 10770 14168 17785 22990 26259 30091
+ 2575  7972 11322 16056 17997 23116 26414 31432
+ 4045  8114 11944 16112 18352 23372 27110 32163
+ 4542  8784 12631 16206 18879 23935 28674 32217
+TEST 140 END
+
+TEST 141 BEGIN
+$ python3 -c 'from question_6 import *; f(37, 9, 675)'
+Here is the square: 
+622  93 632 649 527  36 646 378 448
+540 110 467 615 288 387 433 454 147
+ 50  93 423  76 556 295 369 663 442
+601 576 374 654 586  34 539 634 218
+517 426  64   8   7 671 522 369  70
+593 230  24 331 360 540 163  22  13
+223 319 232 522 665 308 639  43 289
+279 208 492 146 218 272 632 649  49
+449 459 107 570 664   2 273 664 244
+It is not a good square because it contains duplicates, namely: 93 218 369 522 540 632 649 664
+TEST 141 END
+
+TEST 142 BEGIN
+$ python3 -c 'from question_6 import *; f(38, 9, 5445245)'
+Here is the square: 
+5364294 3532669 3598888  852002  555589 3073564 3886824 3145155  366421
+5100578 1426829 4954397 2890438 2751787 2239450 2763867 5218389 2582505
+3968236 4889228 3361648 1873117 5140519  707741 4429597 4097908 1181362
+3662731 4419506 2067344   97996 3190979 3140755 4499538 5156165 4231731
+ 206173 1225016 3989067  859415 2098837  960472 1075099 3835420  727963
+ 983450 3309408 2459711 1533689 2985872 3804512 3512790 4096770 2411951
+5342776 2213451 1500485 3636448 2215820 1375132 3127487  659199 2006550
+4387129 4761809 2080771 2551822  241368 1231717 3588031 2007148 3053890
+ 559738  252994 4407118 4753702 2913207 4910945  309033 1853157 3169924
+It is a good square.
+Ordering the elements from left to right column, from top to bottom, yields:
+  97996  707741 1231717 2067344 2582505 3140755 3598888 4097908 4889228
+ 206173  727963 1375132 2080771 2751787 3145155 3636448 4231731 4910945
+ 241368  852002 1426829 2098837 2763867 3169924 3662731 4387129 4954397
+ 252994  859415 1500485 2213451 2890438 3190979 3804512 4407118 5100578
+ 309033  960472 1533689 2215820 2913207 3309408 3835420 4419506 5140519
+ 366421  983450 1853157 2239450 2985872 3361648 3886824 4429597 5156165
+ 555589 1075099 1873117 2411951 3053890 3512790 3968236 4499538 5218389
+ 559738 1181362 2006550 2459711 3073564 3532669 3989067 4753702 5342776
+ 659199 1225016 2007148 2551822 3127487 3588031 4096770 4761809 5364294
+TEST 142 END
+
+TEST 143 BEGIN
+$ python3 -c 'from question_6 import *; f(39, 10, 456)'
+Here is the square: 
+107 132 197  13  99 112 202 373 288   2
+330 409 130 346 182 363  91 417  13 150
+345 451 433  37 187   4  55 217 178 216
+404 385  49 444 200 262 297 153 136 366
+ 34 235 220 131 295 164 289   0 370 362
+442  23 333  96 317 317 246 316 385 324
+195 410 160 414 144 198 334 179 245  69
+271 221  36  88 152 347 385 147 120 405
+354 372 357 430  50 203 414 375 445 241
+262  45 213  17   8 370 373 340 214   2
+It is not a good square because it contains duplicates, namely: 2 13 262 317 370 373 385 414
+TEST 143 END
+
+TEST 144 BEGIN
+$ python3 -c 'from question_6 import *; f(40, 10, 343465)'
+Here is the square: 
+240441 303818 274712  16696 128602 148072 334022 108178  67304 182656
+145290 231086  15011 276559  68091  31094 336208 105897 324838 241521
+ 27879  92564 317060 164213  59561 131314 170423  75920 268986 274406
+ 51152 213587  25732 165551 176125 119051  80646 162637  85251 272832
+161871 152772 242127  82826 307288 110342 257944 227235 270705  33763
+ 89548 306037 107471 319436 306877   4692  46453 244873 320530 158976
+ 58859 100200 126299 241879 237866  52055 247145 334761 173945 325988
+237598 149434 279617 300351 129517  36610  19469  77948 318358 201785
+ 97962 234052  56562 218109  99432 307873  10125 219208 251248 272325
+126073 116698 230847 101552  89809  83677 160050 132509  48121  90592
+It is a good square.
+Ordering the elements from left to right column, from top to bottom, yields:
+  4692  46453  77948  99432 126299 160050 213587 241521 272832 307873
+ 10125  48121  80646 100200 128602 161871 218109 241879 274406 317060
+ 15011  51152  82826 101552 129517 162637 219208 242127 274712 318358
+ 16696  52055  83677 105897 131314 164213 227235 244873 276559 319436
+ 19469  56562  85251 107471 132509 165551 230847 247145 279617 320530
+ 25732  58859  89548 108178 145290 170423 231086 251248 300351 324838
+ 27879  59561  89809 110342 148072 173945 234052 257944 303818 325988
+ 31094  67304  90592 116698 149434 176125 237598 268986 306037 334022
+ 33763  68091  92564 119051 152772 182656 237866 270705 306877 334761
+ 36610  75920  97962 126073 158976 201785 240441 272325 307288 336208
+TEST 144 END
+
+TEST 145 BEGIN
+$ python3 -c 'from question_6 import *; f(41, 11, 34)'
+Here is the square: 
+24 21 14 10 24 18 17 24  0 15  1
+28  9  9 20 10 16  3  7  2 27 18
+13  4 23 30  8  1  7  6  9 11  3
+17 20 14  1 11 27  3 19 25  9  6
+ 5 26  1 31 25 14  1  5  8  4 29
+25 27 17  1  0 29 20 11  8  4  2
+ 6  8 26  5 33 26  6 15 14 27 23
+29 26 28  5 17 13 15 17 24 20 24
+18 28  5 13 10 13  1 14 11 30 15
+ 4 15  9 31 21  7 14 24  7 28 12
+31 25 22 17 22  1 11  9  9 32 33
+It is not a good square because it contains duplicates, namely: 0 1 2 3 4 5 6 7 8 9 10 11 13 14 15 17 18 20 21 22 23 24 25 26 27 28 29 30 31 33
+TEST 145 END
+
+TEST 146 BEGIN
+$ python3 -c 'from question_6 import *; f(41, 11, 6776)'
+Here is the square: 
+3121 2721 1890 1360 3159 4734 5653 2322 4530 2267 3141
+5993 6252 4722   76 6399 2040 5419  150 3599 1270 1227
+5924 2612 1372 2109 5362 5662 5085 4782  487  981 6425
+4814  270 3543 2308 6019 1768  595 5949 2950 5999 3892
+1024 4548 5488  151 1013  808 1176 5643 1456  438 2183
+2603 1845 5078  213 4982 4733 1491 3562 6525  470 2469
+3272 1195  874 5469  766 3335  176 5434 5377 4040 3234
+1887  177  703 1105  637 3755 5965 3291 3487 4360 6098
+2291 4421  230  116 5366 3799 2636 1444 1137 6612  538
+5867  324 5900 5587 6155  895 5410 5776 1045 3385 5369
+5815 6140  698 4989 4333 3427 4925  814 1980 1807 3583
+It is a good square.
+Ordering the elements from left to right column, from top to bottom, yields:
+  76  470  895 1360 2040 2721 3487 4421 5078 5587 5993
+ 116  487  981 1372 2109 2950 3543 4530 5085 5643 5999
+ 150  538 1013 1444 2183 3121 3562 4548 5362 5653 6019
+ 151  595 1024 1456 2267 3141 3583 4722 5366 5662 6098
+ 176  637 1045 1491 2291 3159 3599 4733 5369 5776 6140
+ 177  698 1105 1768 2308 3234 3755 4734 5377 5815 6155
+ 213  703 1137 1807 2322 3272 3799 4782 5410 5867 6252
+ 230  766 1176 1845 2469 3291 3892 4814 5419 5900 6399
+ 270  808 1195 1887 2603 3335 4040 4925 5434 5924 6425
+ 324  814 1227 1890 2612 3385 4333 4982 5469 5949 6525
+ 438  874 1270 1980 2636 3427 4360 4989 5488 5965 6612
+TEST 146 END
+
+TEST 147 BEGIN
+$ python3 -c 'from question_6 import *; f(42, 12, 546)'
+Here is the square: 
+114  25 281 250 228 142 104  89 432  32  30  95
+223 238 517  27 203 429 225 459 284   6 163 432
+348 284 159 220 344 104  94 389  99 367 352 270
+ 44 470 127 387  80 300 370 196  71  46 233 296
+ 81 238 103 389 284 464 373 166 379 363 214 273
+ 73 175 250 167 473 388 276 224 332  57 234  32
+323 410 274  67 216 322 217 511 405 469 146 271
+142 252 269 438 408 370 224 141 521 505  93  48
+112 156 163 432  65 394 390 479 541 257  11 117
+273 348 114 300 445 161 464   3 269 512 182 519
+108 305 519 203 156 382 165 543   0 331 500  19
+114 371 314 245  59 246  80  87 497  70 545 128
+It is not a good square because it contains duplicates, namely: 32 80 104 114 142 156 163 203 224 238 250 269 273 284 300 348 370 389 432 464 519
+TEST 147 END
+
+TEST 148 BEGIN
+$ python3 -c 'from question_6 import *; f(42, 12, 345362)'
+Here is the square: 
+335243  58369  13112 144194 128393 117026  73158  53736 285929  45580 309588 221208
+ 16663  15622  49123 114629 121981 264951 315631  13912 294254 104248 340726 285706
+219949 115574 235514 308944 145852   3407  83707 221571 178389 145684  81516 112886
+176472  53587  48625 199191  50707 188208 180331 316526 138685  22780 240870 281137
+ 65444 198461  41313 289428 153709 329588 324282 189600 302698 100814  36466  24025
+119484 151722  41833 122049  52953 199295 145738 237717 333281 191277  85277 194081
+186264 109842 139973 339757  37435 319360 332911  89725 280043 128351  85669 242357
+198943 141530 335544 292002 115141 170017  29327 120087  16829 165388 210325 140373
+ 34701 110615 297365 164981 111477 343638 261740 207425 337039 240570  74905 138873
+ 73206 129303 294318 282579 137752 306491 224622 305939 209400 189790 114987  72525
+267138 258744  47662  24702  57487  80132 328962  83876 221333 312690  33306 201728
+200078 312417 245392 277408 131813 290049   6019  60058 281527 139893 336048 178349
+It is a good square.
+Ordering the elements from left to right column, from top to bottom, yields:
+  3407  34701  53736  83876 115141 138685 164981 194081 221333 267138 294318 324282
+  6019  36466  57487  85277 115574 138873 165388 198461 221571 277408 297365 328962
+ 13112  37435  58369  85669 117026 139893 170017 198943 224622 280043 302698 329588
+ 13912  41313  60058  89725 119484 139973 176472 199191 235514 281137 305939 332911
+ 15622  41833  65444 100814 120087 140373 178349 199295 237717 281527 306491 333281
+ 16663  45580  72525 104248 121981 141530 178389 200078 240570 282579 308944 335243
+ 16829  47662  73158 109842 122049 144194 180331 201728 240870 285706 309588 335544
+ 22780  48625  73206 110615 128351 145684 186264 207425 242357 285929 312417 336048
+ 24025  49123  74905 111477 128393 145738 188208 209400 245392 289428 312690 337039
+ 24702  50707  80132 112886 129303 145852 189600 210325 258744 290049 315631 339757
+ 29327  52953  81516 114629 131813 151722 189790 219949 261740 292002 316526 340726
+ 33306  53587  83707 114987 137752 153709 191277 221208 264951 294254 319360 343638
+TEST 148 END
+
+TEST 149 BEGIN
+$ python3 -c 'from question_6 import *; f(43, 13, 564)'
+Here is the square: 
+ 39 292 147 473 378  98 464 510  19 526 442 381 560
+444 403 180  59 109 127 384 157  98 164 524 507 131
+396 518 278 186 385  65  50  62 191  62 169 303 281
+ 78 534 105  62  96 468 339 338 541 449 170 129  82
+327  51 274 376 190  72 116 304 506 370 444  42 484
+424  85 366 130  88 157 314 111 548 434 453  38 150
+  2 108 127 129  17 345 121 545 510 265 467 348 394
+ 89  34  95 211 414 198 413 266 418 335 407 355  53
+190 550 182 192  52 239 307 227 353 192 221 392 398
+230  62 469 513  62  98  27  24 558 523 515 517 114
+353 269 224 133 459 400 158 255   6 111 224 127 425
+205 385 435 108  15 191 385 119 336 320 267 551 137
+553 155 248 204 242  44  92 274 490 279  75 493 347
+It is not a good square because it contains duplicates, namely: 62 98 108 111 127 129 157 190 191 192 224 274 353 385 444 510
+TEST 149 END
+
+TEST 150 BEGIN
+$ python3 -c 'from question_6 import *; f(44, 13, 34254)'
+Here is the square: 
+26773 34080  7645 11577 24875 14756 18977  1906 14725  7644   577  6565 10268
+33666 19856 24800 26545 21372 23480  4820 22204 18528 10423  7340 33489  4591
+ 6201 17694 20671  7059 18986  2293 22580 25288  6279 31279 31202 12489 12359
+ 8522 16931 16250  3224  2847 28597  2479 21538 24216 30859 29729  9868 15287
+31683 29856 22669  2858 18217 10306   608 14624   956 18463 23375 13044 26511
+ 7308 23654 22290  7362 14666  3884 28392  3144 31060  8027  9350 11759   353
+19247  4132 17829  4878   441 28524 17951 11691 12624  3983 18309 31663 17207
+ 4251 33569 21620 31958  4286 18621 32187 19652 26290 26416 19801 29477  4769
+20800 16524  8631  8672  8677  4873 28942 25948 22623 29063  5519 17959  8748
+18257 32975 23724 15933  2271 15350 31963  4784 33055 17807 27029  9146 29663
+16389  8629 15187 23970  7396 20912 21327 32540  9533   313  5175 26589 26377
+25040 33267 29424 14399 14462 10247  9672   334 21873 20397   906 13885  8477
+10915 12317  1025  5060  7905  6226 25649 32861  3352 20193 26399  8402 18410
+It is a good square.
+Ordering the elements from left to right column, from top to bottom, yields:
+  313  2847  4820  7362  8748 11759 15187 17959 19856 22580 25649 28597 31683
+  334  2858  4873  7396  9146 12317 15287 18217 20193 22623 25948 28942 31958
+  353  3144  4878  7644  9350 12359 15350 18257 20397 22669 26290 29063 31963
+  441  3224  5060  7645  9533 12489 15933 18309 20671 23375 26377 29424 32187
+  577  3352  5175  7905  9672 12624 16250 18410 20800 23480 26399 29477 32540
+  608  3884  5519  8027  9868 13044 16389 18463 20912 23654 26416 29663 32861
+  906  3983  6201  8402 10247 13885 16524 18528 21327 23724 26511 29729 32975
+  956  4132  6226  8477 10268 14399 16931 18621 21372 23970 26545 29856 33055
+ 1025  4251  6279  8522 10306 14462 17207 18977 21538 24216 26589 30859 33267
+ 1906  4286  6565  8629 10423 14624 17694 18986 21620 24800 26773 31060 33489
+ 2271  4591  7059  8631 10915 14666 17807 19247 21873 24875 27029 31202 33569
+ 2293  4769  7308  8672 11577 14725 17829 19652 22204 25040 28392 31279 33666
+ 2479  4784  7340  8677 11691 14756 17951 19801 22290 25288 28524 31663 34080
+TEST 150 END
+
+TEST 151 BEGIN
+$ python3 -c 'from question_7 import *; f(9)'
+        0
+       123
+      45678
+     9012345
+    678901234
+   56789012345
+  6789012345678
+ 901234567890123
+45678901234567890
+TEST 151 END
+
+TEST 152 BEGIN
+$ python3 -c 'from question_7 import *; f(12)'
+           0
+          123
+         45678
+        9012345
+       678901234
+      56789012345
+     6789012345678
+    901234567890123
+   45678901234567890
+  1234567890123456789
+ 012345678901234567890
+12345678901234567890123
+TEST 152 END
+
+TEST 153 BEGIN
+$ python3 -c 'from question_7 import *; f(15)'
+              0
+             123
+            45678
+           9012345
+          678901234
+         56789012345
+        6789012345678
+       901234567890123
+      45678901234567890
+     1234567890123456789
+    012345678901234567890
+   12345678901234567890123
+  4567890123456789012345678
+ 901234567890123456789012345
+67890123456789012345678901234
+TEST 153 END
+
+TEST 154 BEGIN
+$ python3 -c 'from question_7 import *; f(18)'
+                 0
+                123
+               45678
+              9012345
+             678901234
+            56789012345
+           6789012345678
+          901234567890123
+         45678901234567890
+        1234567890123456789
+       012345678901234567890
+      12345678901234567890123
+     4567890123456789012345678
+    901234567890123456789012345
+   67890123456789012345678901234
+  5678901234567890123456789012345
+ 678901234567890123456789012345678
+90123456789012345678901234567890123
+TEST 154 END
+
+TEST 155 BEGIN
+$ python3 -c 'from question_7 import *; f(21)'
+                    0
+                   123
+                  45678
+                 9012345
+                678901234
+               56789012345
+              6789012345678
+             901234567890123
+            45678901234567890
+           1234567890123456789
+          012345678901234567890
+         12345678901234567890123
+        4567890123456789012345678
+       901234567890123456789012345
+      67890123456789012345678901234
+     5678901234567890123456789012345
+    678901234567890123456789012345678
+   90123456789012345678901234567890123
+  4567890123456789012345678901234567890
+ 123456789012345678901234567890123456789
+01234567890123456789012345678901234567890
+TEST 155 END
+
+TEST 156 BEGIN
+$ python3 -c 'from question_7 import *; f(24)'
+                       0
+                      123
+                     45678
+                    9012345
+                   678901234
+                  56789012345
+                 6789012345678
+                901234567890123
+               45678901234567890
+              1234567890123456789
+             012345678901234567890
+            12345678901234567890123
+           4567890123456789012345678
+          901234567890123456789012345
+         67890123456789012345678901234
+        5678901234567890123456789012345
+       678901234567890123456789012345678
+      90123456789012345678901234567890123
+     4567890123456789012345678901234567890
+    123456789012345678901234567890123456789
+   01234567890123456789012345678901234567890
+  1234567890123456789012345678901234567890123
+ 456789012345678901234567890123456789012345678
+90123456789012345678901234567890123456789012345
+TEST 156 END
+
+TEST 157 BEGIN
+$ python3 -c 'from question_7 import *; f(27)'
+                          0
+                         123
+                        45678
+                       9012345
+                      678901234
+                     56789012345
+                    6789012345678
+                   901234567890123
+                  45678901234567890
+                 1234567890123456789
+                012345678901234567890
+               12345678901234567890123
+              4567890123456789012345678
+             901234567890123456789012345
+            67890123456789012345678901234
+           5678901234567890123456789012345
+          678901234567890123456789012345678
+         90123456789012345678901234567890123
+        4567890123456789012345678901234567890
+       123456789012345678901234567890123456789
+      01234567890123456789012345678901234567890
+     1234567890123456789012345678901234567890123
+    456789012345678901234567890123456789012345678
+   90123456789012345678901234567890123456789012345
+  6789012345678901234567890123456789012345678901234
+ 567890123456789012345678901234567890123456789012345
+67890123456789012345678901234567890123456789012345678
+TEST 157 END
+
+TEST 158 BEGIN
+$ python3 -c 'from question_7 import *; f(30)'
+                             0
+                            123
+                           45678
+                          9012345
+                         678901234
+                        56789012345
+                       6789012345678
+                      901234567890123
+                     45678901234567890
+                    1234567890123456789
+                   012345678901234567890
+                  12345678901234567890123
+                 4567890123456789012345678
+                901234567890123456789012345
+               67890123456789012345678901234
+              5678901234567890123456789012345
+             678901234567890123456789012345678
+            90123456789012345678901234567890123
+           4567890123456789012345678901234567890
+          123456789012345678901234567890123456789
+         01234567890123456789012345678901234567890
+        1234567890123456789012345678901234567890123
+       456789012345678901234567890123456789012345678
+      90123456789012345678901234567890123456789012345
+     6789012345678901234567890123456789012345678901234
+    567890123456789012345678901234567890123456789012345
+   67890123456789012345678901234567890123456789012345678
+  9012345678901234567890123456789012345678901234567890123
+ 456789012345678901234567890123456789012345678901234567890
+12345678901234567890123456789012345678901234567890123456789
+TEST 158 END
+
+TEST 159 BEGIN
+$ python3 -c 'from question_7 import *; f(33)'
+                                0
+                               123
+                              45678
+                             9012345
+                            678901234
+                           56789012345
+                          6789012345678
+                         901234567890123
+                        45678901234567890
+                       1234567890123456789
+                      012345678901234567890
+                     12345678901234567890123
+                    4567890123456789012345678
+                   901234567890123456789012345
+                  67890123456789012345678901234
+                 5678901234567890123456789012345
+                678901234567890123456789012345678
+               90123456789012345678901234567890123
+              4567890123456789012345678901234567890
+             123456789012345678901234567890123456789
+            01234567890123456789012345678901234567890
+           1234567890123456789012345678901234567890123
+          456789012345678901234567890123456789012345678
+         90123456789012345678901234567890123456789012345
+        6789012345678901234567890123456789012345678901234
+       567890123456789012345678901234567890123456789012345
+      67890123456789012345678901234567890123456789012345678
+     9012345678901234567890123456789012345678901234567890123
+    456789012345678901234567890123456789012345678901234567890
+   12345678901234567890123456789012345678901234567890123456789
+  0123456789012345678901234567890123456789012345678901234567890
+ 123456789012345678901234567890123456789012345678901234567890123
+45678901234567890123456789012345678901234567890123456789012345678
+TEST 159 END
+
+TEST 160 BEGIN
+$ python3 -c 'from question_7 import *; f(36)'
+                                   0
+                                  123
+                                 45678
+                                9012345
+                               678901234
+                              56789012345
+                             6789012345678
+                            901234567890123
+                           45678901234567890
+                          1234567890123456789
+                         012345678901234567890
+                        12345678901234567890123
+                       4567890123456789012345678
+                      901234567890123456789012345
+                     67890123456789012345678901234
+                    5678901234567890123456789012345
+                   678901234567890123456789012345678
+                  90123456789012345678901234567890123
+                 4567890123456789012345678901234567890
+                123456789012345678901234567890123456789
+               01234567890123456789012345678901234567890
+              1234567890123456789012345678901234567890123
+             456789012345678901234567890123456789012345678
+            90123456789012345678901234567890123456789012345
+           6789012345678901234567890123456789012345678901234
+          567890123456789012345678901234567890123456789012345
+         67890123456789012345678901234567890123456789012345678
+        9012345678901234567890123456789012345678901234567890123
+       456789012345678901234567890123456789012345678901234567890
+      12345678901234567890123456789012345678901234567890123456789
+     0123456789012345678901234567890123456789012345678901234567890
+    123456789012345678901234567890123456789012345678901234567890123
+   45678901234567890123456789012345678901234567890123456789012345678
+  9012345678901234567890123456789012345678901234567890123456789012345
+ 678901234567890123456789012345678901234567890123456789012345678901234
+56789012345678901234567890123456789012345678901234567890123456789012345
+TEST 160 END
+
+TEST 161 BEGIN
+$ python3 -c 'from question_8 import *; f("ARCWPI")'
+The pairs of words using all (distinct) letters in "ARCWPI" are:
+('CAW', 'RIP')
+TEST 161 END
+
+TEST 162 BEGIN
+$ python3 -c 'from question_8 import *; f("BSAYRO")'
+The pairs of words using all (distinct) letters in "BSAYRO" are:
+('BAR', 'SOY')
+('BRA', 'SOY')
+('ORB', 'SAY')
+('RAY', 'SOB')
+('ROB', 'SAY')
+TEST 162 END
+
+TEST 163 BEGIN
+$ python3 -c 'from question_8 import *; f("OHNWYT")'
+The pairs of words using all (distinct) letters in "OHNWYT" are:
+('NOT', 'WHY')
+('TON', 'WHY')
+TEST 163 END
+
+TEST 164 BEGIN
+$ python3 -c 'from question_8 import *; f("BODTREUCP")'
+The pairs of words using all (distinct) letters in "BODTREUCP" are:
+('BURPED', 'COT')
+('BURT', 'COPED')
+('CUB', 'DEPORT')
+('CUB', 'PORTED')
+('CUBED', 'PORT')
+('CUP', 'DEBTOR')
+('CURB', 'DEPOT')
+('CURB', 'OPTED')
+('CUT', 'PROBED')
+('DUCT', 'PROBE')
+TEST 164 END
+
+TEST 165 BEGIN
+$ python3 -c 'from question_8 import *; f("SIPUMOX")'
+The pairs of words using all (distinct) letters in "SIPUMOX" are:
+('MIX', 'OPUS')
+('MIX', 'SOUP')
+TEST 165 END
+
+TEST 166 BEGIN
+$ python3 -c 'from question_8 import *; f("TAMIENB")'
+The pairs of words using all (distinct) letters in "TAMIENB" are:
+('ABE', 'MINT')
+('AIM', 'BENT')
+('AMEN', 'BIT')
+('BAIT', 'MEN')
+('BAN', 'EMIT')
+('BAN', 'ITEM')
+('BAN', 'TIME')
+('BANE', 'TIM')
+('BAT', 'MIEN')
+('BAT', 'MINE')
+('BEAM', 'TIN')
+('BEAN', 'TIM')
+('BET', 'MAIN')
+('BIEN', 'MAT')
+('BIN', 'MATE')
+('BIN', 'MEAT')
+('BIN', 'META')
+('BIN', 'TAME')
+('BIN', 'TEAM')
+('BIT', 'MANE')
+('BIT', 'MEAN')
+('BIT', 'NAME')
+('BITE', 'MAN')
+('EMIT', 'NAB')
+('IBN', 'MATE')
+('IBN', 'MEAT')
+('IBN', 'META')
+('IBN', 'TAME')
+('IBN', 'TEAM')
+('ITEM', 'NAB')
+('MIEN', 'TAB')
+('MINE', 'TAB')
+('NAB', 'TIME')
+TEST 166 END
+
+TEST 167 BEGIN
+$ python3 -c 'from question_8 import *; f("NTYSDEHAILPC")'
+The pairs of words using all (distinct) letters in "NTYSDEHAILPC" are:
+('ANY', 'STEPCHILD')
+('CANDLES', 'PITHY')
+('CATHY', 'SPINDLE')
+('DELPHI', 'SCANTY')
+('DELPHIC', 'NASTY')
+('DENT', 'PHYSICAL')
+('DENTAL', 'PHYSIC')
+('DYLAN', 'PITCHES')
+('DYNASTIC', 'HELP')
+('HELD', 'SYNAPTIC')
+('LATCHED', 'SPINY')
+('LINDSEY', 'PATCH')
+('LINDY', 'PATCHES')
+('NAY', 'STEPCHILD')
+('PHYSICAL', 'TEND')
+('PINCHED', 'SALTY')
+('SPACED', 'THINLY')
+TEST 167 END
+
+TEST 168 BEGIN
+$ python3 -c 'from question_8 import *; f("UBSERHCTOA")'
+The pairs of words using all (distinct) letters in "UBSERHCTOA" are:
+('ABET', 'CHORUS')
+('ABHOR', 'CETUS')
+('ABHORS', 'CUTE')
+('ABU', 'TORCHES')
+('ABUSE', 'TORCH')
+('ABUT', 'CHORES')
+('ABUTS', 'CHORE')
+('ACHE', 'ROBUST')
+('ARCHES', 'BOUT')
+('ASCOT', 'HUBER')
+('BACH', 'ROUTES')
+('BAR', 'TOUCHES')
+('BARES', 'TOUCH')
+('BAREST', 'CHOU')
+('BAREST', 'OUCH')
+('BASER', 'TOUCH')
+('BATCH', 'ROUSE')
+('BATCHES', 'OUR')
+('BATH', 'COURSE')
+('BATH', 'CRUSOE')
+('BATH', 'SOURCE')
+('BATHE', 'SCOUR')
+('BATHOS', 'CURE')
+('BAUSCH', 'TORE')
+('BEACH', 'TORUS')
+('BEACH', 'TOURS')
+('BEARS', 'TOUCH')
+('BEAT', 'CHORUS')
+('BEAUS', 'TORCH')
+('BETA', 'CHORUS')
+('BOAR', 'CHUTES')
+('BOARSH', 'CUTE')
+('BOATER', 'SUCH')
+('BORATE', 'SUCH')
+('BOTH', 'CAUSER')
+('BOTH', 'SAUCER')
+('BOUCHER', 'SAT')
+('BOUT', 'CASHER')
+('BOUT', 'CHASER')
+('BOUT', 'SEARCH')
+('BOUTS', 'REACH')
+('BRA', 'TOUCHES')
+('BRACE', 'SHOUT')
+('BRACE', 'SOUTH')
+('BRAES', 'TOUCH')
+('BREACH', 'OUST')
+('BREACH', 'OUTS')
+('BREAST', 'CHOU')
+('BREAST', 'OUCH')
+('BROTH', 'CAUSE')
+('BROTH', 'SAUCE')
+('BRUCE', 'OATHS')
+('BRUTE', 'CHAOS')
+('BRUTES', 'CHAO')
+('BUSCH', 'ERATO')
+('BUST', 'HORACE')
+('BUSTER', 'CHAO')
+('BUTCHER', 'SAO')
+('CAB', 'SHOUTER')
+('CABOT', 'USHER')
+('CAUSE', 'THROB')
+('CHAO', 'TUBERS')
+('CHAOS', 'TUBER')
+('CHERUB', 'OATS')
+('CHERUB', 'TAOS')
+('CHERUBS', 'OAT')
+('COAST', 'HUBER')
+('COASTER', 'HUB')
+('COATS', 'HUBER')
+('COSTA', 'HUBER')
+('CUBA', 'OTHERS')
+('CUBES', 'TORAH')
+('CUES', 'HOBART')
+('CURBS', 'TAHOE')
+('EACH', 'ROBUST')
+('HAT', 'OBSCURE')
+('HECUBA', 'ROTS')
+('HECUBA', 'SORT')
+('HORACE', 'STUB')
+('HORACE', 'TUBS')
+('HUBER', 'TOSCA')
+('OTHER', 'SCUBA')
+('ROACH', 'TUBES')
+('SABER', 'TOUCH')
+('SAUCE', 'THROB')
+('SCRUB', 'TAHOE')
+TEST 168 END
+
+TEST 169 BEGIN
+$ python3 -c 'from question_8 import *; f("EBSUPAORTH")'
+The pairs of words using all (distinct) letters in "EBSUPAORTH" are:
+('ABHOR', 'SETUP')
+('ABHOR', 'UPSET')
+('ABRUPT', 'HOES')
+('ABRUPT', 'HOSE')
+('ABRUPT', 'SHOE')
+('BAH', 'POSTURE')
+('BARE', 'UPSHOT')
+('BASH', 'PUERTO')
+('BAT', 'ORPHEUS')
+('BATHE', 'POURS')
+('BATHER', 'OPUS')
+('BATHER', 'SOUP')
+('BATHES', 'POUR')
+('BATHOS', 'PERU')
+('BATHOS', 'PURE')
+('BEAR', 'UPSHOT')
+('BERTHA', 'OPUS')
+('BERTHA', 'SOUP')
+('BOAT', 'PUSHER')
+('BOATER', 'PUSH')
+('BORATE', 'PUSH')
+('BOUT', 'PHASER')
+('BOUT', 'PHRASE')
+('BOUT', 'SHAPER')
+('BOUT', 'SHARPE')
+('BRAE', 'UPSHOT')
+('BREATH', 'OPUS')
+('BREATH', 'SOUP')
+('BROTH', 'PAUSE')
+('BURPS', 'TAHOE')
+('BUSH', 'PARETO')
+('HEAP', 'ROBUST')
+('HUB', 'SEAPORT')
+('HUBERT', 'PASO')
+('HUBERT', 'SOAP')
+('HUBS', 'PARETO')
+('OATH', 'SUPERB')
+('ORPHEUS', 'TAB')
+('PATHOS', 'REUB')
+('PATHOS', 'RUBE')
+('PAUSE', 'THROB')
+('POTASH', 'REUB')
+('POTASH', 'RUBE')
+('PROBATE', 'SHU')
+('PROBES', 'UTAH')
+TEST 169 END
+
+TEST 170 BEGIN
+$ python3 -c 'from question_8 import *; f("LOBMNRTAE")'
+The pairs of words using all (distinct) letters in "LOBMNRTAE" are:
+('ABLER', 'MONT')
+('AMBLE', 'TORN')
+('AMBLER', 'NOT')
+('AMBLER', 'TON')
+('ANTLER', 'MOB')
+('ARLEN', 'TOMB')
+('ARM', 'BELTON')
+('BALER', 'MONT')
+('BALM', 'NOTRE')
+('BALM', 'TENOR')
+('BALM', 'TONER')
+('BAR', 'MOLTEN')
+('BARN', 'MOTEL')
+('BARON', 'MELT')
+('BART', 'LEMON')
+('BART', 'MELON')
+('BART', 'MENLO')
+('BARTON', 'ELM')
+('BARTON', 'MEL')
+('BELT', 'MANOR')
+('BELT', 'MORAN')
+('BELT', 'NORMA')
+('BELT', 'ROMAN')
+('BELTON', 'RAM')
+('BEN', 'MORTAL')
+('BENT', 'MOLAR')
+('BENT', 'MORAL')
+('BERMAN', 'LOT')
+('BET', 'NORMAL')
+('BLAME', 'TORN')
+('BLAMER', 'NOT')
+('BLAMER', 'TON')
+('BLARE', 'MONT')
+('BLEAR', 'MONT')
+('BLEAT', 'MORN')
+('BLEAT', 'NORM')
+('BLOT', 'NAMER')
+('BOLT', 'NAMER')
+('BONER', 'MALT')
+('BORN', 'METAL')
+('BORNE', 'MALT')
+('BRA', 'MOLTEN')
+('BRAN', 'MOTEL')
+('BRAT', 'LEMON')
+('BRAT', 'MELON')
+('BRAT', 'MENLO')
+('LAB', 'MENTOR')
+('LAMB', 'NOTRE')
+('LAMB', 'TENOR')
+('LAMB', 'TONER')
+('LAMENT', 'ORB')
+('LAMENT', 'ROB')
+('LEARN', 'TOMB')
+('MABEL', 'TORN')
+('MANTEL', 'ORB')
+('MANTEL', 'ROB')
+('MANTLE', 'ORB')
+('MANTLE', 'ROB')
+('MARBLE', 'NOT')
+('MARBLE', 'TON')
+('MART', 'NOBEL')
+('MART', 'NOBLE')
+('MAT', 'NOBLER')
+('MENTAL', 'ORB')
+('MENTAL', 'ROB')
+('MOB', 'RENTAL')
+('MORN', 'TABLE')
+('NORM', 'TABLE')
+('NOT', 'RAMBLE')
+('RAMBLE', 'TON')
+('RENAL', 'TOMB')
+TEST 170 END

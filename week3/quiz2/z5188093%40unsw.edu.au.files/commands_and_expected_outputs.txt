@@ -1,0 +1,932 @@
+TEST 1 BEGIN
+$ echo 45 2 4 | python3 quiz_2.py
+Enter three strictly positive integers: 45 2 4
+Here is L:
+[3, 4]
+
+The size of the simplest fraction <= 1 built from members of L is: 2
+From smallest to largest, those simplest fractions are:
+    3/4
+    1/1
+The size of the most complex fraction <= 1 built from members of L is: 2
+From largest to smallest, those most complex fractions are:
+    1/1
+    3/4
+The highest multiplicity of prime factors of the latter's denominators is: 2
+These prime factors of highest multiplicity are, from smallest to largest:
+    [2]
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 56 3 8 | python3 quiz_2.py
+Enter three strictly positive integers: 56 3 8
+Here is L:
+[1, 8, 5]
+
+The size of the simplest fraction <= 1 built from members of L is: 2
+From smallest to largest, those simplest fractions are:
+    1/8
+    1/5
+    5/8
+    1/1
+The size of the most complex fraction <= 1 built from members of L is: 2
+From largest to smallest, those most complex fractions are:
+    1/1
+    5/8
+    1/5
+    1/8
+The highest multiplicity of prime factors of the latter's denominators is: 3
+These prime factors of highest multiplicity are, from smallest to largest:
+    [2]
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 67 4 200 | python3 quiz_2.py
+Enter three strictly positive integers: 67 4 200
+Here is L:
+[20, 30, 197, 105]
+
+The size of the simplest fraction <= 1 built from members of L is: 2
+From smallest to largest, those simplest fractions are:
+    2/7
+    2/3
+    1/1
+The size of the most complex fraction <= 1 built from members of L is: 6
+From largest to smallest, those most complex fractions are:
+    105/197
+The highest multiplicity of prime factors of the latter's denominators is: 1
+These prime factors of highest multiplicity are, from smallest to largest:
+    [197]
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 78 5 67 | python3 quiz_2.py
+Enter three strictly positive integers: 78 5 67
+Here is L:
+[25, 13, 39, 33, 55]
+
+The size of the simplest fraction <= 1 built from members of L is: 2
+From smallest to largest, those simplest fractions are:
+    1/3
+    3/5
+    1/1
+The size of the most complex fraction <= 1 built from members of L is: 4
+From largest to smallest, those most complex fractions are:
+    11/13
+    25/33
+    39/55
+    25/39
+    13/25
+    13/33
+    13/55
+The highest multiplicity of prime factors of the latter's denominators is: 2
+These prime factors of highest multiplicity are, from smallest to largest:
+    [5]
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 89 10 250 | python3 quiz_2.py
+Enter three strictly positive integers: 89 10 250
+Here is L:
+[21, 197, 156, 181, 67, 36, 89, 219, 17, 39]
+
+The size of the simplest fraction <= 1 built from members of L is: 2
+From smallest to largest, those simplest fractions are:
+    1/4
+    1/1
+The size of the most complex fraction <= 1 built from members of L is: 6
+From largest to smallest, those most complex fractions are:
+    181/197
+    197/219
+    156/181
+    181/219
+    156/197
+The highest multiplicity of prime factors of the latter's denominators is: 1
+These prime factors of highest multiplicity are, from smallest to largest:
+    [3, 73, 181, 197]
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 96 15 200 | python3 quiz_2.py
+Enter three strictly positive integers: 96 15 200
+Here is L:
+[95, 81, 173, 102, 53, 25, 88, 195, 12, 179, 6, 43, 105, 165, 81]
+
+The size of the simplest fraction <= 1 built from members of L is: 2
+From smallest to largest, those simplest fractions are:
+    1/2
+    1/1
+The size of the most complex fraction <= 1 built from members of L is: 6
+From largest to smallest, those most complex fractions are:
+    173/179
+    165/173
+    165/179
+    179/195
+    173/195
+    105/173
+    102/173
+    105/179
+    102/179
+The highest multiplicity of prime factors of the latter's denominators is: 1
+These prime factors of highest multiplicity are, from smallest to largest:
+    [3, 5, 13, 173, 179]
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 101 20 300 | python3 quiz_2.py
+Enter three strictly positive integers: 101 20 300
+Here is L:
+[298, 100, 277, 184, 240, 25, 258, 110, 114, 148, 249, 109, 169, 225, 37, 131, 99, 83, 46, 228]
+
+The size of the simplest fraction <= 1 built from members of L is: 2
+From smallest to largest, those simplest fractions are:
+    1/9
+    1/4
+    1/3
+    4/9
+    1/2
+    1/1
+The size of the most complex fraction <= 1 built from members of L is: 6
+From largest to smallest, those most complex fractions are:
+    109/110
+    109/114
+    258/277
+    277/298
+    169/184
+    100/109
+    249/277
+    131/148
+    148/169
+    114/131
+    240/277
+    129/149
+    110/131
+    249/298
+    109/131
+    228/277
+    184/225
+    225/277
+    120/149
+    131/169
+    114/149
+    100/131
+    225/298
+    169/225
+    169/228
+    184/249
+    109/148
+    131/184
+    169/240
+    169/249
+    114/169
+    184/277
+    148/225
+    169/258
+    110/169
+    109/169
+    169/277
+    148/249
+    109/184
+    100/169
+    131/225
+    131/228
+    169/298
+    131/240
+    148/277
+    131/249
+    131/258
+    109/225
+    109/228
+    131/277
+    109/240
+    110/249
+    131/298
+    109/249
+    109/258
+    114/277
+    100/249
+    110/277
+    109/277
+    109/298
+    100/277
+The highest multiplicity of prime factors of the latter's denominators is: 4
+These prime factors of highest multiplicity are, from smallest to largest:
+    [2]
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 112 30 78 | python3 quiz_2.py
+Enter three strictly positive integers: 112 30 78
+Here is L:
+[62, 75, 39, 60, 54, 21, 47, 29, 68, 59, 4, 50, 77, 31, 59, 60, 34, 45, 25, 30, 78, 22, 58, 67, 45, 53, 52, 33, 3, 9]
+
+The size of the simplest fraction <= 1 built from members of L is: 2
+From smallest to largest, those simplest fractions are:
+    1/7
+    1/6
+    1/5
+    2/7
+    1/3
+    2/5
+    3/7
+    4/9
+    1/2
+    5/9
+    3/5
+    2/3
+    3/4
+    4/5
+    5/6
+    1/1
+The size of the most complex fraction <= 1 built from members of L is: 4
+From largest to smallest, those most complex fractions are:
+    77/78
+    67/68
+    59/60
+    58/59
+    53/54
+    52/53
+    75/77
+    33/34
+    30/31
+    29/30
+    26/27
+    25/26
+    45/47
+    21/22
+    59/62
+    50/53
+    47/50
+    31/33
+    29/31
+    27/29
+    25/27
+    62/67
+    54/59
+    53/58
+    31/34
+    10/11
+    68/75
+    47/52
+    53/59
+    26/29
+    60/67
+    67/75
+    47/53
+    53/60
+    68/77
+    15/17
+    52/59
+    59/67
+    22/25
+    29/33
+    34/39
+    27/31
+    47/54
+    67/77
+    59/68
+    13/15
+    58/67
+    45/52
+    25/29
+    67/78
+    53/62
+    29/34
+    45/53
+    50/59
+    11/13
+    21/25
+    26/31
+    39/47
+    62/75
+    47/58
+    25/31
+    54/67
+    62/77
+    47/59
+    31/39
+    27/34
+    53/67
+    59/75
+    47/60
+    39/50
+    53/68
+    60/77
+    52/67
+    45/58
+    58/75
+    10/13
+    59/77
+    13/17
+    45/59
+    22/29
+    47/62
+    25/33
+    59/78
+    34/45
+    58/77
+    50/67
+    29/39
+    39/53
+    25/34
+    11/15
+    45/62
+    21/29
+    34/47
+    13/18
+    18/25
+    22/31
+    53/75
+    33/47
+    47/67
+    54/77
+    52/75
+    47/68
+    31/45
+    53/77
+    17/25
+    53/78
+    21/31
+    52/77
+    39/58
+    45/67
+    45/68
+    39/59
+    33/50
+    31/47
+    17/26
+    13/20
+    50/77
+    11/17
+    29/45
+    34/53
+    25/39
+    30/47
+    33/52
+    17/27
+    39/62
+    47/75
+    33/53
+    31/50
+    21/34
+    29/47
+    11/18
+    47/77
+    47/78
+    31/52
+    17/29
+    31/53
+    45/77
+    39/67
+    29/50
+    15/26
+    34/59
+    31/54
+    39/68
+    33/58
+    17/30
+    30/53
+    22/39
+    33/59
+    29/52
+    11/20
+    17/31
+    29/53
+    29/54
+    31/58
+    33/62
+    25/47
+    31/59
+    13/25
+    15/29
+    31/60
+    30/59
+    34/67
+    39/77
+    33/67
+    29/59
+    22/45
+    33/68
+    15/31
+    29/60
+    25/52
+    25/53
+    22/47
+    29/62
+    25/54
+    31/67
+    31/68
+    34/75
+    30/67
+    21/47
+    34/77
+    15/34
+    11/25
+    17/39
+    29/67
+    25/58
+    29/68
+    25/59
+    11/26
+    21/50
+    22/53
+    31/75
+    11/27
+    21/52
+    25/62
+    31/77
+    31/78
+    21/53
+    30/77
+    29/75
+    11/29
+    29/77
+    25/67
+    22/59
+    29/78
+    25/68
+    11/30
+    21/58
+    21/59
+    11/31
+    21/62
+    22/67
+    25/77
+    11/34
+    25/78
+    21/67
+    21/68
+    22/75
+    11/39
+The highest multiplicity of prime factors of the latter's denominators is: 3
+These prime factors of highest multiplicity are, from smallest to largest:
+    [3]
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 123 40 3456 | python3 quiz_2.py
+Enter three strictly positive integers: 123 40 3456
+Here is L:
+[215, 1097, 358, 3150, 1669, 1092, 442, 3435, 157, 1553, 2197, 2304, 1361, 1396, 213, 654, 554, 1382, 2298, 1368, 2875, 1005, 671, 7, 1787, 3169, 359, 2448, 1547, 287, 28, 1293, 2999, 1837, 418, 180, 380, 2733, 583, 518]
+
+The size of the simplest fraction <= 1 built from members of L is: 2
+From smallest to largest, those simplest fractions are:
+    1/4
+    2/7
+    1/1
+The size of the most complex fraction <= 1 built from members of L is: 8
+From largest to smallest, those most complex fractions are:
+    1547/1553
+    1092/1097
+    1361/1368
+    3150/3169
+    1361/1382
+    1361/1396
+    1787/1837
+    2875/2999
+    2197/2298
+    2197/2304
+    2999/3150
+    2733/2875
+    1293/1361
+    2999/3169
+    1293/1382
+    1669/1787
+    1553/1669
+    1547/1669
+    1293/1396
+    3169/3435
+    1005/1097
+    2733/2999
+    1669/1837
+    2875/3169
+    1396/1547
+    1396/1553
+    2197/2448
+    1382/1547
+    1382/1553
+    1368/1547
+    1368/1553
+    1361/1547
+    1361/1553
+    2999/3435
+    1553/1787
+    1547/1787
+    2733/3169
+    2448/2875
+    1097/1293
+    1553/1837
+    1547/1837
+    1396/1669
+    1837/2197
+    1293/1547
+    1293/1553
+    1382/1669
+    1368/1669
+    2448/2999
+    1361/1669
+    1787/2197
+    1097/1361
+    2197/2733
+    1092/1361
+    1097/1368
+    2304/2875
+    1837/2298
+    2298/2875
+    1837/2304
+    1097/1382
+    1097/1396
+    1396/1787
+    1787/2298
+    1787/2304
+    1293/1669
+    1382/1787
+    2448/3169
+    2304/2999
+    2298/2999
+    1368/1787
+    2197/2875
+    1361/1787
+    1396/1837
+    1669/2197
+    1382/1837
+    1837/2448
+    1368/1837
+    1361/1837
+    1005/1361
+    2197/2999
+    1787/2448
+    1005/1382
+    2304/3169
+    1669/2298
+    2298/3169
+    1669/2304
+    1293/1787
+    1005/1396
+    1097/1547
+    1553/2197
+    1097/1553
+    1293/1837
+    1092/1553
+    2197/3150
+    2197/3169
+    1669/2448
+    1553/2298
+    1553/2304
+    1547/2298
+    1837/2733
+    1547/2304
+    1097/1669
+    1092/1669
+    1787/2733
+    1005/1547
+    1005/1553
+    2197/3435
+    1837/2875
+    1396/2197
+    1553/2448
+    1382/2197
+    1368/2197
+    1787/2875
+    1361/2197
+    1097/1787
+    1837/2999
+    1092/1787
+    1669/2733
+    1005/1669
+    1097/1837
+    1787/2999
+    1092/1837
+    1361/2298
+    1361/2304
+    1293/2197
+    1837/3150
+    1669/2875
+    1837/3169
+    1553/2733
+    1787/3150
+    1547/2733
+    1787/3169
+    1005/1787
+    1669/2999
+    1361/2448
+    1005/1837
+    1553/2875
+    1547/2875
+    1837/3435
+    1669/3150
+    1669/3169
+    1787/3435
+    1553/2999
+    1547/2999
+    1396/2733
+    1382/2733
+    1097/2197
+    1361/2733
+    1553/3150
+    1553/3169
+    1547/3169
+    1669/3435
+    1396/2875
+    1382/2875
+    1097/2298
+    1097/2304
+    1368/2875
+    1361/2875
+    1396/2999
+    1382/2999
+    1005/2197
+    1368/2999
+    1361/2999
+    1553/3435
+    1547/3435
+    1293/2875
+    1097/2448
+    1396/3169
+    1382/3169
+    1361/3150
+    1368/3169
+    1293/2999
+    1361/3169
+    1293/3169
+    1396/3435
+    1382/3435
+    1097/2733
+    1361/3435
+    1097/2875
+    1092/2875
+    1097/2999
+    1092/2999
+    1097/3150
+    1097/3169
+    1092/3169
+    1005/2999
+    1097/3435
+    1005/3169
+The highest multiplicity of prime factors of the latter's denominators is: 8
+These prime factors of highest multiplicity are, from smallest to largest:
+    [2]
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 134 45 340 | python3 quiz_2.py
+Enter three strictly positive integers: 134 45 340
+Here is L:
+[248, 268, 102, 286, 327, 65, 14, 336, 249, 57, 199, 115, 252, 128, 307, 280, 234, 16, 53, 148, 265, 142, 156, 35, 298, 327, 135, 328, 196, 184, 134, 184, 73, 268, 201, 318, 148, 154, 258, 169, 294, 25, 34, 202, 115]
+
+The size of the simplest fraction <= 1 built from members of L is: 2
+From smallest to largest, those simplest fractions are:
+    1/8
+    1/6
+    1/5
+    1/3
+    2/5
+    1/2
+    5/8
+    2/3
+    5/7
+    3/4
+    7/9
+    5/6
+    6/7
+    7/8
+    1/1
+The size of the most complex fraction <= 1 built from members of L is: 6
+From largest to smallest, those most complex fractions are:
+    327/328
+    248/249
+    201/202
+    134/135
+    199/201
+    265/268
+    147/149
+    199/202
+    196/199
+    140/143
+    196/201
+    258/265
+    109/112
+    143/147
+    106/109
+    298/307
+    159/164
+    307/318
+    129/134
+    124/129
+    143/149
+    294/307
+    252/265
+    135/142
+    128/135
+    117/124
+    249/265
+    140/149
+    307/327
+    149/159
+    134/143
+    307/328
+    248/265
+    286/307
+    249/268
+    265/286
+    184/199
+    129/140
+    169/184
+    184/201
+    307/336
+    135/148
+    280/307
+    134/147
+    298/327
+    154/169
+    149/164
+    129/143
+    265/294
+    143/159
+    134/149
+    115/128
+    147/164
+    249/280
+    265/298
+    102/115
+    149/168
+    234/265
+    126/143
+    140/159
+    135/154
+    148/169
+    286/327
+    117/134
+    268/307
+    143/164
+    249/286
+    124/143
+    129/149
+    101/117
+    265/307
+    169/196
+    115/134
+    280/327
+    143/168
+    199/234
+    169/199
+    126/149
+    124/147
+    134/159
+    169/201
+    258/307
+    142/169
+    169/202
+    117/140
+    249/298
+    124/149
+    252/307
+    268/327
+    101/124
+    202/249
+    249/307
+    201/248
+    265/327
+    115/142
+    265/328
+    248/307
+    199/248
+    101/126
+    199/249
+    135/169
+    134/169
+    199/252
+    265/336
+    196/249
+    129/164
+    117/149
+    156/199
+    101/129
+    124/159
+    115/148
+    154/199
+    199/258
+    154/201
+    202/265
+    234/307
+    249/328
+    201/265
+    248/327
+    128/169
+    101/134
+    199/265
+    115/154
+    148/199
+    199/268
+    196/265
+    184/249
+    115/156
+    148/201
+    135/184
+    101/140
+    201/280
+    142/199
+    117/164
+    199/280
+    142/201
+    101/143
+    201/286
+    199/286
+    184/265
+    135/196
+    101/147
+    169/248
+    115/169
+    169/249
+    135/199
+    101/149
+    199/294
+    201/298
+    134/199
+    169/252
+    135/202
+    199/298
+    202/307
+    169/258
+    201/307
+    199/307
+    128/199
+    196/307
+    169/265
+    128/201
+    101/159
+    169/268
+    199/318
+    154/249
+    202/327
+    101/164
+    201/328
+    199/327
+    199/328
+    169/280
+    102/169
+    101/168
+    196/327
+    184/307
+    148/249
+    199/336
+    156/265
+    115/196
+    154/265
+    115/199
+    169/294
+    115/201
+    142/249
+    115/202
+    169/298
+    184/327
+    148/265
+    169/307
+    135/248
+    134/249
+    142/265
+    169/318
+    169/327
+    169/328
+    128/249
+    102/199
+    156/307
+    134/265
+    135/268
+    169/336
+    154/307
+    115/234
+    128/265
+    148/307
+    135/286
+    154/327
+    115/248
+    142/307
+    115/249
+    115/252
+    135/298
+    148/327
+    115/258
+    135/307
+    134/307
+    142/327
+    115/268
+    128/307
+    135/328
+    134/327
+    115/286
+    128/327
+    115/294
+    115/298
+    102/265
+    115/307
+    115/318
+    115/327
+    115/328
+    115/336
+    102/307
+The highest multiplicity of prime factors of the latter's denominators is: 7
+These prime factors of highest multiplicity are, from smallest to largest:
+    [2]
+TEST 10 END
+

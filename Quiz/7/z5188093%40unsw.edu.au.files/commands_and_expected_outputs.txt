@@ -1,0 +1,52 @@
+TEST 1 BEGIN
+$ python3 -c 'from quiz_6 import *; disk = Disk(Point(0, 0), 0)'
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+TypeError: __init__() takes 1 positional argument but 3 were given
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c 'from quiz_6 import *; disk_1 = Disk(centre = Point(7, -2), radius = 8); print(disk_1.area)'
+201.06192982974676
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c 'from quiz_6 import *; disk_1 = Disk(centre = Point(7, -2), radius = 8); disk_2 = Disk(centre = Point(4.5, 1), radius = 4); print(disk_1.intersects(disk_2))'
+True
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c 'from quiz_6 import *; disk_1 = Disk(centre = Point(7, -2), radius = 8); disk_3 = Disk(centre = Point(-1.5, 7), radius = 0.9); print(disk_1.intersects(disk_3))'
+False
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c 'from quiz_6 import *; print(Disk(centre = Point(-3, 4), radius = 3).intersects(Disk(centre = Point(3, 4), radius = 3)))'
+True
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c 'from quiz_6 import *; disk_3 = Disk(centre = Point(-1.5, 7), radius = 0.9); disk_3.change_radius(7.2); print(disk_3.area)'
+162.8601631620949
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c 'from quiz_6 import *; disk_4 = Disk(centre = Point(10, 2), radius = 0.7); disk_4.change_radius(0); print(disk_4.area)'
+0.0
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c 'from quiz_6 import *; print(Disk(centre = Point(10, 2), radius = 0.7).absorb(Disk(centre = Point(-6, -4), radius = 2)))'
+Disk(Point(1.39, -1.23), 9.89)
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c 'from quiz_6 import *; print(Disk(centre = Point(3, 2.5), radius = 2.6).absorb(Disk(centre = Point(23, 65), radius = 12)).area)'
+5054.487287862232
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c 'from quiz_6 import *; print(Disk(centre = Point(0, 0), radius = 0).absorb(Disk(centre = Point(1, 1), radius = 1)).absorb(Disk(centre = Point(0.5, 0.5), radius = 0.2)).area)'
+4.577635959271528
+TEST 10 END
+

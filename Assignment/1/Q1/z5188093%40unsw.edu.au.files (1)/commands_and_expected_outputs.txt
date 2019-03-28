@@ -1,0 +1,112 @@
+TEST 1 BEGIN
+$ echo -e 'land_1.txt\n0' | python3 rain.py
+Which data file do you want to use? land_1.txt
+How many decilitres of water do you want to pour down? 0
+The water rises to 20.00 centimetres.
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo -e 'land_1.txt\n98' | python3 rain.py
+Which data file do you want to use? land_1.txt
+How many decilitres of water do you want to pour down? 98
+The water rises to 118.00 centimetres.
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo -e 'land_2.txt\n1' | python3 rain.py
+Which data file do you want to use? land_2.txt
+How many decilitres of water do you want to pour down? 1
+The water rises to 21.07 centimetres.
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo -e 'land_2.txt\n60' | python3 rain.py
+Which data file do you want to use? land_2.txt
+How many decilitres of water do you want to pour down? 60
+The water rises to 25.00 centimetres.
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo -e 'land_3.txt\n10' | python3 rain.py
+Which data file do you want to use? land_3.txt
+How many decilitres of water do you want to pour down? 10
+The water rises to 4.00 centimetres.
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo -e 'land_3.txt\n198' | python3 rain.py
+Which data file do you want to use? land_3.txt
+How many decilitres of water do you want to pour down? 198
+The water rises to 11.04 centimetres.
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo -e 'land_4.txt\n239' | python3 rain.py
+Which data file do you want to use? land_4.txt
+How many decilitres of water do you want to pour down? 239
+The water rises to 39.00 centimetres.
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo -e 'land_5.txt\n783' | python3 rain.py
+Which data file do you want to use? land_5.txt
+How many decilitres of water do you want to pour down? 783
+The water rises to 159.00 centimetres.
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo -e 'land_6.txt\n4189' | python3 rain.py
+Which data file do you want to use? land_6.txt
+How many decilitres of water do you want to pour down? 4189
+The water rises to 264.89 centimetres.
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo -e 'land_6.txt\n67203' | python3 rain.py
+Which data file do you want to use? land_6.txt
+How many decilitres of water do you want to pour down? 67203
+The water rises to 1169.46 centimetres.
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo -e 'land_7.txt\n550' | python3 rain.py
+Which data file do you want to use? land_7.txt
+How many decilitres of water do you want to pour down? 550
+The water rises to 2.49 centimetres.
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo -e 'land_7.txt\n987654' | python3 rain.py
+Which data file do you want to use? land_7.txt
+How many decilitres of water do you want to pour down? 987654
+The water rises to 700.95 centimetres.
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo -e 'land_8.txt\n2349' | python3 rain.py
+Which data file do you want to use? land_8.txt
+How many decilitres of water do you want to pour down? 2349
+The water rises to 176.69 centimetres.
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo -e 'land_8.txt\n214365' | python3 rain.py
+Which data file do you want to use? land_8.txt
+How many decilitres of water do you want to pour down? 214365
+The water rises to 1506.97 centimetres.
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo -e 'land_9.txt\n3489' | python3 rain.py
+Which data file do you want to use? land_9.txt
+How many decilitres of water do you want to pour down? 3489
+The water rises to 1.37 centimetres.
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo -e 'land_9.txt\n34820445' | python3 rain.py
+Which data file do you want to use? land_9.txt
+How many decilitres of water do you want to pour down? 34820445
+The water rises to 186.15 centimetres.
+TEST 16 END
+
